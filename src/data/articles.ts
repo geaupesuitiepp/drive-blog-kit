@@ -1341,7 +1341,7 @@ export const articles: Article[] = [
     slug: "mansory-venatus-urus-se",
     title: "Lamborghini Urus im Mansory-Style: Ein Spoiler reicht nicht",
     excerpt: "Die Tuner werfen weiterhin mit Doppelspoilern um sich – mehr ist mehr.",
-    content: makeContent("Mansory Venatus", "Die Tuner werfen weiterhin mit Doppelspoilern um sich – mehr ist mehr."),
+    content: `<p>Mansory und Zurueckhaltung – zwei Begriffe, die selten zusammenpassen. Der Venatus SE auf Basis des Lamborghini Urus SE bestaetigt diese Regel eindrucksvoll mit einem Doppelspoiler am Heck und einem Bodykit, das an Auffaelligkeit kaum zu ueberbieten ist.</p><h2>Mehr ist mehr</h2><p>Das Bodykit umfasst eine neue Frontschuerze mit riesigen Lufteinlaessen, verbreiterte Kotfluegel, markante Seitenschweller und den charakteristischen Doppelspoiler am Heck. Alles gefertigt aus Sichtcarbon, wahlweise in verschiedenen Farben. Die Leistung des Plug-in-Hybrid-Antriebsstrangs wurde auf ueber 900 PS gesteigert.</p><p>Geschmiedete 24-Zoll-Raeder und ein tiefergelegtes Fahrwerk runden das Paket ab. Der Venatus SE ist typischer Mansory: Lieben oder hassen, dazwischen gibt es nichts.</p>`,
     image: "https://cdn.motor1.com/images/mgl/rK7q86/s4/mansory-venatus-se-auf-basis-lamborghini-urus-se.jpg",
     category: "Tuning",
     date: "2025-09-29",
