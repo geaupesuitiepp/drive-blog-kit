@@ -735,7 +735,7 @@ export const articles: Article[] = [
     slug: "vw-id4-wird-id-tiguan",
     title: "Der VW ID.4 wird nach dem Facelift zum ID. Tiguan",
     excerpt: "Die Gewerkschaft IG Metall soll die Namensänderung bereits bestätigt haben.",
-    content: makeContent("VW ID.Tiguan", "Die Gewerkschaft IG Metall soll die Namensänderung bereits bestätigt haben. Der ID.4 bekommt damit einen bekannteren Namen."),
+    content: `<p>Der VW ID.4 soll nach dem kommenden Facelift in ID. Tiguan umbenannt werden. Die Gewerkschaft IG Metall hat die Namensaenderung offenbar bereits in internen Dokumenten bestaetigt. Volkswagen selbst hat sich noch nicht offiziell dazu geaeussert.</p><p>Die Umbenennung folgt einer strategischen Logik: Der Name Tiguan ist einer der bekanntesten und beliebtesten Modellnamen im VW-Konzern. Durch die Uebertragung auf das Elektromodell erhoffe sich Volkswagen eine hoehere Akzeptanz bei Kunden, die dem bisherigen ID.-Namenssystem skeptisch gegenueberstehen.</p><p>Das Facelift selbst soll umfangreich ausfallen: Neue MEB+-Technik mit groesserer Batterie und mehr Reichweite, ein ueberarbeitetes Infotainment und physische Tasten fuer die Klimaanlage. Optisch wird der ID. Tiguan staerker an den erfolgreichen Verbrenner-Tiguan angelehnt. Der Marktstart ist fuer das erste Quartal 2026 geplant.</p>`,
     image: "https://cdn.motor1.com/images/mgl/Qeb2bZ/s4/volkswagen-id.tiguan.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-01-23",
