@@ -333,7 +333,7 @@ export const articles: Article[] = [
     slug: "ford-mustang-boss-429-restomod",
     title: "Ford Mustang Boss 429: Mehr als nur ein weiterer 350K-Restomod",
     excerpt: "Revology fertigt atemberaubende Mustangs der ersten Generation – mit modernem Unterbau und klassischer Optik.",
-    content: makeContent("Ford Mustang Boss 429", "Revology fertigt atemberaubende Mustangs der ersten Generation – mit modernem Unterbau und klassischer Optik."),
+    content: `<p>Die Firma Revology Cars aus Florida hat sich auf die originalgetreue Reproduktion klassischer Ford Mustangs der ersten Generation spezialisiert. Ihr neuestes Werk ist eine Hommage an den legendaeren Boss 429 – mit modernem Unterbau und allen Annehmlichkeiten eines zeitgenoessischen Fahrzeugs.</p><p>Unter der Haube arbeitet ein handgefertigter 429-Kubikzoll-V8, der 525 PS leistet und ueber ein Tremec-Fuenfganggetriebe an die Hinterachse liefert. Das Fahrwerk basiert auf modernen Komponenten mit Einzelradaufhaengung vorne und hinten, Wilwood-Bremsen und einstellbaren Coilover-Daempfern. Die Karosserie besteht aus Stahl und wird in aufwaendiger Handarbeit gefertigt.</p><p>Von aussen ist der Revology Boss 429 kaum von einem Original zu unterscheiden, doch unter der Haut steckt zeitgemaesse Technik: Servolenkung, Klimaanlage, elektrische Fensterheber und ein verstecktes Infotainmentsystem. Der Preis beginnt bei rund 350.000 US-Dollar – ein stolzer Betrag, der durch die Qualitaet der Verarbeitung gerechtfertigt wird.</p>`,
     image: "https://cdn.motor1.com/images/mgl/3Wm9lX/s4/revology-boss-429.jpg",
     category: "Style & Lifestyle",
     date: "2026-02-20",
