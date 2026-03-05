@@ -544,7 +544,7 @@ export const articles: Article[] = [
     slug: "kalmar-turbo-edition-porsche-930",
     title: "Kalmar 7-97 Turbo Edition: Der Porsche 911 Turbo (930) neu interpretiert",
     excerpt: "Nur 11 Exemplare werden auf 993-Basis gebaut – eine einzigartige Hommage an den legendären 930 Turbo.",
-    content: makeContent("Kalmar 7-97", "Nur 11 Exemplare werden auf 993-Basis gebaut – eine einzigartige Hommage an den legendären 930 Turbo."),
+    content: `<p>Der daenische Porsche-Spezialist Kalmar hat die 7-97 Turbo Edition vorgestellt – eine auf nur 11 Stueck limitierte Hommage an den legendaeren Porsche 930 Turbo. Die Basis bildet ein Porsche 993, der von Grund auf umgebaut wird.</p><p>Die Karosserie wird in Handarbeit auf die markanten Proportionen des 930 zurueckgeformt: breitere Kotfluegel, der ikonische Walrossflügel und runde Scheinwerfer. Unter der Haube arbeitet ein ueberarbeiteter 3,6-Liter-Boxermotor mit Turboaufladung und einer Leistung von 450 PS, die ueber ein manuelles Sechsganggetriebe an die Hinterraeder geleitet wird.</p><p>Das Interieur kombiniert klassische Elemente wie Analoginstrumente und Schalensitze mit modernem Komfort: Klimaanlage, DAB-Radio und ein verstecktes Navigationssystem sind serienmässig. Jedes der 11 Exemplare wird nach Kundenwunsch konfiguriert. Der Preis liegt bei rund 400.000 Euro vor Steuern.</p>`,
     image: "https://cdn.motor1.com/images/mgl/0eElLn/s4/kalmar-7-97-turbo-edition-2026.jpg",
     category: "Style & Lifestyle",
     date: "2026-02-04",
