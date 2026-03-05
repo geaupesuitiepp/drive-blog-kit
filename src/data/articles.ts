@@ -786,7 +786,7 @@ export const articles: Article[] = [
     slug: "citroen-e-c3-unter-8000-euro",
     title: "Citroën bietet jetzt ein Elektroauto für unter 8.000 Euro an",
     excerpt: "Das Unternehmen verdoppelt kurzerhand die neue staatliche Prämie und macht den e-C3 extrem günstig.",
-    content: makeContent("Citroën e-C3", "Das Unternehmen verdoppelt kurzerhand die neue staatliche Prämie und macht den e-C3 extrem günstig."),
+    content: `<p>Citroën macht den e-C3 zum guenstigsten Elektroauto auf dem deutschen Markt. Das Unternehmen verdoppelt die neue staatliche Kaufpraemie aus eigener Tasche und senkt den Einstiegspreis damit auf unter 8.000 Euro – ein beispielloses Angebot.</p><p>Der e-C3 verfuegt ueber einen 113-PS-Elektromotor und eine 44-kWh-Batterie mit einer Reichweite von bis zu 326 Kilometern. Schnellladen ist mit bis zu 100 kW moeglich, von 20 auf 80 Prozent dauert es rund 26 Minuten. Die Serienausstattung umfasst einen 10,25-Zoll-Touchscreen, Klimaanlage, LED-Scheinwerfer und Rueckfahrkamera.</p><p>Das Angebot gilt in Kombination mit einem Citroën-Leasingvertrag oder bei Inzahlungnahme eines alten Fahrzeugs. Ohne Subventionen liegt der Listenpreis des e-C3 bei 23.300 Euro. Citroën rechnet mit einer hohen Nachfrage und hat die Produktionskapazitaet im Werk Trnava entsprechend hochgefahren.</p>`,
     image: "https://cdn.motor1.com/images/mgl/W87P71/s4/citroen-e-c3-2025.jpg",
     category: "Allgemein",
     date: "2026-01-19",
