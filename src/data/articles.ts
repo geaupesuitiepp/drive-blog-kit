@@ -273,7 +273,7 @@ export const articles: Article[] = [
     slug: "daimler-detroit-gen6-diesel",
     title: "Detroit Gen 6: Daimler präsentiert neue Monster-Dieselmotoren",
     excerpt: "Weniger Verbrauch, weniger Lärm, dafür mehr Leistung: Neue Diesel-Antriebe für Freightliner und Western Star in den USA.",
-    content: makeContent("Daimler Diesel Gen 6", "Weniger Verbrauch, weniger Lärm, dafür mehr Leistung: Neue Diesel-Antriebe für Freightliner und Western Star in den USA."),
+    content: `<p>Daimler Truck hat die neue Generation seiner Detroit-Dieselmotoren vorgestellt. Die Gen-6-Triebwerke fuer die Marken Freightliner und Western Star versprechen weniger Verbrauch, weniger Laerm und gleichzeitig mehr Leistung als ihre Vorgaenger.</p><p>Die neuen Motoren nutzen eine verbesserte Common-Rail-Einspritzung mit hoeheren Druecken und eine optimierte Abgasnachbehandlung. Der Verbrauch soll gegenueber der Gen-5-Reihe um bis zu acht Prozent sinken. Gleichzeitig steigt die Spitzenleistung auf bis zu 530 PS mit einem maximalen Drehmoment von 2.600 Nm.</p><p>Ein besonderer Fokus liegt auf der Geraeuschreduzierung. Neue Daemmungsmassnahmen und ein ueberarbeitetes Motorlager-System senken die Kabinengeraeusche deutlich. Daimler Truck betont, dass die Gen-6-Motoren auch mit erneuerbaren Kraftstoffen wie HVO betrieben werden koennen, was sie zukunftssicher macht.</p>`,
     image: "https://cdn.motor1.com/images/mgl/W87mL1/s4/daimler-trucks-hd-gen-6-motoren.jpg",
     category: "Technik & Gadgets",
     date: "2026-02-24",
