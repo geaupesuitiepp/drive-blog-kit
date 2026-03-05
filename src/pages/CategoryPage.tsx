@@ -32,8 +32,8 @@ const CategoryPage = () => {
   return (
     <>
       <Helmet>
-        <title>{decodedName} | DerAutoBlog</title>
-        <meta name="description" content={`Alle Artikel in der Kategorie ${decodedName} auf DerAutoBlog.`} />
+        <title>{decodedName} | AutoJournal</title>
+        <meta name="description" content={`Alle Artikel in der Kategorie ${decodedName} auf AutoJournal.`} />
       </Helmet>
 
       <div className="container max-w-7xl py-6">

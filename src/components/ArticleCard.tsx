@@ -76,7 +76,7 @@ const ArticleCard = ({ article, featured = false }: ArticleCardProps) => {
             </p>
           </div>
           <div className="mt-2.5 flex items-center gap-1.5">
-            <span className="text-xs font-semibold text-muted-foreground">DerAutoBlog</span>
+            <span className="text-xs font-semibold text-muted-foreground">AutoJournal</span>
           </div>
         </div>
       </article>

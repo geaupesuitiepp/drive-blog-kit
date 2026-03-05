@@ -46,7 +46,7 @@ const BlogFooter = () => {
           </div>
         </div>
         <div className="mt-8 border-t border-[hsl(220,14%,22%)] pt-6 text-center text-xs text-[hsl(0,0%,45%)]">
-          © {new Date().getFullYear()} DerAutoBlog. Alle Rechte vorbehalten.
+          © {new Date().getFullYear()} AutoJournal. Alle Rechte vorbehalten.
         </div>
       </div>
     </footer>
