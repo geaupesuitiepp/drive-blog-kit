@@ -33,7 +33,7 @@ const BlogFooter = () => {
             <h4 className="mb-3 text-xs font-black uppercase tracking-widest text-[hsl(0,0%,92%)]">Links</h4>
             <ul className="space-y-1">
               <li>
-                <Link to="/kontakt" className="text-sm text-muted-foreground transition-colors hover:text-primary">
+                <Link to="/kontakt" className="text-sm text-[hsl(0,0%,55%)] transition-colors hover:text-primary">
                   Kontakt
                 </Link>
               </li>
