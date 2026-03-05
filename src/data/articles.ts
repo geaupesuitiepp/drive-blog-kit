@@ -192,7 +192,7 @@ export const articles: Article[] = [
     slug: "peugeot-208-2008-neuer-motor",
     title: "Peugeot 208 und 2008 (2026): Neuer Basismotor mit Steuerkette",
     excerpt: "Der neue TURBO 100 setzt auf Steuerkette und eine effizientere Verbrennung als sein Vorgänger.",
-    content: makeContent("Peugeot Neuer Basismotor", "Der neue TURBO 100 setzt auf Steuerkette und eine effizientere Verbrennung als sein Vorgänger. Beide Modelle profitieren von dem modernisierten Antrieb."),
+    content: `<p>Peugeot fuehrt fuer den 208 und den 2008 einen neuen Basismotor ein. Der TURBO 100 genannte Dreizylinder mit 1,2 Liter Hubraum leistet 100 PS und setzt erstmals auf eine Steuerkette statt eines Zahnriemens. Damit entfaellt der kostspielige Zahnriemenwechsel, der bei den Vorgaengermotoren alle 120.000 Kilometer faellig war.</p><p>Der neue Motor verfuegt ueber ein optimiertes Brennverfahren mit einer variablen Ventilsteuerung und einer erhoehten Verdichtung. Der Normverbrauch sinkt laut Peugeot um rund 10 Prozent auf 5,2 Liter pro 100 Kilometer. Die CO2-Emissionen liegen bei 118 g/km.</p><p>In beiden Modellen wird der TURBO 100 serienmässig mit einem Sechsgang-Schaltgetriebe kombiniert. Eine Achtgang-Automatik ist gegen Aufpreis erhaeltlich. Die Preise fuer den Peugeot 208 mit dem neuen Motor starten bei 19.990 Euro, der 2008 beginnt bei 24.490 Euro.</p>`,
     image: "https://cdn.motor1.com/images/mgl/mMg7mB/s4/peugeot-208-2026-in-agueda-gelb.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-27",
