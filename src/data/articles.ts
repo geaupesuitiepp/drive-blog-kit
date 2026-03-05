@@ -685,7 +685,7 @@ export const articles: Article[] = [
     slug: "genesis-x-skorpio-offroader",
     title: "Genesis X Skorpio: Wilder Offroader mit 1.115-PS-V8",
     excerpt: "Die Edel-Koreaner zeigen mit einer weiteren spektakulären Studie die High-Performance-Zukunft der Marke.",
-    content: makeContent("Genesis X Skorpio", "Die Edel-Koreaner zeigen mit einer weiteren spektakulären Studie die High-Performance-Zukunft der Marke."),
+    content: `<p>Genesis hat mit dem X Skorpio eine spektakulaere Designstudie enthuellt, die die High-Performance-Zukunft der koreanischen Luxusmarke andeutet. Das Konzept verbindet die Eleganz eines Luxus-GT mit der Robustheit eines Offroaders – angetrieben von einem 5,0-Liter-V8 mit elektrischer Unterstuetzung und einer Systemleistung von 1.115 PS.</p><p>Das Design ist dramatisch: Riesige Raeder mit Grobstollenprofil, eine extrem breite Spur, Unterfahrschutz aus Carbon und ein aktiver Heckspoiler. Die Beleuchtung folgt der Genesis-typischen Doppellinien-Signatur, die hier in Form aggressiver Schlitze umgesetzt wird.</p><p>Obwohl Genesis betont, dass der X Skorpio ein reines Konzeptfahrzeug ist, deuten Insider an, dass eine seriennahe Version als Halo-Modell fuer die Marke denkbar waere. Genesis positioniert sich zunehmend als sportliche Luxusmarke und will mit solchen Studien die emotionale Bindung zur Marke staerken.</p>`,
     image: "https://cdn.motor1.com/images/mgl/6Ze7AE/s4/2026-genesis-x-skorpio-concept.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-01-28",
