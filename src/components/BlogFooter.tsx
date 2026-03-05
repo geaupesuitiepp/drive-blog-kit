@@ -9,7 +9,7 @@ const BlogFooter = () => {
         <div className="grid gap-8 md:grid-cols-3">
           <div>
             <Link to="/" className="inline-block mb-3">
-              <img src={logo} alt="AutoJournal" className="h-7 brightness-0 invert" />
+              <img src={logo} alt="Motorblick" className="h-7 brightness-0 invert" />
             </Link>
             <p className="text-sm text-[hsl(0,0%,55%)]">
               Dein Blog rund um Autos, Technik, Lifestyle und alles was dazugehört.
