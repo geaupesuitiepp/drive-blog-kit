@@ -766,7 +766,7 @@ export const articles: Article[] = [
     slug: "toyota-mr2-nachfolger",
     title: "Toyota entwickelt tatsächlich einen MR2-Nachfolger",
     excerpt: "Allerdings müssen Fans für den Mittelmotor-Sportwagen eine lange Wartezeit einplanen.",
-    content: makeContent("Toyota MR2", "Allerdings müssen Fans für den Mittelmotor-Sportwagen eine lange Wartezeit einplanen."),
+    content: `<p>Toyota hat bestaetigt, dass tatsaechlich ein Nachfolger fuer den legendaeren MR2 in Entwicklung ist. Allerdings muessen Fans Geduld mitbringen: Der Mittelmotor-Sportwagen wird voraussichtlich erst gegen 2030 auf den Markt kommen.</p><p>Toyota-Sportchef Gazoo Racing deutete an, dass der neue MR2 als reines Elektrofahrzeug konzipiert wird. Eine kompakte Bauweise und ein niedriger Schwerpunkt dank Batterie im Unterboden sollen das typische MR2-Fahrgefuehl erhalten. Die Leistung soll bei rund 300 PS liegen, das Gewicht unter 1.400 Kilogramm.</p><p>Akira Toyoshima, Chefingenieur des Projekts, erklaerte, dass man sich die noetige Zeit nehmen wolle, um den MR2-Spirit korrekt in die Elektrowelt zu uebertragen. Die Herausforderung sei es, das spielerische, leichte Handling eines Mittelmotor-Sportwagens mit dem Gewicht eines Elektroautos zu vereinen. Toyota prüfe zudem eine Variante mit Festkoerperbatterie.</p>`,
     image: "https://cdn.motor1.com/images/mgl/KbMeqA/s4/toyota-mr2.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-01-22",
