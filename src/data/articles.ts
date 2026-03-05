@@ -1391,7 +1391,7 @@ export const articles: Article[] = [
     slug: "cupra-formentor-terramar-abt",
     title: "Cupra Formentor VZ und Terramar VZ: Starke Sondermodelle von Abt",
     excerpt: "Die Kooperation zwischen Cupra und dem Tuner wird immer enger.",
-    content: makeContent("Abt Cupra Sondermodelle", "Die Kooperation zwischen Cupra und dem Tuner wird immer enger."),
+    content: `<p>Abt Sportsline praesentiertSondereditions des Cupra Formentor VZ und Terramar VZ, die die enge Zusammenarbeit zwischen dem Allgaeuer Tuner und der spanischen Performance-Marke unterstreichen.</p><h2>Enger Schulterschluss</h2><p>Beide Modelle erhalten eine Leistungssteigerung, die den 2,0-Liter-Turbobenziner auf ueber 350 PS bringt. Dazu kommen ein Abt-Sportfahrwerk, 20-Zoll-Raeder im eigenen Design und dezente Carbon-Akzente an Front und Heck. Die Sondermodelle sind an exklusiven Abt-Plaketten und einer speziellen Innenraumausstattung erkennbar.</p><p>Die Kooperation zeigt, dass Abt nicht mehr nur BMW und Audi tuned – Cupra wird zunehmend zu einem wichtigen Standbein fuer den Traditionsbetrieb aus dem Allgaeu.</p>`,
     image: "https://cdn.motor1.com/images/mgl/Zn1Kp3/s4/abt-sonderedition-cupra-formentor-vz.jpg",
     category: "Tuning",
     date: "2025-09-04",
