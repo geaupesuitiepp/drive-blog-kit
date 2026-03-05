@@ -1149,7 +1149,7 @@ export const articles: Article[] = [
     slug: "bmw-x6-larte-bodykit",
     title: "BMW X6 zu dezent? Tuner Larte hat eine Lösung",
     excerpt: "Das neue Light Package von Larte Design soll den BMW X6 G06 LCI noch markanter machen.",
-    content: makeContent("Larte BMW X6", "Das neue Light Package von Larte Design soll den BMW X6 G06 LCI noch markanter machen."),
+    content: `<p>Larte Design nimmt sich den BMW X6 G06 LCI vor und bietet ein Light Package an, das den ohnehin schon praesenten SUV-Coupe noch markanter macht. Der Fokus liegt auf beleuchteten Designelementen und Carbon-Akzenten.</p><h2>Lichtspiele und Carbon</h2><p>Das Light Package umfasst einen beleuchteten Kuehlergrill, LED-Akzente in den Lufteinlaessen und illuminierte Seitenschweller. Dazu kommen Carbon-Elemente an Frontlippe, Spiegelkappen, Dachspoiler und Heckdiffusor. Die Kombination aus Licht und Carbon verleiht dem X6 eine unverwechselbare Nachtpraesenz.</p><p>Wer seinen X6 von der Masse abheben moechte, findet im Larte Light Package eine stilvolle Loesung, die dezent genug fuer den Alltag ist, aber dennoch Aufmerksamkeit erregt.</p>`,
     image: "https://cdn.motor1.com/images/mgl/VzBJVM/s4/larte-design-bmw-x6-2026.jpg",
     category: "Tuning",
     date: "2025-12-18",
