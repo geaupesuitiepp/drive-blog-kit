@@ -253,7 +253,7 @@ export const articles: Article[] = [
     slug: "skoda-allrad-portfolio-2026",
     title: "Skoda mit dem breitesten Allrad-Portfolio aller Zeiten",
     excerpt: "Noch nie hatten die Tschechen so viele 4x4-Modelle im Angebot – die Allradler erfreuen sich wachsender Beliebtheit.",
-    content: makeContent("Skoda 4x4", "Noch nie hatten die Tschechen so viele 4x4-Modelle im Angebot – die Allradler erfreuen sich wachsender Beliebtheit."),
+    content: `<p>Skoda bietet aktuell das breiteste Allrad-Portfolio in der Geschichte der Marke an. Insgesamt elf Modelle sind mit Allradantrieb erhaeltlich – vom kompakten Karoq bis zum grossen Kodiaq und dem neuen Superb Combi 4x4.</p><p>Die wachsende Beliebtheit der Allradmodelle spiegelt einen Trend wider: Immer mehr Kunden legen Wert auf Traktion und Sicherheit bei schwierigen Strassenbedingungen. Bei Skoda macht der 4x4-Anteil am Gesamtabsatz inzwischen ueber 25 Prozent aus. In laendlichen Regionen und Laendern mit harten Wintern liegt der Anteil noch deutlich hoeher.</p><p>Technisch setzt Skoda auf den bewaehrten Haldex-Allradantrieb der fuenften Generation, der die Kraft bedarfsgerecht zwischen Vorder- und Hinterachse verteilt. Im Normalfahrbetrieb wird vorrangig die Vorderachse angetrieben, erst bei Schlupf wird die Hinterachse automatisch zugeschaltet. Das spart Kraftstoff und bietet dennoch maximale Traktion.</p>`,
     image: "https://cdn.motor1.com/images/mgl/RqM0wK/s4/skoda-4x4-modellpalette-2026.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-24",
