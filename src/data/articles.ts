@@ -1290,7 +1290,7 @@ export const articles: Article[] = [
     slug: "gymkhana-subaru-brat-pastrana",
     title: "Travis Pastranas Gymkhana-Auto: Ein völlig irrer Subaru Brat",
     excerpt: "Pastrana übernimmt Gymkhana mit einem vogelwilden Subaru Brat namens Brataroo.",
-    content: makeContent("Gymkhana Subaru Brat", "Pastrana übernimmt Gymkhana mit einem vogelwilden Subaru Brat namens Brataroo."),
+    content: `<p>Travis Pastrana uebernimmt die Gymkhana-Serie von Ken Block – und sein erstes Auto ist ein voellig verrueckter Subaru Brat aus den 80ern, den er liebevoll Brataroo nennt. Der Pick-up ist vollgestopft mit Renntechnik und leistet ueber 900 PS.</p><h2>Brataroo mit 900 PS</h2><p>Unter der Retro-Haube steckt ein 2,0-Liter-Turbo-Boxermotor mit ueber 900 PS. Allradantrieb, ein sequenzielles Getriebe und eine Hydraulik-Handbremse sind fuer die Gymkhana-typischen Stunts unverzichtbar. Die Karosserie wurde komplett in Carbon nachgebaut und erhaelt eine Livery in Pastranas typischen Farben.</p><p>Das erste Gymkhana-Video mit dem Brataroo verspricht spektakulaer zu werden. Pastrana fuehrt die Tradition von Ken Block wuerdig fort – mit einem Auto, das mindestens genauso verrueckt ist wie er selbst.</p>`,
     image: "https://cdn.motor1.com/images/mgl/AknV1N/s4/gymkhana-subaru-brat-brataroo-9500-turbo.jpg",
     category: "Tuning",
     date: "2025-11-05",
