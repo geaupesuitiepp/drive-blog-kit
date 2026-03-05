@@ -319,16 +319,6 @@ export const articles: Article[] = [
     date: "2026-02-23",
   },
   {
-    id: "s34",
-    slug: "kia-ev2-renault-4-vergleich",
-    title: "Kia EV2 gegen Renault 4: Kompakte Elektroautos im Vergleich",
-    excerpt: "Wo liegen die Gemeinsamkeiten und Unterschiede zwischen dem koreanischen und dem französischen Ansatz?",
-    content: makeContent("Kia EV2 vs. Renault 4", "Wo liegen die Gemeinsamkeiten und Unterschiede zwischen dem koreanischen und dem französischen Ansatz? Ein detaillierter Vergleich der beiden Stadtstromer."),
-    image: "https://cdn.motor1.com/images/mgl/XBX49e/s4/kia-ev2-vs-renault-4-e-tech-electric.jpg",
-    category: "Technik & Gadgets",
-    date: "2026-02-23",
-  },
-  {
     id: "s35",
     slug: "dacia-neuheiten-2026",
     title: "Dacia Neuheiten 2026: Umfangreiche Updates für Sandero, Duster und Spring",
