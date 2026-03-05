@@ -100,7 +100,7 @@ const BlogHeader = () => {
             <Link
               key={cat}
               to={`/kategorie/${encodeURIComponent(cat)}`}
-              className="block py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              className="block py-2 text-sm font-medium text-[hsl(0,0%,65%)] transition-colors hover:text-primary"
               onClick={() => setMenuOpen(false)}
             >
               {cat}
