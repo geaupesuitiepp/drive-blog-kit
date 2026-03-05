@@ -988,7 +988,7 @@ export const articles: Article[] = [
     slug: "cupra-born-hr-federn",
     title: "Der Cupra Born mit H&R-Tieferlegungsfedern",
     excerpt: "Upgrade für den spanischen Stromer: H&R-Fahrwerkskomponenten sorgen für optimierte Optik und Dynamik.",
-    content: makeContent("Cupra Born H&R", "Upgrade für den spanischen Stromer: H&R-Fahrwerkskomponenten sorgen für optimierte Optik und Dynamik."),
+    content: `<p>Der Cupra Born ist der sportlichste Kompakt-Stromer auf dem Markt. Mit H&R-Tieferlegungsfedern wird die ohnehin schon dynamische Optik des Spaniers noch einmal deutlich aufgewertet.</p><h2>Sportlicher Stand fuer den Stromer</h2><p>Die Tieferlegung um rund 30 Millimeter sorgt dafuer, dass der Born tiefer und breiter wirkt. Die Raeder fuellen die Radkaesten optimal aus, und die verbesserte Fahrdynamik macht sich besonders auf kurvigen Landstrassen bemerkbar. Der niedrigere Schwerpunkt kommt dem Born zugute, der dank seines Batteriepacks im Unterboden ohnehin schon eine gute Gewichtsverteilung hat.</p><p>Fuer Cupra-Born-Fahrer, die ihren Stromer sportlicher positionieren wollen, sind die H&R-Federn eine der effektivsten und zugleich guenstigsten Modifikationen. Einfach zu montieren und mit TUeV-Gutachten versehen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/eozpNK/s4/cupra-born---sportfedern-28625-1---front.jpg",
     category: "Tuning",
     date: "2026-02-06",
