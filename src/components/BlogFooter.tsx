@@ -3,14 +3,14 @@ import { categories } from "@/data/articles";
 
 const BlogFooter = () => {
   return (
-    <footer className="border-t border-border bg-secondary py-10">
+    <footer className="border-t border-[hsl(220,14%,22%)] bg-[hsl(220,20%,10%)] py-10">
       <div className="container max-w-7xl px-4">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <h3 className="mb-3 text-lg font-black text-foreground tracking-tight">
+            <h3 className="mb-3 text-lg font-black text-[hsl(0,0%,92%)] tracking-tight">
               <span className="text-primary italic">Auto</span>Journal
             </h3>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-[hsl(0,0%,55%)]">
               Dein Blog rund um Autos, Technik, Lifestyle und alles was dazugehört.
             </p>
           </div>
