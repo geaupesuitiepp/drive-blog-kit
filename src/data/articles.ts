@@ -198,16 +198,6 @@ export const articles: Article[] = [
     date: "2026-02-27",
   },
   {
-    id: "s21",
-    slug: "bmw-geheime-modelle-2026-2027",
-    title: "BMW verrät versehentlich die Namen sämtlicher Modelle für 2026/2027",
-    excerpt: "Fans dürfen sich unter anderem auf einen M2 xDrive und einen M350 freuen – die Liste wurde unbeabsichtigt veröffentlicht.",
-    content: makeContent("BMW Modelle Leak", "Fans dürfen sich unter anderem auf einen M2 xDrive und einen M350 freuen – die Liste wurde unbeabsichtigt veröffentlicht. Das Leak gibt einen umfassenden Einblick in die Zukunftsplanung."),
-    image: "https://cdn.motor1.com/images/mgl/404jVo/s4/future-cars-2026-2030-bmw-3-series-neue-klasse.jpg",
-    category: "Allgemein",
-    date: "2026-02-27",
-  },
-  {
     id: "s22",
     slug: "audi-rs5-gewicht-verteidigung",
     title: "Audi verteidigt das Mehrgewicht des neuen RS 5 und nennt ihn leichtfüßig",
