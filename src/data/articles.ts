@@ -1320,7 +1320,7 @@ export const articles: Article[] = [
     slug: "ferrari-12cilindri-novitec-gold",
     title: "Ferrari 12Cilindri von Novitec: Der V12 trägt jetzt Gold",
     excerpt: "Inconel-Abgasanlage und 999er-Gold-Endrohre auf Wunsch – Tuning der Extraklasse.",
-    content: makeContent("Novitec Ferrari 12Cilindri", "Inconel-Abgasanlage und 999er-Gold-Endrohre auf Wunsch – Tuning der Extraklasse."),
+    content: `<p>Novitec hat den Ferrari 12Cilindri veredelt und bietet ein dezentes, aber hochwertiges Tuningprogramm an. Das Highlight: eine Inconel-Abgasanlage mit optionalen Endrohren aus 999er-Gold.</p><h2>Gold und Inconel</h2><p>Die Abgasanlage aus Inconel – einem hitzebestaendigen Spezialstahl aus der Raumfahrt – spart gegenueber der Serienanlage ueber 10 Kilogramm. Der Klang des V12 wird noch intensiver und direkter. Auf Wunsch koennen die Endrohre in 999er-Gold ausgefuehrt werden – ein Detail, das den Preis deutlich in die Hoehe treibt.</p><p>Dazu kommen Carbon-Elemente fuer Front und Heck, Sportfedern mit 25 Millimeter Tieferlegung und geschmiedete 21/22-Zoll-Raeder. Novitec beweist einmal mehr, dass Tuning auch subtil und geschmackvoll sein kann – zumindest wenn man von den goldenen Auspuffrohren absieht.</p>`,
     image: "https://cdn.motor1.com/images/mgl/vx0NMQ/s4/novitec-ferrari-12cilindri-2025.jpg",
     category: "Tuning",
     date: "2025-10-27",
