@@ -1079,7 +1079,7 @@ export const articles: Article[] = [
     slug: "italdesign-honda-nsx-tribute",
     title: "Italdesign bringt den NSX mit Hondas Segen zurück",
     excerpt: "Der Tribute orientiert sich an der ersten Generation und ist nur mit Rechtslenkung erhältlich.",
-    content: makeContent("Italdesign Honda NSX", "Der Tribute orientiert sich an der ersten Generation und ist nur mit Rechtslenkung erhältlich."),
+    content: `<p>Italdesign hat in Zusammenarbeit mit Honda einen Tribut an den legendaeren NSX der ersten Generation geschaffen. Das Fahrzeug basiert auf einem modernen Mittelmotorchassis und interpretiert das Design des Originals fuer das 21. Jahrhundert neu.</p><h2>Rechtslenker als Hommage</h2><p>Der NSX Tribute ist ausschliesslich als Rechtslenker erhaeltlich – eine bewusste Hommage an die japanischen Wurzeln des Originals. Unter der Haube arbeitet ein ueberarbeiteter V6-Motor, dessen genaue Leistungsdaten noch nicht final bestaetigt sind. Das Design zitiert die klare Linienführung des Originals, interpretiert sie aber mit modernen Proportionen und Materialien.</p><p>Honda hat dem Projekt seinen offiziellen Segen gegeben, was dem Tribute eine besondere Authentizitaet verleiht. Die Stueckzahl soll streng limitiert bleiben – ein Sammlerstueck fuer NSX-Enthusiasten weltweit.</p>`,
     image: "https://cdn.motor1.com/images/mgl/g4gwAw/s4/honda-nsx-tribute-by-italdesign.jpg",
     category: "Tuning",
     date: "2026-01-09",
