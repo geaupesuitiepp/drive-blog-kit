@@ -756,7 +756,7 @@ export const articles: Article[] = [
     slug: "aznom-lepoque-batmobil",
     title: "Aznom L'Epoque Concept (2026): Das italienische 8-Meter-Batmobil",
     excerpt: "Das Designkonzept trägt seinen monumentalen Gigantismus mit stolzer Selbstverständlichkeit zur Schau.",
-    content: makeContent("Aznom L'Epoque", "Das Designkonzept trägt seinen monumentalen Gigantismus mit stolzer Selbstverständlichkeit zur Schau."),
+    content: `<p>Der italienische Kleinserienhersteller Aznom hat das L'Epoque Concept vorgestellt – ein unfassbares Designkonzept, das mit einer Laenge von ueber acht Metern die Grenzen des Automobils neu definiert. Das Fahrzeug traegt seinen monumentalen Gigantismus mit stolzer Selbstverstaendlichkeit zur Schau.</p><p>Das Design wurde vom Camal Studio entworfen und erinnert an eine Mischung aus Art-Deco-Limousine und Batmobil. Die Proportionen sind absurd: Ein endlos langer Vorbau, winzige Fenster und ein fliessend abfallendes Heck. Die Karosserie besteht aus Carbon und Aluminium und ist in einem tiefen Midnight-Schwarz lackiert.</p><p>Technische Details sind spärlich, doch Aznom spricht von einem V12-Hybridantrieb mit ueber 800 PS. Das Interieur soll einer Lounge gleichen: Vier Einzelsitze, ein Boden aus italienischem Marmor und ein eingebauter Humidor. Ob das L'Epoque jemals gebaut wird, steht in den Sternen – als Designuebung ist es jedenfalls faszinierend.</p>`,
     image: "https://cdn.motor1.com/images/mgl/lElLpO/s4/aznom-l-epoque-concept-by-camal-studio.jpg",
     category: "Style & Lifestyle",
     date: "2026-01-22",
