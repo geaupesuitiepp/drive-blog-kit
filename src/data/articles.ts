@@ -1240,7 +1240,7 @@ export const articles: Article[] = [
     slug: "jeep-wrangler-707ps-modena",
     title: "Stradale Modena GTX: Ein Jeep Wrangler mit 707 PS",
     excerpt: "Italienischer Tuner baut einen völlig irren Wrangler mit Hellcat-V8 unter der Haube.",
-    content: makeContent("Modena GTX Wrangler", "Italienischer Tuner baut einen völlig irren Wrangler mit Hellcat-V8 unter der Haube."),
+    content: `<p>Der italienische Tuner Stradale Modena hat mit dem GTX einen Jeep Wrangler geschaffen, der seinesgleichen sucht. Unter der Haube steckt ein Hellcat-V8 mit 707 PS – pure amerikanische Muscle-Power im Gelaendewagen.</p><h2>Hellcat-V8 im Wrangler</h2><p>Der 6,2-Liter-Kompressor-V8 aus dem Dodge Challenger SRT Hellcat wurde aufwendig in den Wrangler transplantiert. Dazu kommen ein verstaerktes Getriebe, modifizierte Antriebswellen und eine komplett neue Abgasanlage. Das Bodykit mit Breitbau-Kotfluegeln, Frontbuegel und LED-Lightbar verleiht dem GTX einen aggressiven Look.</p><p>Ein verstaerktes Fahrwerk mit Langhub-Daempfern ermoeglicht sowohl Gelaendefahrten als auch Autobahnausfahrten bei hohen Geschwindigkeiten. Der GTX ist der wohl verrueckteste Wrangler, der je gebaut wurde.</p>`,
     image: "https://cdn.motor1.com/images/mgl/Zn1AAA/s4/stradale-modena-gtx.jpg",
     category: "Tuning",
     date: "2025-11-17",
