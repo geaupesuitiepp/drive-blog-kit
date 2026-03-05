@@ -33,10 +33,10 @@ const ArticleCard = ({ article, featured = false }: ArticleCardProps) => {
               <h2 className="text-xl md:text-3xl lg:text-4xl font-bold mb-2 leading-tight text-[hsl(0,0%,100%)]">
                 {article.title}
               </h2>
-              <p className="text-sm mb-3 max-w-2xl leading-relaxed hidden md:block text-[hsl(0,0%,100%/0.65)]">
+              <p className="text-sm mb-3 max-w-2xl leading-relaxed hidden md:block" style={{ color: 'rgba(255,255,255,0.65)' }}>
                 {article.excerpt}
               </p>
-              <div className="flex items-center gap-2 text-xs text-[hsl(0,0%,100%/0.45)]">
+              <div className="flex items-center gap-2 text-xs" style={{ color: 'rgba(255,255,255,0.45)' }}>
                 <span className="font-semibold">DerAutoBlog</span>
                 <span>·</span>
                 <span>{formattedDate}</span>
