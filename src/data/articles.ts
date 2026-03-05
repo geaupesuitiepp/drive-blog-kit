@@ -1602,7 +1602,7 @@ export const articles: Article[] = [
     slug: "manhart-bmw-m4-900ps",
     title: "922 PS! Manhart dreht beim BMW M4 völlig durch",
     excerpt: "Auch außen und innen sieht dieser M4 nach fast 1.000 PS aus.",
-    content: makeContent("Manhart BMW M4 900", "Auch außen und innen sieht dieser M4 nach fast 1.000 PS aus."),
+    content: `<p>Manhart hat den BMW M4 als MH4 900 auf 922 PS gesteigert – fast 1.000 PS im kompakten Coupe. Auch aussen und innen sieht der M4 nach purer Aggression aus.</p><h2>Fast 1.000 PS im M4</h2><p>Der S58-Motor erhaelt groessere Turbolader und verstaerkte Internals. Carbon-Widebody, Titan-Abgasanlage und 21-Zoll-Felgen definieren die Optik. Im Innenraum: Alcantara, Carbon und Manhart-Logos ueberall. Auf 10 Stueck limitiert.</p>`,
     image: "https://cdn.motor1.com/images/mgl/Vzv3Gy/s4/manhart-mh4-900-bmw-m4.jpg",
     category: "Tuning",
     date: "2025-05-21",
