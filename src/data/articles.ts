@@ -118,16 +118,6 @@ export const articles: Article[] = [
     date: "2026-03-03",
   },
   {
-    id: "s10",
-    slug: "opel-corsa-gse-2026-erlkoenig",
-    title: "Opel Corsa GSE (2026): Der Elektro-Hot-Hatch zeigt sich fast ungetarnt",
-    excerpt: "Aktuelle Bilder zeigen den Corsa GSE mit verbreiterten Kotflügeln und Tourenwagen-Optik. Rund 280 PS werden erwartet.",
-    content: makeContent("Opel Corsa GSE 2026", "Aktuelle Bilder zeigen den Corsa GSE mit verbreiterten Kotflügeln und Tourenwagen-Optik. Rund 280 PS werden erwartet. Der elektrische Hot Hatch könnte noch dieses Jahr auf den Markt kommen."),
-    image: "https://cdn.motor1.com/images/mgl/koKYxB/s4/opel-corsa-gse-2026-erlkonig.jpg",
-    category: "Auto & Fahrkultur",
-    date: "2026-03-03",
-  },
-  {
     id: "s11",
     slug: "audi-concept-c-serienproduktion",
     title: "Audi-Chef gibt grünes Licht für die Serienproduktion des Concept C",
