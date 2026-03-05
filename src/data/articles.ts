@@ -848,7 +848,7 @@ export const articles: Article[] = [
     slug: "bmw-m2-cs-tuning-senner",
     title: "Bereits getunt: Der BMW M2 CS bekommt von Senner volle Breitseite",
     excerpt: "Viel Carbon und deutlich mehr Leistung für den König unter den M2-Modellen.",
-    content: makeContent("BMW M2 CS Senner Tuning", "Viel Carbon und deutlich mehr Leistung für den König unter den M2-Modellen. Senner Tuning hat den brandneuen M2 CS bereits unter die Lupe genommen."),
+    content: `<p>Kaum ist der BMW M2 CS auf dem Markt, hat Senner Tuning bereits Hand angelegt. Der Allgaeuer Tuner ist bekannt fuer seine kompromisslosen BMW-Umbauten und liefert fuer den M2 CS ein Komplettpaket aus Leistungssteigerung, Aerodynamik und Optik.</p><h2>Mehr Leistung und Carbon-Orgie</h2><p>Dank optimierter Software und einem Sport-Downpipe steigt die Leistung des S58-Reihensechszylinders auf ueber 580 PS. Dazu kommt eine Titan-Abgasanlage, die nicht nur Gewicht spart, sondern auch einen deutlich kernigeren Sound liefert. Optisch setzt Senner auf eine Carbon-Motorhaube, Carbon-Spiegelkappen und einen Carbon-Diffusor, die dem ohnehin schon aggressiven M2 CS eine noch schaerfere Optik verleihen.</p><p>KW-Gewindefahrwerk und geschmiedete Leichtbaufelgen runden das Paket ab. Der M2 CS von Senner ist damit einer der ersten getuenten Exemplare ueberhaupt – und definitiv einer der beeindruckendsten.</p>`,
     image: "https://cdn.motor1.com/images/mgl/zxJgo0/s4/senner-tuning-bmw-m2-cs.jpg",
     category: "Tuning",
     date: "2026-03-04",
