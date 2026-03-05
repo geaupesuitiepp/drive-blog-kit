@@ -1401,7 +1401,7 @@ export const articles: Article[] = [
     slug: "bmw-m5-manhart-900ps",
     title: "Über 900 PS im neuen BMW M5: Manhart macht den Hybrid heiß",
     excerpt: "Auch Karosserie, Fahrwerk und Klang erhalten ein umfangreiches Upgrade.",
-    content: makeContent("Manhart BMW M5", "Auch Karosserie, Fahrwerk und Klang erhalten ein umfangreiches Upgrade."),
+    content: `<p>Manhart Performance hat den neuen BMW M5 (G90) als MH5 900e ins Programm genommen. Der Plug-in-Hybrid-Sportler wird auf ueber 900 PS Systemleistung gesteigert und erhaelt ein umfassendes Upgrade fuer Karosserie, Fahrwerk und Sound.</p><h2>Hybrid-Power extrem</h2><p>Der 4,4-Liter-V8-Biturbo plus E-Motor werden durch Software-Optimierung und Hardware-Upgrades auf ueber 900 PS gebracht. Eine Titan-Abgasanlage mit Klappensteuerung liefert den passenden Sound. Carbon-Elemente an Front, Seiten und Heck sowie 22-Zoll-Schmiedefelgen definieren den optischen Auftritt.</p><p>Ein KW-Gewindefahrwerk mit Tieferlegung und groessere Bremsen runden das Paket ab. Der MH5 900e zeigt, dass auch die neue Hybrid-Aera des M5 gewaltiges Tuningpotenzial bietet.</p>`,
     image: "https://cdn.motor1.com/images/mgl/vx0oEb/s4/manhart-mh5-900e-2025-auf-basis-bmw-m5.jpg",
     category: "Tuning",
     date: "2025-09-04",
