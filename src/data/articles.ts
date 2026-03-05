@@ -665,7 +665,7 @@ export const articles: Article[] = [
     slug: "pagani-huayra-70-trionfo",
     title: "Der Pagani Huayra kehrt zurück und feiert Horacios 70. Geburtstag",
     excerpt: "Lediglich die Türen und Fensterrahmen wurden übernommen – alles andere ist komplett neu entwickelt.",
-    content: makeContent("Pagani Huayra 70 Trionfo", "Lediglich die Türen und Fensterrahmen wurden übernommen – alles andere ist komplett neu entwickelt."),
+    content: `<p>Pagani hat den Huayra 70 Trionfo vorgestellt – eine Sonderedition zum 70. Geburtstag von Firmengruender Horacio Pagani. Obwohl das Modell den Namen Huayra traegt, handelt es sich de facto um ein fast komplett neues Auto. Lediglich die Tueren und die Fensterrahmen wurden vom Vorgaenger uebernommen.</p><p>Der 6,0-Liter-V12-Biturbo von Mercedes-AMG wurde auf 900 PS getunt und an ein neues Siebengang-Doppelkupplungsgetriebe gekoppelt. Die Karosserie besteht aus einer neuen Carbotanium-Generation, die noch leichter und steifer als bisher ist. Das Trockengewicht liegt bei nur 1.180 Kilogramm.</p><p>Das Design ist eine Mischung aus vergangenen Pagani-Modellen und neuen Elementen: Die Frontpartie erinnert an den Zonda, waehrend das Heck mit vier runden Auspuffendrohren und einem aktiven Fluegel voellig neu gestaltet wurde. Nur 30 Exemplare werden gebaut, der Preis liegt bei ueber drei Millionen Euro. Alle Fahrzeuge sind bereits verkauft.</p>`,
     image: "https://cdn.motor1.com/images/mgl/OoMY2o/s4/pagani-huayra-70-trionfo.jpg",
     category: "Style & Lifestyle",
     date: "2026-01-29",
