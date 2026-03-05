@@ -534,7 +534,7 @@ export const articles: Article[] = [
     slug: "vw-transporter-sportline-gti",
     title: "Volkswagen verleiht dem Transporter echtes GTI-Feeling",
     excerpt: "Der Transporter bekommt eine neue Topversion mit markanten GTI-Vibes und sportlichem Bodykit.",
-    content: makeContent("VW Transporter Sportline", "Der Transporter bekommt eine neue Topversion mit markanten GTI-Vibes und sportlichem Bodykit."),
+    content: `<p>Volkswagen hat dem Transporter eine neue Topversion namens Sportline spendiert, die echtes GTI-Feeling in die Nutzfahrzeugwelt bringt. Das sportliche Bodykit umfasst einen tiefer gezogenen Frontstossfaenger, Seitenschweller und einen Diffusor am Heck – alles in Wagenfarbe lackiert.</p><p>Im Innenraum sorgen Sportsitze mit integrierten Kopfstuetzen, ein Lederlenkrad mit roter Kontrastnaht und Pedale aus gebuersttem Aluminium fuer GTI-Atmosphaere. Das Fahrwerk ist gegenueber dem Serienmodell um 25 Millimeter tiefergelegt und straffer abgestimmt.</p><p>Angetrieben wird der Transporter Sportline vom staerksten verfuegbaren Diesel mit 204 PS und Achtgang-Automatik. Optional ist Allradantrieb erhaeltlich. Die Preise fuer den Sportline starten bei 52.990 Euro netto. Volkswagen Nutzfahrzeuge positioniert das Modell als sportliche Alternative fuer Unternehmer, die Wert auf einen repraesentativen Auftritt legen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/xqP1ZG/s4/2026-volkswagen-transporter-sportline.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-05",
