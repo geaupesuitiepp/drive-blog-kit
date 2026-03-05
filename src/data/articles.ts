@@ -826,7 +826,7 @@ export const articles: Article[] = [
     slug: "mercedes-premieren-2026",
     title: "Mercedes rüstet sich für zahlreiche Autopremieren im Jahr 2026",
     excerpt: "Die kommenden zwölf Monate werden für Mercedes eine enorme Kraftanstrengung – viele Neuheiten stehen bevor.",
-    content: makeContent("Mercedes Premieren 2026", "Die kommenden zwölf Monate werden für Mercedes eine enorme Kraftanstrengung – viele Neuheiten stehen bevor."),
+    content: `<p>Mercedes steht vor einem der intensivsten Premierenjahre seiner Geschichte. Im Laufe von 2026 werden zahlreiche neue Modelle enthuellt, darunter das S-Klasse-Facelift, die vollelektrische C-Klasse, der neue CLA und die Little G als kompakter Gelaendewagen.</p><p>Besonders die neue C-Klasse wird mit Spannung erwartet: Sie soll auf der MMA-Plattform basieren und sowohl als Elektromodell als auch mit Verbrennungsmotor erhaeltlich sein. Der neue CLA wird das erste MMA-Serienmodell und soll eine Reichweite von ueber 700 Kilometern bieten.</p><p>Im Performance-Segment stehen der AMG CLE Black Series und der ueberarbeitete AMG GT auf der Agenda. Zudem plant Mercedes den Ausbau der Maybach-Palette mit einem SUV auf EQS-Basis. Insgesamt werden 2026 mehr als zehn Neuheiten erwartet – eine enorme Kraftanstrengung fuer Entwicklung, Produktion und Marketing.</p>`,
     image: "https://cdn.motor1.com/images/mgl/0eEVy9/s4/mercedes-c-class-with-eq-technology-teaser.jpg",
     category: "Allgemein",
     date: "2026-01-15",
