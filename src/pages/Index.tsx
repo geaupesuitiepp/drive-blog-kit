@@ -3,6 +3,7 @@ import ArticleCard from "@/components/ArticleCard";
 import Sidebar from "@/components/Sidebar";
 import PaginationControls from "@/components/PaginationControls";
 import { usePagination } from "@/hooks/use-pagination";
+import { Helmet } from "react-helmet-async";
 
 const ARTICLES_PER_PAGE = 10;
 
