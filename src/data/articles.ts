@@ -212,7 +212,7 @@ export const articles: Article[] = [
     slug: "performance-autos-schwerer",
     title: "Warum Performance-Fahrzeuge zwangsläufig schwerer werden",
     excerpt: "Die Elektrifizierung wird zum notwendigen Übel – was bleibt den Herstellern anderes übrig?",
-    content: makeContent("Performance und Gewicht", "Die Elektrifizierung wird zum notwendigen Übel – was bleibt den Herstellern anderes übrig? Ein Blick auf die Herausforderungen moderner Sportwagen-Entwicklung."),
+    content: `<p>Die Elektrifizierung stellt die Automobilindustrie vor ein grundsaetzliches Dilemma: Performance-Fahrzeuge werden durch Batterien und Elektromotoren zwangslaeuig schwerer. Ein aktueller BMW M5 bringt fast 2,5 Tonnen auf die Waage, der neue Audi RS 5 liegt bei 2,4 Tonnen, und selbst der Porsche Taycan Turbo GT ueberschreitet die 2,3-Tonnen-Marke deutlich.</p><p>Die Gruende liegen in der Physik: Batterien mit ausreichend Kapazitaet fuer sportliche Fahrleistungen wiegen zwischen 400 und 700 Kilogramm. Dazu kommen Elektromotoren, Leistungselektronik und verstaerkte Strukturen, um das Mehrgewicht aufzufangen. Ein Teufelskreis, den selbst Leichtbau-Massnahmen nur begrenzt durchbrechen koennen.</p><p>Hersteller argumentieren, dass moderne Fahrwerkstechnik den Gewichtsnachteil weitgehend kompensiere. Torque-Vectoring, aktive Wankstabilisierung und intelligente Momentenverteilung sorgen dafuer, dass sich schwere Hybridautos agiler anfuehlen, als es ihr Gewicht vermuten laesst. Ob das reicht, um Enthusiasten zu ueberzeugen, bleibt abzuwarten.</p>`,
     image: "https://cdn.motor1.com/images/mgl/L3M9nm/s4/audi-rs5-model-bloat.jpg",
     category: "Allgemein",
     date: "2026-02-25",
