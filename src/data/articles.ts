@@ -464,7 +464,7 @@ export const articles: Article[] = [
     slug: "bmw-alpina-neues-logo",
     title: "Alpina unter BMW-Regie: Neues Logo und neuer Chef",
     excerpt: "BMW Alpina ist jetzt eine eigenständige Automarke und reiht sich neben BMW, Mini und Rolls-Royce ein.",
-    content: makeContent("BMW Alpina", "BMW Alpina ist jetzt eine eigenständige Automarke und reiht sich neben BMW, Mini und Rolls-Royce ein."),
+    content: `<p>BMW Alpina ist nun offiziell eine eigenstaendige Automarke innerhalb des BMW-Konzerns und reiht sich neben BMW, Mini und Rolls-Royce ein. Mit der Umstrukturierung kommt ein neues Logo, ein neuer Markenauftritt und ein neuer Chef: Sebastian Hamann uebernimmt die Leitung.</p><p>Das neue Alpina-Logo behält den klassischen Kreis mit den zwei Halbkreisen bei, erhält aber ein moderneres, reduzierteres Design. Die typische Blau-Gruen-Farbkombination bleibt erhalten. BMW betont, dass Alpina seinen eigenstaendigen Charakter behalten soll – die Fahrzeuge werden weiterhin durch aufwaendige Modifikationen am Motor, Fahrwerk und Interieur von den Standard-BMWs abgegrenzt.</p><p>Als erstes Modell unter BMW-Regie wird der neue Alpina B5 erwartet, der auf dem aktuellen 5er basiert und ueber 600 PS leisten soll. Die Produktion erfolgt kuenftig direkt im BMW-Werk Dingolfing statt wie bisher in Buchloe.</p>`,
     image: "https://cdn.motor1.com/images/mgl/xqP4Ew/s4/bmw-alpina-new-logo.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-12",
