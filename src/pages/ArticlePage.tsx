@@ -33,7 +33,7 @@ const ArticlePage = () => {
   return (
     <>
       <Helmet>
-        <title>{article.title} | DerAutoBlog</title>
+        <title>{article.title} | AutoJournal</title>
         <meta name="description" content={article.excerpt} />
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.excerpt} />
