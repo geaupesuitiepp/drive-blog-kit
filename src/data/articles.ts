@@ -908,7 +908,7 @@ export const articles: Article[] = [
     slug: "alfa-romeo-junior-hr-federn",
     title: "H&R-Tieferlegungsfedern für den Alfa Romeo Junior Ibrida",
     excerpt: "Bella Italia: Sportliches Upgrade optimiert Fahrspaß und Optik des neuen Alfa Romeo Junior Ibrida.",
-    content: makeContent("Alfa Romeo Junior H&R", "Bella Italia: Sportliches Upgrade optimiert Fahrspaß und Optik des neuen Alfa Romeo Junior Ibrida."),
+    content: `<p>Der Alfa Romeo Junior Ibrida bringt italienisches Temperament in die Kompaktklasse. Mit den neuen H&R-Tieferlegungsfedern wird der kleine Italiener nun noch dynamischer – sowohl optisch als auch fahrdynamisch.</p><h2>Bella Stance</h2><p>Die Tieferlegung um rund 25 Millimeter vorne und 30 Millimeter hinten verleiht dem Junior eine deutlich sportlichere Haltung. Die Raeder fuellen die Radkaesten besser aus, und der niedrigere Schwerpunkt macht sich beim Kurvenfahren positiv bemerkbar. Typisch H&R sind die Federn progressiv gewickelt, was bedeutet, dass der Komfort bei leichten Unebenheiten erhalten bleibt, waehrend bei staerkerer Belastung die sportliche Seite zum Vorschein kommt.</p><p>Wie alle H&R-Produkte werden die Federn in Deutschland gefertigt und kommen mit TUeV-Gutachten. Fuer Junior-Besitzer, die das gewisse Etwas suchen, eine perfekte Ergaenzung zum ohnehin schon huebschen Italiener.</p>`,
     image: "https://cdn.motor1.com/images/mgl/lElj6E/s4/alfa-romeo-junior-ibrida---h-r-tieferlegungsfedern-28641-3---front.jpg",
     category: "Tuning",
     date: "2026-02-20",
