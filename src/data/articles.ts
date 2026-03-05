@@ -1089,7 +1089,7 @@ export const articles: Article[] = [
     slug: "honda-prelude-optik-tuning",
     title: "Honda möbelt den neuen Prelude optisch auf",
     excerpt: "Die Rennsportabteilung HRC hat auch den Civic Type R ordentlich gepimpt.",
-    content: makeContent("Honda Prelude Tuning", "Die Rennsportabteilung HRC hat auch den Civic Type R ordentlich gepimpt."),
+    content: `<p>Honda hat auf dem Tokyo Auto Salon 2026 gleich mehrere aufgemoebelte Fahrzeuge praesentiert, darunter einen optisch deutlich geschaerften Prelude. Die Honda Racing Corporation (HRC) hat dabei ihre Finger im Spiel.</p><h2>Scharf gemacht</h2><p>Der Prelude traegt ein Bodykit von Modulo, das neue Frontlippen, Seitenschweller und einen dezenten Heckspoiler umfasst. Dazu kommen 19-Zoll-Raeder in einem neuen Design und eine abgestimmte Sportauspuffanlage. Auch der Civic Type R wurde von HRC mit einem Rennstreckenpaket versehen, das unter anderem einen groesseren Heckfluegel und optimierte Bremsen umfasst.</p><p>Ob die gezeigten Teile als regulaeres Zubehoer erhaeltlich sein werden, ist noch nicht bestaetigt. Die Resonanz auf dem Auto Salon war jedoch so positiv, dass eine Serienfertigung wahrscheinlich erscheint.</p>`,
     image: "https://cdn.motor1.com/images/mgl/L3Mljj/s4/honda-at-the-2026-tokyo-auto-salon.jpg",
     category: "Tuning",
     date: "2026-01-09",
