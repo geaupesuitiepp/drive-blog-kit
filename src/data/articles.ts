@@ -1492,7 +1492,7 @@ export const articles: Article[] = [
     slug: "corvette-c1-restomod-pogea",
     title: "67 Jahre alte Corvette überrascht mit 425 PS starkem V8",
     excerpt: "POGEAclassics präsentiert die dritte Restomod-Corvette C1 – ein Stück Automobilgeschichte.",
-    content: makeContent("Pogea Corvette C1", "POGEAclassics präsentiert die dritte Restomod-Corvette C1 – ein Stück Automobilgeschichte."),
+    content: `<p>POGEAclassics praesentiert die dritte Restomod-Corvette C1 – ein Stueck Automobilgeschichte mit modernem V8-Herz. Der 425 PS starke Motor gibt der 67 Jahre alten Corvette ein zweites Leben.</p><h2>Klassiker mit modernem Herz</h2><p>Ein moderner LS3-V8 mit 425 PS treibt die handrestaurierte C1 an. Modernes Fahrwerk, Scheibenbremsen und elektrische Servolenkung machen den Klassiker alltagstauglich. Die Karosserie wurde aufwendig restauriert und in einem klassischen Farbton neu lackiert.</p>`,
     image: "https://cdn.motor1.com/images/mgl/y23Zrk/s4/pogea-racing-corvette-1958.28-restomod.jpg",
     category: "Tuning",
     date: "2025-07-23",
