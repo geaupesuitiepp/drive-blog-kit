@@ -32,6 +32,9 @@ export const blacklistedSlugs: string[] = [
   "audi-a2-reinkarnation",
 ];
 
+import articleAutohero from "@/assets/article-autohero.jpg";
+import articleNdFahrzeughandel from "@/assets/article-nd-fahrzeughandel.jpg";
+
 function makeContent(title: string, excerpt: string): string {
   return `<h2>${title}</h2><p>${excerpt}</p>`;
 }
