@@ -1562,7 +1562,7 @@ export const articles: Article[] = [
     slug: "mansory-g-klasse-cabrio-monopoly",
     title: "Mansory stutzt G-Klasse zum Monopoly-Pop-Art-Cabrio",
     excerpt: "Pop-Art-Künstler Alec Monopoly bemalt 10 Exemplare per Hand – überraschend cool.",
-    content: makeContent("Mansory G-Klasse Pop Art", "Pop-Art-Künstler Alec Monopoly bemalt 10 Exemplare per Hand – überraschend cool."),
+    content: `<p>Mansory hat die G-Klasse zum Cabrio umgebaut und von Pop-Art-Kuenstler Alec Monopoly handbemalen lassen. Nur 10 Exemplare entstehen – jedes ein Unikat mit individuellem Artwork.</p><h2>Kunst auf Raedern</h2><p>Jedes der 10 Fahrzeuge wird von Alec Monopoly persoenlich bemalt. Die bunten Pop-Art-Motive stehen im krassen Kontrast zur massiven G-Klasse-Silhouette. Technisch basiert das Cabrio auf dem AMG G 63 mit Brabus-Leistungssteigerung. Ueberraschend cool – und definitiv einzigartig.</p>`,
     image: "https://cdn.motor1.com/images/mgl/bgl4w3/s4/mansory---art-piece---al3c-mono907y.jpg",
     category: "Tuning",
     date: "2025-06-18",
