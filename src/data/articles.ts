@@ -1280,7 +1280,7 @@ export const articles: Article[] = [
     slug: "ringbrothers-kingpin-mustang-800ps",
     title: "Ringbrothers Kingpin Mustang: Kunstwerk mit 800 PS",
     excerpt: "5.500 Arbeitsstunden, Coyote-V8-Unikat, 6-Gang-Schaltgetriebe – einer der packendsten Mustangs der Welt.",
-    content: makeContent("Ringbrothers Kingpin", "5.500 Arbeitsstunden, Coyote-V8-Unikat, 6-Gang-Schaltgetriebe – einer der packendsten Mustangs der Welt."),
+    content: `<p>Ringbrothers hat mit dem Kingpin einen 1969er Ford Mustang geschaffen, der 5.500 Arbeitsstunden verschlungen hat. Das Ergebnis ist ein Restomod-Kunstwerk mit 800 PS, das auf der SEMA Show fuer Gaensehaut sorgte.</p><h2>5.500 Stunden Handarbeit</h2><p>Der Motor ist ein komplett individuell aufgebauter Coyote-V8 mit Kompressoraufladung und 800 PS. Gekoppelt an ein 6-Gang-Schaltgetriebe, treibt er die Hinterraeder an. Die Karosserie wurde komplett in Carbon nachgebaut und in einem dunklen Grauton lackiert. Jedes Detail – vom Kuehlergrill bis zu den Tuergriffen – wurde individuell gefertigt.</p><p>Im Innenraum verbinden sich moderne Technik und klassisches Design: Digitale Instrumente hinter einem Retro-Lenkrad, Recaro-Schalensitze und handgenaehtes Leder. Der Kingpin ist mehr als ein Auto – er ist ein Statement, was moeglich ist, wenn Leidenschaft keine Grenzen kennt.</p>`,
     image: "https://cdn.motor1.com/images/mgl/vx0266/s4/ringbrothers-1969-ford-mustang-kingpin-restomod-sema.jpg",
     category: "Tuning",
     date: "2025-11-05",
