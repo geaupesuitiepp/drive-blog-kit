@@ -1612,7 +1612,7 @@ export const articles: Article[] = [
     slug: "twisted-tbug-vw-kaefer-baja",
     title: "Strand-Käfer: Der Baja Bug ist zurück",
     excerpt: "Der Twisted TBug ist ein moderner, geländegängiger VW Käfer mit echter Leistung.",
-    content: makeContent("Twisted TBug", "Der Twisted TBug ist ein moderner, geländegängiger VW Käfer mit echter Leistung."),
+    content: `<p>Der Twisted TBug ist ein moderner, gelaendegaengiger VW Kaefer im Baja-Bug-Stil. Twisted hat den Klassiker komplett neuaufgebaut und mit echter Leistung versehen.</p><h2>Strand-Kaefer reloaded</h2><p>Ein moderner Boxermotor mit Turboaufladung liefert ueber 200 PS. Das Fahrwerk wurde fuer Offroad-Einsatz optimiert, mit Langhub-Daempfern und Offroad-Reifen. Die Carbon-Karosserie ist leicht und robust. Der TBug ist ein Strand-Kaefer fuer das 21. Jahrhundert – mit Stil und Substanz.</p>`,
     image: "https://cdn.motor1.com/images/mgl/7Z3jmJ/s4/twisted-tbug-baja-bug-restomod-exterior.jpg",
     category: "Tuning",
     date: "2025-05-20",
