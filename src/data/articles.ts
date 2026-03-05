@@ -705,7 +705,7 @@ export const articles: Article[] = [
     slug: "mitsubishi-asx-basis-dacia-preis",
     title: "Mitsubishi ASX (2026): Das Basismodell kommt zum Dacia-Preis",
     excerpt: "Schon ab 21.490 Euro ist der überarbeitete ASX in der Basisversion zu haben.",
-    content: makeContent("Mitsubishi ASX", "Schon ab 21.490 Euro ist der überarbeitete ASX in der Basisversion zu haben."),
+    content: `<p>Mitsubishi bringt den ueberarbeiteten ASX zum Kampfpreis auf den Markt. Das Basismodell startet bei nur 21.490 Euro und liegt damit preislich auf Dacia-Niveau. Dafuer erhaelt man ein komplett ausgestattetes Kompakt-SUV mit modernem Design.</p><p>Der ASX basiert weiterhin auf dem Renault Captur und erhaelt mit dem Facelift eine ueberarbeitete Front im neuen Mitsubishi-Designstil. Im Innenraum gibt es einen 10,4-Zoll-Touchscreen mit Google-Integration, kabelloses Apple CarPlay und eine Rueckfahrkamera. Die Sitze sind in der Basisversion mit Stoff bezogen.</p><p>Als Antrieb dient in der Einstiegsversion ein 1,0-Liter-Dreizylinder-Turbo mit 91 PS und manuellem Fuenfganggetriebe. Optional stehen ein Vollhybrid mit 143 PS und ein Mild-Hybrid mit 140 PS zur Verfuegung. Trotz des niedrigen Preises bietet Mitsubishi fuenf Jahre Garantie und drei Jahre kostenlose Wartung.</p>`,
     image: "https://cdn.motor1.com/images/mgl/MkM1K6/s4/mitsubishi-asx-2026-basis.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-01-26",
