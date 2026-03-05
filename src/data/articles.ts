@@ -304,16 +304,6 @@ export const articles: Article[] = [
     date: "2026-02-23",
   },
   {
-    id: "s32",
-    slug: "mercedes-little-g-verbrenner",
-    title: "Mercedes Little G (2027): Die Mini-G-Klasse kommt auch als Verbrenner",
-    excerpt: "Der Einstieg in die G-Familie soll den Verbrennungsmotor vom CLA übernehmen – nicht nur elektrisch.",
-    content: `<p>Mercedes plant mit der Little G eine kompaktere Version der legendaeren G-Klasse – und sie soll nicht nur als Elektroauto kommen. Der Einstieg in die G-Familie wird voraussichtlich den Verbrennerantrieb vom neuen CLA uebernehmen: einen 2,0-Liter-Vierzylinder mit Mild-Hybrid-Technik.</p><p>Die Little G soll rund 4,50 Meter lang werden und damit deutlich kompakter als die aktuelle G-Klasse ausfallen. Das Design orientiert sich am kantigen Ur-G, allerdings mit modernen Interpretationen wie schmalen LED-Scheinwerfern und einem integrierten Dachtraeger. Der Innenraum soll das MBUX-System der neuesten Generation erhalten.</p><p>Als Elektroverison ist eine Reichweite von ueber 450 Kilometern geplant. Die Verbrenner-Variante duerfte bei rund 200 PS starten. Mercedes positioniert die Little G gezielt gegen den Jeep Wrangler und den Land Rover Defender. Der Marktstart ist fuer 2027 geplant, die Preise sollen bei rund 60.000 Euro beginnen.</p>`,
-    image: "https://cdn.motor1.com/images/mgl/Zn1bny/s4/mercedes-classe-g-2027-il-render-di-motor1.com.jpg",
-    category: "Auto & Fahrkultur",
-    date: "2026-02-23",
-  },
-  {
     id: "s33",
     slug: "alfa-romeo-giulia-stelvio-quadrifoglio",
     title: "Alfa Romeo Giulia und Stelvio Quadrifoglio sind wieder bestellbar",
