@@ -1664,6 +1664,26 @@ export const articles: Article[] = [
   },
 ];
 
+// Fix encoded umlauts (ae→ä, oe→ö, ue→ü) in article text fields
+function fixUmlauts(text: string): string {
+  return text
+    // ae → ä (except before "ro" for Aero/aerodynamisch)
+    .replace(/Ae(?!ro)/g, 'Ä')
+    .replace(/ae(?!ro)/g, 'ä')
+    // oe → ö
+    .replace(/Oe/g, 'Ö')
+    .replace(/oe(?!ff)/g, 'ö') // keep "oeff" for Koeffizient etc.
+    // ue → ü (except when preceded by a vowel: neue, teuer, Steuer, Feuer, Bauer, etc.)
+    .replace(/(?<![eaiouEAIOU])Ue/g, 'Ü')
+    .replace(/(?<![eaiouEAIOU])ue/g, 'ü');
+}
+
+articles.forEach(a => {
+  a.content = fixUmlauts(a.content);
+  a.excerpt = fixUmlauts(a.excerpt);
+  a.title = fixUmlauts(a.title);
+});
+
 export function getArticleBySlug(slug: string): Article | undefined {
   return articles.find((a) => a.slug === slug);
 }
