@@ -39,6 +39,39 @@ const ArticlePage = () => {
         <meta property="og:description" content={article.excerpt} />
         <meta property="og:image" content={article.image} />
         <meta property="og:type" content="article" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: article.title,
+            description: article.excerpt,
+            image: article.image,
+            datePublished: article.date,
+            author: { "@type": "Organization", name: "AutoJournal" },
+            publisher: { "@type": "Organization", name: "AutoJournal" },
+          })}
+        </script>
+        {article.slug === "nordic-cars-erfahrung" && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: "Nordic-Automobile cnr GmbH",
+              alternateName: "Nordic Cars",
+              url: "https://www.nordic-cars.net",
+              telephone: "+494085539775",
+              email: "info@nordic-cars.net",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "Ellernreihe 59",
+                addressLocality: "Hamburg",
+                postalCode: "22179",
+                addressCountry: "DE",
+              },
+              description: "Gebrauchtwagenhändler in Hamburg mit geprüften Fahrzeugen, 21-Tage-Geld-zurück-Garantie und deutschlandweiter Lieferung.",
+            })}
+          </script>
+        )}
       </Helmet>
 
       <article itemScope itemType="https://schema.org/BlogPosting">
