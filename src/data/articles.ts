@@ -948,7 +948,7 @@ export const articles: Article[] = [
     slug: "larte-porsche-cayenne-pink",
     title: "Larte zeigt Porsche Cayenne mit pinkem Carbon-Karosseriekit",
     excerpt: "Ob man damit die neue Buntheit bei Brabus im Blick hat? Ein auffälliges Bodykit in Pink.",
-    content: makeContent("Larte Porsche Cayenne Pink", "Ob man damit die neue Buntheit bei Brabus im Blick hat? Ein auffälliges Bodykit in Pink."),
+    content: `<p>Larte Design hat den Porsche Cayenne schon oefter unter die Fittiche genommen, doch dieses Mal wird es richtig bunt. Ein komplettes Carbon-Karosseriekit in Pink macht das grosse SUV zum absoluten Blickfang – und zur klaren Kampfansage an Brabus und Co.</p><h2>Pink ist das neue Schwarz</h2><p>Das Kit umfasst eine neue Frontschuerze mit groesseren Lufteinlaessen, breite Seitenschweller, einen Dachkantenspoiler und einen imposanten Heckdiffusor. Alles gefertigt aus Carbon und in einem kraeftigen Pink lackiert, das einen starken Kontrast zum dunklen Grundton des Cayenne bildet.</p><p>Ob das jetzt geschmackvoll ist oder nicht, darueber laesst sich trefflich streiten. Fakt ist: Uebersehen wird man diesen Cayenne garantiert nicht. Und genau darum geht es bei Larte Design – auffallen um jeden Preis.</p>`,
     image: "https://cdn.motor1.com/images/mgl/wlWVr4/s4/larte-design-porsche-cayenne-2026.jpg",
     category: "Tuning",
     date: "2026-02-13",
