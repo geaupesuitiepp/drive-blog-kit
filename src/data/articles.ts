@@ -1300,7 +1300,7 @@ export const articles: Article[] = [
     slug: "mtm-pangaea-gt-audi-rs6",
     title: "MTM Pangaea GT: Audi RS 6 Avant mit 1.100 PS und viel Carbon",
     excerpt: "Nur 25 Stück weltweit: Der Pangaea GT ist mehr Rennwagen als Kombi.",
-    content: makeContent("MTM Pangaea GT", "Nur 25 Stück weltweit: Der Pangaea GT ist mehr Rennwagen als Kombi."),
+    content: `<p>MTM aus Wettstetten praesentiert mit dem Pangaea GT die wohl extremste Version des Audi RS 6 Avant. Mit 1.100 PS und einer Limitierung auf nur 25 Stueck weltweit ist der Pangaea GT mehr Rennwagen als Kombi.</p><h2>1.100 PS im Kombi</h2><p>Der 4,0-Liter-V8-Biturbo wurde komplett ueberarbeitet und leistet nun 1.100 PS bei einem Drehmoment von ueber 1.200 Nm. Ein Carbon-Widebody-Kit verbreitert die Karosserie um 80 Millimeter und beherbergt 21-Zoll-Rennraeder mit Michelin-Semislicks. Das Fahrwerk wurde fuer Rennstreckeneinsatz optimiert.</p><p>Im Innenraum ersetzen Schalensitze die Serienbestuhlung, und ein Ueberrollkaefig zeugt von den motorsportlichen Ambitionen. Der Pangaea GT ist die Antwort auf die Frage, was passiert, wenn man einen Kombi ohne jede Zurueckhaltung tuned.</p>`,
     image: "https://cdn.motor1.com/images/mgl/mMg9PA/s4/mtm-pangea-gt-2025.jpg",
     category: "Tuning",
     date: "2025-11-03",
