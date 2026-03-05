@@ -1129,7 +1129,7 @@ export const articles: Article[] = [
     slug: "jeep-renegade-hemi-v8-umbau",
     title: "Dieser Jeep Renegade hat einen Hemi-V8 unter der Haube",
     excerpt: "Ein US-Besitzer hat seinen Renegade mit Dodge Charger-Teilen in ein Super-SUV mit über 500 PS verwandelt.",
-    content: makeContent("Jeep Renegade V8", "Ein US-Besitzer hat seinen Renegade mit Dodge Charger-Teilen in ein Super-SUV mit über 500 PS verwandelt."),
+    content: `<p>Ein Jeep Renegade mit Hemi-V8 – das klingt verrueckt, ist aber Realitaet. Ein US-amerikanischer Besitzer hat seinem kompakten SUV einen Dodge-Charger-Motor verpasst und damit ein voellig neues Fahrzeug geschaffen.</p><h2>Ueber 500 PS im Kleinst-Jeep</h2><p>Der 6,4-Liter-Hemi-V8 liefert ueber 500 PS und wird ueber ein Automatikgetriebe an alle vier Raeder geleitet. Der gesamte Antriebsstrang stammt aus einem Dodge Charger Scat Pack, inklusive Getriebe, Antriebswellen und Differenzial. Der Renegade musste dafuer erheblich umgebaut werden: Laengslenker, Federbeinaufnahmen und der komplette Vorderwagen wurden verstaerkt oder neu konstruiert.</p><p>Das Ergebnis ist ein Renegade, der sich anfuehlt wie ein V8-Muscle-Car auf Stelzen. Voellig unpraktisch, aber genau das macht den Reiz dieses wahnwitzigen Projekts aus.</p>`,
     image: "https://cdn.motor1.com/images/mgl/VzB6ol/s4/jeep-renegade-motore-v8.jpg",
     category: "Tuning",
     date: "2025-12-30",
