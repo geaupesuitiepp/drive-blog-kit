@@ -655,7 +655,7 @@ export const articles: Article[] = [
     slug: "mercedes-s-klasse-facelift-2026",
     title: "Mercedes S-Klasse (2026): Das große Facelift im Detail",
     excerpt: "Neues Gesicht, der V8 bleibt erhalten, MBUX Superscreen und ein Interieur, das Diskussionen auslöst.",
-    content: makeContent("Mercedes S-Klasse Facelift", "Neues Gesicht, der V8 bleibt erhalten, MBUX Superscreen und ein Interieur, das Diskussionen auslöst."),
+    content: `<p>Mercedes hat das grosse Facelift der S-Klasse enthuellt. Die Aenderungen sind umfangreicher als bei einer typischen Modellpflege: Ein neues Gesicht mit schmaleren Scheinwerfern, der Erhalt des V8-Motors und der neue MBUX Superscreen praeegen das Update.</p><p>Der 4,0-Liter-V8-Biturbo bleibt im S 580 erhalten und leistet weiterhin 503 PS. Dazu kommt ein 48-Volt-Startergenerator fuer mildhybride Effizienz. Die Plug-in-Hybride S 580 e und S 450 e bieten bis zu 120 Kilometer rein elektrische Reichweite dank einer vergroesserten Batterie.</p><p>Im Innenraum sorgt der MBUX Superscreen fuer Diskussionen: Ein riesiges Display erstreckt sich vom Fahrer bis zum Beifahrer. Kritiker bemangeln den Verlust der klassischen S-Klasse-Eleganz, Fans feiern die Technologie. Neue Massagesitze, ein Duftspender der dritten Generation und eine verbesserte Burmester-Anlage runden das Paket ab. Die Preise starten bei 113.000 Euro.</p>`,
     image: "https://cdn.motor1.com/images/mgl/vx0AxR/s4/mercedes-classe-s-2026.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-01-29",
