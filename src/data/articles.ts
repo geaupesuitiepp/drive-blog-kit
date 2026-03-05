@@ -1119,7 +1119,7 @@ export const articles: Article[] = [
     slug: "toyota-land-cruiser-kuhl-racing",
     title: "Toyota Land Cruiser glänzt im Gelände – dank Kuhl Racing",
     excerpt: "Der Land Cruiser wird um rund 18 Zentimeter höhergelegt und bekommt eine Chrome-Optik.",
-    content: makeContent("Land Cruiser Kuhl Racing", "Der Land Cruiser wird um rund 18 Zentimeter höhergelegt und bekommt eine Chrome-Optik."),
+    content: `<p>Kuhl Racing ist bekannt fuer seine extravaganten Umbauten, und der Toyota Land Cruiser bildet keine Ausnahme. Der Gelaendewagen wird um rund 18 Zentimeter hoehergelegt und erhaelt eine auffaellige Chrome-Optik, die im Gelaende glaenzt – im woertlichen Sinne.</p><h2>Bling-Bling im Gelaende</h2><p>Das Bodykit umfasst neue Stossfaenger, verbreiterte Kotfluegel und massive Seitenschweller. Die gesamte Karosserie wird in einer speziellen Chrome-Folie ausgefuehrt, die zusammen mit den 22-Zoll-Offroad-Raeder einen unverwechselbaren Look ergibt. LED-Lightbars auf dem Dach und an der Front runden den Auftritt ab.</p><p>Technisch wurde das Fahrwerk komplett ueberarbeitet: Laengere Federwege, verstaerkte Achsen und Offroad-Reifen machen den Land Cruiser fit fuer anspruchsvolles Gelaende. Ein irrer Mix aus Show und Funktion, der typisch fuer Kuhl Racing ist.</p>`,
     image: "https://cdn.motor1.com/images/mgl/Akn7qP/s4/toyota-land-cruiser-blocker-series-iron-build-by-kuhl-racing.jpg",
     category: "Tuning",
     date: "2026-01-05",
