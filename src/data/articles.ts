@@ -625,7 +625,7 @@ export const articles: Article[] = [
     slug: "porsche-cayenne-electric-innenraum",
     title: "Porsche Cayenne Electric (2026): Das Interieur im Detail",
     excerpt: "Ein größerer Radstand sorgt beim Cayenne für eine verbesserte Raumnutzung im Vergleich zum Vorgänger.",
-    content: makeContent("Porsche Cayenne Electric", "Ein größerer Radstand sorgt beim Cayenne für eine verbesserte Raumnutzung im Vergleich zum Vorgänger."),
+    content: `<p>Porsche hat erstmals detaillierte Einblicke in den Innenraum des vollelektrischen Cayenne gewaehrt. Der groessere Radstand der neuen PPE-Plattform kommt dem Raumangebot deutlich zugute – sowohl vorne als auch im Fond gibt es spuerbar mehr Platz als beim Vorgaenger.</p><p>Das Cockpit wird von einem geschwungenen Display dominiert, das Instrumente und Infotainment auf einem 12,6 Zoll grossen OLED-Bildschirm vereint. Optional erhaelt der Beifahrer ein eigenes 10,9-Zoll-Display. Die Mittelkonsole ist aufgeraeumt und bietet eine grosse, kabellose Ladeschale fuer Smartphones.</p><p>Die Materialqualitaet bewegt sich auf Porsche-typisch hohem Niveau: Leder, Alcantara und offenporiges Holz sind je nach Ausstattung verfuegbar. Der Kofferraum fasst 650 Liter und bietet zudem einen Frunk mit 80 Litern. Die hintere Sitzbank ist laengs verschiebbar und erlaubt eine flexible Aufteilung zwischen Passagier- und Gepaeckraum.</p>`,
     image: "https://cdn.motor1.com/images/mgl/jlRyGR/s4/nuova-porsche-cayenne-2026-interni-e-bagagliaio.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-03",
