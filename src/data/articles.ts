@@ -263,7 +263,7 @@ export const articles: Article[] = [
     slug: "opel-corsa-gse-bestaetigt",
     title: "Heißer Opel Corsa GSE offiziell bestätigt: E-Hot-Hatch kommt 2026",
     excerpt: "Der Super-Corsa erhält voraussichtlich den 280-PS-Motor des Mokka GSE samt diversen Performance-Optimierungen.",
-    content: makeContent("Opel Corsa GSE", "Der Super-Corsa erhält voraussichtlich den 280-PS-Motor des Mokka GSE samt diversen Performance-Optimierungen. Noch 2026 soll der Elektro-Sportler auf den Markt kommen."),
+    content: `<p>Opel hat den Corsa GSE offiziell bestaetigt: Der elektrische Hot-Hatch wird noch 2026 auf den Markt kommen. Er erhaelt voraussichtlich den 280-PS-Elektromotor des Mokka GSE sowie diverse Performance-Optimierungen am Fahrwerk und der Aerodynamik.</p><p>Der Corsa GSE soll sich optisch deutlich vom Standard-Corsa abheben. Zu erwarten sind ein aggressiverer Frontsplitter, breitere Seitenschweller, ein Dachspoiler und ein Diffusor am Heck. Die Tieferlegung um 15 Millimeter gegenueber dem Serienmodell sorgt fuer einen sportlicheren Auftritt.</p><p>Das Fahrwerk wird mit steiferen Federn, haerteren Daempfern und groesseren Bremsscheiben aufgeruestet. Die Lenkung soll direkter ausgelegt sein. Von 0 auf 100 km/h soll der Corsa GSE in unter sechs Sekunden beschleunigen. Die Batterie mit 54 kWh soll eine Reichweite von rund 300 Kilometern ermoeglichen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/koGv04/s4/opel-corsa-gse-2026-teaser.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-24",
