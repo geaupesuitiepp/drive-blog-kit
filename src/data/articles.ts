@@ -1220,7 +1220,7 @@ export const articles: Article[] = [
     slug: "novitec-urus-se-widebody",
     title: "Lamborghini Urus SE mit neuem Breitbau-Bodykit von Novitec",
     excerpt: "Tuner Novitec macht das Plug-in-Hybrid-Performance-SUV breiter und tiefer.",
-    content: makeContent("Novitec Urus SE", "Tuner Novitec macht das Plug-in-Hybrid-Performance-SUV breiter und tiefer."),
+    content: `<p>Novitec ist als Tuner fuer italienische Sportler bekannt, hat nun aber auch den Lamborghini Urus SE im Programm. Das Esteso-Widebody-Kit macht das Plug-in-Hybrid-SUV breiter, tiefer und noch imposanter.</p><h2>Breitbau mit Plug-in-Hybrid</h2><p>Das Widebody-Kit verbreitert den Urus um insgesamt 60 Millimeter. Neue Kotfluegel, ein massiver Frontspoiler und ein ueberarbeiteter Heckdiffusor sind aus Carbon gefertigt. Dazu kommen 23-Zoll-Schmiedefelgen und ein Gewindefahrwerk, das den Urus um 25 Millimeter tieferlegt.</p><p>Die Leistung des 4,0-Liter-V8 plus E-Motor wird auf ueber 800 PS gesteigert. Novitec beweist damit, dass auch elektrifizierte SUVs von klassischem Tuning profitieren koennen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/bgGjr3/s4/novitec-esteso-widebody-se-2026-auf-basis-lamborghini-urus-se.jpg",
     category: "Tuning",
     date: "2025-11-24",
