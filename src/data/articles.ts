@@ -605,7 +605,7 @@ export const articles: Article[] = [
     slug: "opel-astra-facelift-2026-preise",
     title: "Opel Astra Facelift 2026: Preise und Bestellstart",
     excerpt: "Der Kompakte und der Sports Tourer können ab sofort bestellt werden – das Facelift fällt umfangreich aus.",
-    content: makeContent("Opel Astra Facelift", "Der Kompakte und der Sports Tourer können ab sofort bestellt werden – das Facelift fällt umfangreich aus."),
+    content: `<p>Opel hat Preise und Bestellstart fuer das Astra Facelift bekanntgegeben. Sowohl der kompakte Fuenftuerer als auch der Sports Tourer koennen ab sofort bestellt werden. Die Preise starten bei 28.490 Euro fuer den Astra und 29.990 Euro fuer den Sports Tourer.</p><p>Das Facelift faellt umfangreich aus: Die Front traegt nun das neue Opel-Vizor-Design mit schmaleren LED-Scheinwerfern und dem beleuchteten Opel-Blitz. Am Heck gibt es ein neues Leuchtenband. Der Innenraum erhaelt ein ueberarbeitetes Infotainmentsystem mit schnellerem Prozessor und ChatGPT-Integration in die Sprachsteuerung.</p><p>Die Motorenpalette umfasst Mild-Hybride mit 110 und 130 PS, einen Plug-in-Hybrid mit 180 PS und eine rein elektrische Version mit 156 PS und 413 Kilometern Reichweite. Die ersten Auslieferungen beginnen im April 2026.</p>`,
     image: "https://cdn.motor1.com/images/mgl/0eEGg9/s4/opel-astra-2026-und-opel-astra-sports-tourer-2026-live-von-der-brussel-motor-show-2026.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-03",
