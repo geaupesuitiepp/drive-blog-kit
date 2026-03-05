@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { categories } from "@/data/articles";
+import logo from "@/assets/logo.png";
 
 const BlogFooter = () => {
   return (
@@ -7,9 +8,9 @@ const BlogFooter = () => {
       <div className="container max-w-7xl px-4">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <h3 className="mb-3 text-lg font-black text-[hsl(0,0%,92%)] tracking-tight">
-              <span className="text-primary italic">Auto</span>Journal
-            </h3>
+            <Link to="/" className="inline-block mb-3">
+              <img src={logo} alt="AutoJournal" className="h-7" />
+            </Link>
             <p className="text-sm text-[hsl(0,0%,55%)]">
               Dein Blog rund um Autos, Technik, Lifestyle und alles was dazugehört.
             </p>
