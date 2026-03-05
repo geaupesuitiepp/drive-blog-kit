@@ -1371,7 +1371,7 @@ export const articles: Article[] = [
     slug: "porsche-992-larte-bodykit-transam",
     title: "Porsche 911-Bodykit erinnert an Trans-Am-Legende",
     excerpt: "Larte-Design baut das 992 Facelift um und hat dabei einen berühmten Carrera RSR im Auge.",
-    content: makeContent("Larte Porsche 911", "Larte-Design baut das 992 Facelift um und hat dabei einen berühmten Carrera RSR im Auge."),
+    content: `<p>Larte Design hat ein Bodykit fuer den Porsche 911 (992) Facelift entwickelt, das an die legendaeren Trans-Am-Rennwagen der 70er Jahre erinnert. Insbesondere der beruehmte Carrera RSR von 1973 diente als Inspiration.</p><h2>Retro-Rennfeeling</h2><p>Das Kit umfasst verbreiterte Kotfluegel, eine tief gezogene Frontschuerze und einen markanten Entenbuerzel-Spoiler. Die Proportionen erinnern deutlich an die Carrera RSR, waehrend die Technik modern bleibt. Carbon und Fiberglas kommen bei der Fertigung zum Einsatz.</p><p>Das Bodykit ist fuer alle 992-Facelift-Varianten erhaeltlich und kann in Wagenfarbe oder in Sichtcarbon bestellt werden. Fuer 911-Fans, die den Retro-Rennlook lieben, bietet Larte eine der stimmigsten Loesungen am Markt.</p>`,
     image: "https://cdn.motor1.com/images/mgl/wlWZRV/s4/larte-design-porsche-911-carrera.jpg",
     category: "Tuning",
     date: "2025-09-18",
