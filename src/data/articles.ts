@@ -776,7 +776,7 @@ export const articles: Article[] = [
     slug: "volvo-ex60-800-volt",
     title: "Volvo EX60 (2026): Alle Infos zum 800-Volt-Elektro-SUV",
     excerpt: "Der XC60-Nachfolger nutzt die neue SPA3-Plattform, bietet bis zu 810 km Reichweite und startet auch als Cross Country.",
-    content: makeContent("Volvo EX60", "Der XC60-Nachfolger nutzt die neue SPA3-Plattform, bietet bis zu 810 km Reichweite und startet auch als Cross Country."),
+    content: `<p>Volvo hat alle Details zum EX60 veroeffentlicht, dem Nachfolger des XC60 und wichtigsten Elektromodell der Marke. Das SUV nutzt die neue SPA3-Plattform mit 800-Volt-Architektur und bietet bis zu 810 Kilometer Reichweite – ein Spitzenwert im Segment.</p><h2>Technik und Reichweite</h2><p>Der EX60 ist in drei Antriebsvarianten erhaeltlich: als Single Motor mit 272 PS und Hinterradantrieb, als Twin Motor mit 408 PS und Allrad sowie als Twin Motor Performance mit 510 PS. Die groesste Batterie hat eine Kapazitaet von 107 kWh (netto) und ermoeglicht Ladeleistungen von bis zu 310 kW. Von 10 auf 80 Prozent dauert das Laden damit unter 25 Minuten.</p><p>Erstmals bietet Volvo den EX60 auch als Cross-Country-Variante an. Diese Version hat eine um 30 Millimeter erhoehte Bodenfreiheit, Unterfahrschutzbleche und ein spezielles Offroad-Fahrprogramm. Die Preise fuer den EX60 starten bei 56.900 Euro, der Cross Country beginnt bei 62.400 Euro. Der Marktstart ist fuer das dritte Quartal 2026 geplant.</p>`,
     image: "https://cdn.motor1.com/images/mgl/nAgekl/s4/volvo-ex60-und-ex60-cross-country-2026.jpg",
     category: "Technik & Gadgets",
     date: "2026-01-22",
