@@ -1250,7 +1250,7 @@ export const articles: Article[] = [
     slug: "spofec-rolls-royce-spectre-tuning",
     title: "Spectre-Tuning: Spofec motzt den Elektro-Rolls auf",
     excerpt: "Carbon-Tuning und 24-Zöller für einen elektrischen Rolls-Royce – wer hätte das gedacht?",
-    content: makeContent("Spofec Rolls-Royce Spectre", "Carbon-Tuning und 24-Zöller für einen elektrischen Rolls-Royce – wer hätte das gedacht?"),
+    content: `<p>Spofec, die Rolls-Royce-Abteilung von Novitec, hat den elektrischen Spectre unter die Fittiche genommen. Carbon-Tuning und 24-Zoll-Raeder fuer einen Elektro-Rolls-Royce – eine Kombination, die vor wenigen Jahren noch undenkbar gewesen waere.</p><h2>Elektro-Luxus mit Carbon-Kleid</h2><p>Das Bodykit umfasst Carbon-Elemente an Front, Seiten und Heck, die dem Spectre eine dezent sportlichere Note verleihen. Die 24-Zoll-Schmiedefelgen sind speziell fuer den Spectre entwickelt und betonen die massiven Proportionen des Elektro-Coupe. Eine Tieferlegung um 25 Millimeter verbessert die Strassenlage.</p><p>Leistungssteigerungen sind beim Spectre nicht moeglich, da Rolls-Royce die Software nicht freigibt. Doch mit 585 PS und 900 Nm ist der Spectre ohnehin kraftvoll genug. Spofec konzentriert sich daher auf Optik und Fahrwerk – und liefert ein ueberzeugendes Ergebnis.</p>`,
     image: "https://cdn.motor1.com/images/mgl/404reo/s4/spofec-rolls-royce-black-badge-spectre.jpg",
     category: "Tuning",
     date: "2025-11-10",
