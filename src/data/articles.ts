@@ -725,7 +725,7 @@ export const articles: Article[] = [
     slug: "donkervoort-p24-rs",
     title: "Donkervoort P24 RS (2026): 600 PS auf nur 780 Kilo Fahrzeuggewicht",
     excerpt: "Leichtbau aus der Formel 1 und ein Schaltgetriebe sorgen für puristische Konsequenz ohne Kompromisse.",
-    content: makeContent("Donkervoort P24 RS", "Leichtbau aus der Formel 1 und ein Schaltgetriebe sorgen für puristische Konsequenz ohne Kompromisse."),
+    content: `<p>Der niederlaendische Sportwagenhersteller Donkervoort hat den P24 RS vorgestellt – 600 PS bei nur 780 Kilogramm Fahrzeuggewicht. Das ergibt ein Leistungsgewicht von unter 1,3 Kilogramm pro PS und macht den P24 RS zu einem der extremsten Strassenfahrzeuge der Welt.</p><p>Der Leichtbau basiert auf Technologien aus der Formel 1: Ein Carbon-Monocoque, Titan-Verbindungselemente und eine Karosserie aus Kohlefaser-Verbundwerkstoff. Der 2,5-Liter-Fuenfzylinder-Turbo von Audi wurde auf 600 PS gesteigert und treibt die Hinterraeder ueber ein manuelles Sechsganggetriebe an – ein bewusstes Statement gegen die Automatisierung.</p><p>Auf der Rennstrecke soll der P24 RS Rundenzeiten auf Hypercar-Niveau erreichen. Donkervoort verspricht eine Beschleunigung von 0 auf 100 km/h in 2,3 Sekunden und eine Hoechstgeschwindigkeit von 290 km/h. Die Produktion ist auf 50 Stueck limitiert, der Preis beginnt bei 345.000 Euro ohne Steuern.</p>`,
     image: "https://cdn.motor1.com/images/mgl/mMgB1B/s4/donkervoort-p24-rs.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-01-26",
