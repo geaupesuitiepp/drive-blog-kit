@@ -520,16 +520,6 @@ export const articles: Article[] = [
     date: "2026-02-09",
   },
   {
-    id: "s55",
-    slug: "mazda-cx5-vw-tiguan-vergleich",
-    title: "Mazda CX-5 gegen VW Tiguan: Hybrid-SUVs im direkten Vergleich",
-    excerpt: "Japan gegen Deutschland – zwei grundverschiedene Ansätze im hart umkämpften Kompaktsegment.",
-    content: makeContent("CX-5 vs. Tiguan", "Japan gegen Deutschland – zwei grundverschiedene Ansätze im hart umkämpften Kompaktsegment."),
-    image: "https://cdn.motor1.com/images/mgl/2N2XAz/s4/mazda-cx-5-vs-volkswagen-tiguan.jpg",
-    category: "Auto & Fahrkultur",
-    date: "2026-02-09",
-  },
-  {
     id: "s56",
     slug: "mercedes-amg-c63-gestrichen",
     title: "Offiziell: Mercedes-AMG streicht den Vierzylinder-C 63 komplett",
