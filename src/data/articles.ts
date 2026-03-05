@@ -19,6 +19,18 @@ export const categories: Category[] = [
   "Allgemein",
 ];
 
+// Blacklist: these slugs should never be re-added when scraping
+export const blacklistedSlugs: string[] = [
+  "opel-corsa-gse-2026-erlkoenig",
+  "dacia-striker-kombi-2026",
+  "audi-rs5-vs-bmw-m3-vergleich",
+  "land-rover-baby-defender",
+  "bmw-geheime-modelle-2026-2027",
+  "kia-ev2-renault-4-vergleich",
+  "mazda-cx5-vw-tiguan-vergleich",
+  "audi-a2-reinkarnation",
+];
+
 function makeContent(title: string, excerpt: string): string {
   return `<h2>${title}</h2><p>${excerpt}</p>`;
 }
@@ -66,16 +78,6 @@ export const articles: Article[] = [
     date: "2026-03-05",
   },
   {
-    id: "s5",
-    slug: "dacia-striker-kombi-2026",
-    title: "Neuer Dacia Striker: Kombi-Offensive gegen Octavia und Co.",
-    excerpt: "Während die Konkurrenz fast ausschließlich auf SUVs setzt, erfreut Dacia die Kombi-Fans mit einem neuen Modell.",
-    content: makeContent("Dacia Striker Kombi", "Während die Konkurrenz fast ausschließlich auf SUVs setzt, erfreut Dacia die Kombi-Fans mit einem neuen Modell. Der Striker soll preislich attraktiv bleiben und gleichzeitig viel Platz bieten."),
-    image: "https://cdn.motor1.com/images/mgl/JONOA4/s4/dacia-striker-2026-rendering.jpg",
-    category: "Auto & Fahrkultur",
-    date: "2026-03-05",
-  },
-  {
     id: "s6",
     slug: "vw-id-polo-kia-ev2-vergleich",
     title: "VW ID. Polo gegen Kia EV2: Elektro-Kleinwagen im direkten Vergleich",
@@ -113,16 +115,6 @@ export const articles: Article[] = [
     content: makeContent("Volvo OTA-Update", "2,5 Millionen Volvos ab Baujahr 2020 erhalten die Bedienlogik des EX90 – damit wird auch der Weg für nachträgliche Bezahlfunktionen geebnet. Es handelt sich um das umfangreichste Software-Update in der Firmengeschichte."),
     image: "https://cdn.motor1.com/images/mgl/g4O0KN/s4/volvo-infotainment-update-2026.jpg",
     category: "Technik & Gadgets",
-    date: "2026-03-03",
-  },
-  {
-    id: "s10",
-    slug: "opel-corsa-gse-2026-erlkoenig",
-    title: "Opel Corsa GSE (2026): Der Elektro-Hot-Hatch zeigt sich fast ungetarnt",
-    excerpt: "Aktuelle Bilder zeigen den Corsa GSE mit verbreiterten Kotflügeln und Tourenwagen-Optik. Rund 280 PS werden erwartet.",
-    content: makeContent("Opel Corsa GSE 2026", "Aktuelle Bilder zeigen den Corsa GSE mit verbreiterten Kotflügeln und Tourenwagen-Optik. Rund 280 PS werden erwartet. Der elektrische Hot Hatch könnte noch dieses Jahr auf den Markt kommen."),
-    image: "https://cdn.motor1.com/images/mgl/koKYxB/s4/opel-corsa-gse-2026-erlkonig.jpg",
-    category: "Auto & Fahrkultur",
     date: "2026-03-03",
   },
   {
@@ -166,16 +158,6 @@ export const articles: Article[] = [
     date: "2026-03-03",
   },
   {
-    id: "s15",
-    slug: "land-rover-baby-defender",
-    title: "Land Rovers kleiner Defender ist weit fortgeschritten und offroad sehr fähig",
-    excerpt: "Land Rover treibt die Entwicklung des Baby-Defenders weiter voran. Neue Details klingen vielversprechend.",
-    content: makeContent("Land Rover Baby-Defender", "Land Rover treibt die Entwicklung des Baby-Defenders weiter voran. Neue Details klingen vielversprechend. Das kompakte Modell soll echte Geländefähigkeiten mitbringen."),
-    image: "https://cdn.motor1.com/images/mgl/eolPZE/s4/land-rover-defender-80-il-render-di-motor1.com.jpg",
-    category: "Auto & Fahrkultur",
-    date: "2026-03-02",
-  },
-  {
     id: "s16",
     slug: "skoda-superb-iv-2026-limousine",
     title: "Skoda Superb iV (2026): Mehr Leistung für den Plug-in-Hybrid",
@@ -192,16 +174,6 @@ export const articles: Article[] = [
     excerpt: "Das M Performance Track Kit verwischt die Grenze zwischen dem straßentauglichen M2 und seinem Motorsport-Pendant.",
     content: makeContent("BMW M2 Track-Kit", "Das M Performance Track Kit verwischt die Grenze zwischen dem straßentauglichen M2 und seinem Motorsport-Pendant. Aerodynamik und Kühlung werden deutlich verbessert."),
     image: "https://cdn.motor1.com/images/mgl/E6N183/s4/bmw-m-performance-track-kit-fur-bmw-m2-und-m-performance-abgasanlage-fur-bmw-m2-cs.jpg",
-    category: "Auto & Fahrkultur",
-    date: "2026-03-02",
-  },
-  {
-    id: "s18",
-    slug: "audi-rs5-vs-bmw-m3-vergleich",
-    title: "Audi RS 5 Avant gegen BMW M3 Touring: Das Performance-Kombi-Duell",
-    excerpt: "Möglicherweise das Duell des Jahres: Der PHEV-Audi bringt 109 PS mehr als der M3 mit, wiegt aber auch deutlich mehr.",
-    content: makeContent("RS 5 vs. M3 Touring", "Möglicherweise das Duell des Jahres: Der PHEV-Audi bringt 109 PS mehr als der M3 mit, wiegt aber auch deutlich mehr. Wir vergleichen die beiden Premium-Kombis."),
-    image: "https://cdn.motor1.com/images/mgl/2N28Jn/s4/audi-rs-5-vs-bmw-m3.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-03-02",
   },
@@ -223,16 +195,6 @@ export const articles: Article[] = [
     content: makeContent("Peugeot Neuer Basismotor", "Der neue TURBO 100 setzt auf Steuerkette und eine effizientere Verbrennung als sein Vorgänger. Beide Modelle profitieren von dem modernisierten Antrieb."),
     image: "https://cdn.motor1.com/images/mgl/mMg7mB/s4/peugeot-208-2026-in-agueda-gelb.jpg",
     category: "Auto & Fahrkultur",
-    date: "2026-02-27",
-  },
-  {
-    id: "s21",
-    slug: "bmw-geheime-modelle-2026-2027",
-    title: "BMW verrät versehentlich die Namen sämtlicher Modelle für 2026/2027",
-    excerpt: "Fans dürfen sich unter anderem auf einen M2 xDrive und einen M350 freuen – die Liste wurde unbeabsichtigt veröffentlicht.",
-    content: makeContent("BMW Modelle Leak", "Fans dürfen sich unter anderem auf einen M2 xDrive und einen M350 freuen – die Liste wurde unbeabsichtigt veröffentlicht. Das Leak gibt einen umfassenden Einblick in die Zukunftsplanung."),
-    image: "https://cdn.motor1.com/images/mgl/404jVo/s4/future-cars-2026-2030-bmw-3-series-neue-klasse.jpg",
-    category: "Allgemein",
     date: "2026-02-27",
   },
   {
@@ -354,16 +316,6 @@ export const articles: Article[] = [
     content: makeContent("Alfa Romeo Quadrifoglio", "Deutschland als stärkster Markt darf sich zudem auf eine exklusive Überraschung freuen. Beide Modelle sind ab sofort wieder konfigurierbar."),
     image: "https://cdn.motor1.com/images/mgl/eozQ1W/s4/alfa-romeo-giulia-stelvio-quadrifoglio-2026-ruckkehr.jpg",
     category: "Auto & Fahrkultur",
-    date: "2026-02-23",
-  },
-  {
-    id: "s34",
-    slug: "kia-ev2-renault-4-vergleich",
-    title: "Kia EV2 gegen Renault 4: Kompakte Elektroautos im Vergleich",
-    excerpt: "Wo liegen die Gemeinsamkeiten und Unterschiede zwischen dem koreanischen und dem französischen Ansatz?",
-    content: makeContent("Kia EV2 vs. Renault 4", "Wo liegen die Gemeinsamkeiten und Unterschiede zwischen dem koreanischen und dem französischen Ansatz? Ein detaillierter Vergleich der beiden Stadtstromer."),
-    image: "https://cdn.motor1.com/images/mgl/XBX49e/s4/kia-ev2-vs-renault-4-e-tech-electric.jpg",
-    category: "Technik & Gadgets",
     date: "2026-02-23",
   },
   {
@@ -568,16 +520,6 @@ export const articles: Article[] = [
     date: "2026-02-09",
   },
   {
-    id: "s55",
-    slug: "mazda-cx5-vw-tiguan-vergleich",
-    title: "Mazda CX-5 gegen VW Tiguan: Hybrid-SUVs im direkten Vergleich",
-    excerpt: "Japan gegen Deutschland – zwei grundverschiedene Ansätze im hart umkämpften Kompaktsegment.",
-    content: makeContent("CX-5 vs. Tiguan", "Japan gegen Deutschland – zwei grundverschiedene Ansätze im hart umkämpften Kompaktsegment."),
-    image: "https://cdn.motor1.com/images/mgl/2N2XAz/s4/mazda-cx-5-vs-volkswagen-tiguan.jpg",
-    category: "Auto & Fahrkultur",
-    date: "2026-02-09",
-  },
-  {
     id: "s56",
     slug: "mercedes-amg-c63-gestrichen",
     title: "Offiziell: Mercedes-AMG streicht den Vierzylinder-C 63 komplett",
@@ -645,16 +587,6 @@ export const articles: Article[] = [
     excerpt: "Das erste Vorserienexemplar des Elektro-3er mit iX3-Technik wurde in München gebaut.",
     content: makeContent("BMW i3 Produktion", "Das erste Vorserienexemplar des Elektro-3er mit iX3-Technik wurde in München gebaut."),
     image: "https://cdn.motor1.com/images/mgl/6ZeM3r/s4/bmw-i3-vorserienfahrzeug-im-bmw-group-werk-munchen.jpg",
-    category: "Auto & Fahrkultur",
-    date: "2026-02-04",
-  },
-  {
-    id: "s63",
-    slug: "audi-a2-reinkarnation",
-    title: "Reinkarnation des Audi A2: Die Pläne werden jetzt sehr konkret",
-    excerpt: "Eine unerwartete, aber kluge Positionierung für den Nachfolger von A1 und Q2.",
-    content: makeContent("Audi A2", "Eine unerwartete, aber kluge Positionierung für den Nachfolger von A1 und Q2."),
-    image: "https://cdn.motor1.com/images/mgl/QebLR8/s4/audi-a2-e-tron-2026-il-render-di-motor1.com.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-04",
   },
