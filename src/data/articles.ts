@@ -1260,7 +1260,7 @@ export const articles: Article[] = [
     slug: "honda-s2000-bulletproof-10000rpm",
     title: "Dieser Honda S2000 dreht bis zu 10.000 U/min",
     excerpt: "Der Coupé-Umbau von Bulletproof Automotive leistet über 580 PS – ein Hochdrehzahl-Monster.",
-    content: makeContent("Honda S2000 Bulletproof", "Der Coupé-Umbau von Bulletproof Automotive leistet über 580 PS – ein Hochdrehzahl-Monster."),
+    content: `<p>Bulletproof Automotive hat den legendaeren Honda S2000 zum BP25 umgebaut – einem Coupe mit ueber 580 PS und einer Drehzahlgrenze von 10.000 Umdrehungen pro Minute. Der F20C-Motor wurde komplett ueberarbeitet und zeigt, was in Hondas Hochdrehzahl-Ikone steckt.</p><h2>10.000 Touren Wahnsinn</h2><p>Der 2,0-Liter-Vierzylindermotor erhielt geschmiedete Kolben, Titan-Pleuel und eine schaerfere Nockenwelle. Ein Kompressor-Umbau liefert den nötigen Ladedruck fuer 580 PS. Das Coupe-Dach wurde aus Carbon gefertigt und spart Gewicht, waehrend es die Steifigkeit erhöht.</p><p>Das Fahrwerk stammt von Ohlins, die Bremsen von Brembo, und ein sequenzielles Getriebe ersetzt die Serieneinheit. Der BP25 ist eine Hommage an den S2000 in seiner reinsten Form – ein Hochdrehzahl-Monster, das suechtig macht.</p>`,
     image: "https://cdn.motor1.com/images/mgl/wlWLjL/s4/honda-s2000-bp25-by-bulletproof-automotive.jpg",
     category: "Tuning",
     date: "2025-11-07",
