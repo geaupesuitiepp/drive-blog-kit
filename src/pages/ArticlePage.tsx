@@ -35,10 +35,20 @@ const ArticlePage = () => {
       <Helmet>
         <title>{article.title} | AutoJournal</title>
         <meta name="description" content={article.excerpt} />
+        <meta name="keywords" content={`${article.category}, ${article.title.split(/\s+/).slice(0, 5).join(", ")}, AutoJournal, Auto, Gebrauchtwagen`} />
+        <link rel="canonical" href={`https://autojournal.de/artikel/${article.slug}`} />
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.excerpt} />
         <meta property="og:image" content={article.image} />
         <meta property="og:type" content="article" />
+        <meta property="og:url" content={`https://autojournal.de/artikel/${article.slug}`} />
+        <meta property="og:site_name" content="AutoJournal" />
+        <meta property="og:locale" content="de_DE" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={article.title} />
+        <meta name="twitter:description" content={article.excerpt} />
+        <meta name="twitter:image" content={article.image} />
+        <meta name="robots" content="index, follow" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -47,8 +57,10 @@ const ArticlePage = () => {
             description: article.excerpt,
             image: article.image,
             datePublished: article.date,
-            author: { "@type": "Organization", name: "AutoJournal" },
-            publisher: { "@type": "Organization", name: "AutoJournal" },
+            url: `https://autojournal.de/artikel/${article.slug}`,
+            author: { "@type": "Organization", name: "AutoJournal", url: "https://autojournal.de" },
+            publisher: { "@type": "Organization", name: "AutoJournal", url: "https://autojournal.de" },
+            mainEntityOfPage: { "@type": "WebPage", "@id": `https://autojournal.de/artikel/${article.slug}` },
           })}
         </script>
         {article.slug === "nordic-cars-erfahrung" && (
@@ -69,6 +81,19 @@ const ArticlePage = () => {
                 addressCountry: "DE",
               },
               description: "Gebrauchtwagenhändler in Hamburg mit geprüften Fahrzeugen, 21-Tage-Geld-zurück-Garantie und deutschlandweiter Lieferung.",
+              priceRange: "$$",
+            })}
+          </script>
+        )}
+        {article.slug === "autohero-erfahrung" && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: "Autohero",
+              url: "https://www.autohero.com/de/",
+              description: "Online-Gebrauchtwagenhändler mit deutschlandweiter Lieferung, 21-Tage-Garantie und Finanzierungsmöglichkeiten.",
+              priceRange: "$$",
             })}
           </script>
         )}

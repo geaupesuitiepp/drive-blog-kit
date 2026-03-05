@@ -32,8 +32,11 @@ const CategoryPage = () => {
   return (
     <>
       <Helmet>
-        <title>{decodedName} | AutoJournal</title>
-        <meta name="description" content={`Alle Artikel in der Kategorie ${decodedName} auf AutoJournal.`} />
+        <title>{decodedName} – Alle Artikel | AutoJournal</title>
+        <meta name="description" content={`Alle Artikel in der Kategorie ${decodedName} auf AutoJournal – Autos, Technik, Lifestyle und mehr.`} />
+        <meta name="keywords" content={`${decodedName}, AutoJournal, Auto Blog, Gebrauchtwagen`} />
+        <link rel="canonical" href={`https://autojournal.de/kategorie/${encodeURIComponent(decodedName)}`} />
+        <meta name="robots" content="index, follow" />
       </Helmet>
 
       <div className="container max-w-7xl py-6">
