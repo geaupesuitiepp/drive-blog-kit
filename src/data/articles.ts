@@ -1109,7 +1109,7 @@ export const articles: Article[] = [
     slug: "mitsubishi-delica-mini-pajero-1982",
     title: "Mitsubishi zeigt Kei-Car im Look des ersten Pajero von 1982",
     excerpt: "Auf dem Tokyo Auto Salon sind noch mehr ungewöhnliche Umbauten zu bestaunen.",
-    content: makeContent("Mitsubishi Delica Mini Pajero", "Auf dem Tokyo Auto Salon sind noch mehr ungewöhnliche Umbauten zu bestaunen."),
+    content: `<p>Mitsubishi hat auf dem Tokyo Auto Salon 2026 ein aussergewoehnliches Showcar praesentiert: einen Delica Mini, der in Zusammenarbeit mit DAMD den Look des ersten Pajero von 1982 erhaelt. Das Ergebnis ist ein Kei-Car voller Nostalgie.</p><h2>Retro-Charm im Kleinformat</h2><p>Der Umbau umfasst eine komplett neue Frontpartie, die die eckigen Formen des Original-Pajero zitiert. Runde Scheinwerfer, ein kastenfoermiger Kuehlergrill und Schutzbuegel verleihen dem winzigen Delica Mini einen ueberraschend authentischen Offroad-Look. Auf dem Dach thront ein Dachgepaecktraeger mit LED-Zusatzscheinwerfern.</p><p>Der Antrieb bleibt serienmässig: Ein 660-ccm-Turbomotor mit Allradantrieb sorgt fuer den Vortrieb. Trotz der geringen Abmessungen vermittelt der Pajero-Mini ein erstaunliches Mass an Abenteuer-Feeling.</p>`,
     image: "https://cdn.motor1.com/images/mgl/6ZeqgN/s4/mitsubishi-delica-mini-x-dali-mit-damd.jpg",
     category: "Tuning",
     date: "2026-01-07",
