@@ -11,6 +11,7 @@ import ArticlePage from "./pages/ArticlePage";
 import CategoryPage from "./pages/CategoryPage";
 import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
+import DatenschutzPage from "./pages/DatenschutzPage";
 
 const queryClient = new QueryClient();
 
