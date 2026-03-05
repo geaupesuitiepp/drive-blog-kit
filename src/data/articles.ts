@@ -1,4 +1,4 @@
-export type Category = "Auto & Fahrkultur" | "Technik & Gadgets" | "Style & Lifestyle" | "Tuning" | "Allgemein";
+export type Category = "Auto & Fahrkultur" | "Technik & Gadgets" | "Style & Lifestyle" | "Tuning" | "Allgemein" | "Händler";
 
 export interface Article {
   id: string;
