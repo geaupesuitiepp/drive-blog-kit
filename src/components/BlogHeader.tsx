@@ -12,11 +12,11 @@ const BlogHeader = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   return (
-    <header className="sticky top-0 z-50 bg-background">
-      {/* Top row */}
-      <div className="border-b border-border">
+    <header className="sticky top-0 z-50">
+      {/* Top row - dark */}
+      <div className="bg-[hsl(220,20%,10%)] border-b border-[hsl(220,14%,22%)]">
         <div className="container max-w-7xl flex items-center justify-between px-4 py-3">
-          <Link to="/" className="text-2xl font-black text-foreground tracking-tight">
+          <Link to="/" className="text-2xl font-black tracking-tight text-[hsl(0,0%,92%)]">
             <span className="text-primary italic">Auto</span>Journal
           </Link>
 
@@ -26,7 +26,7 @@ const BlogHeader = () => {
               <Link
                 key={cat}
                 to={`/kategorie/${encodeURIComponent(cat)}`}
-                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+                className="text-sm font-medium text-[hsl(0,0%,65%)] transition-colors hover:text-primary"
               >
                 {cat}
               </Link>
