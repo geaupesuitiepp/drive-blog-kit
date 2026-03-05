@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
-import { categories } from "@/data/articles";
+import { Link, useNavigate } from "react-router-dom";
+import { categories, articles } from "@/data/articles";
 import { Menu, X, Search } from "lucide-react";
 import logo from "@/assets/logo.png";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
 const mainCategories = categories.slice(0, 5);
 const subCategories = categories.slice(5);
