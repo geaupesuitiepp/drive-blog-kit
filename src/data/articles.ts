@@ -715,7 +715,7 @@ export const articles: Article[] = [
     slug: "bertone-runabout-retro-sportwagen",
     title: "Bertones neuer Retro-Sportwagen hat V6 und Klappscheinwerfer",
     excerpt: "Der moderne Runabout basiert auf einem Lotus-Chassis und wird von einem Toyota-V6 angetrieben.",
-    content: makeContent("Bertone Runabout", "Der moderne Runabout basiert auf einem Lotus-Chassis und wird von einem Toyota-V6 angetrieben."),
+    content: `<p>Die italienische Designschmiede Bertone kehrt mit einem spektakulaeren Retro-Sportwagen zurueck. Der neue Runabout basiert auf einem Lotus-Emira-Chassis und wird von einem 3,5-Liter-Toyota-V6 mit 400 PS angetrieben. Das auffaelligste Feature: echte Klappscheinwerfer, die in der heutigen Automobilwelt praktisch ausgestorben sind.</p><p>Das Design ist eine moderne Interpretation des originalen Bertone Runabout von 1969 – mit keilfoermiger Silhouette, kurzen Ueberhaengen und einem offenen Heck ohne Dach. Die Karosserie besteht aus Carbonfaser und Aluminium. Das Leergewicht soll unter 1.300 Kilogramm liegen.</p><p>Der Innenraum ist bewusst spartanisch gehalten: Zwei Schalensitze, ein kleines Digitalinstrument und ein Lenkrad im Vintage-Stil. Bertone plant eine Kleinserie von 33 Fahrzeugen zu einem Preis von rund 300.000 Euro. Die ersten Auslieferungen sind fuer 2027 geplant.</p>`,
     image: "https://cdn.motor1.com/images/mgl/L3MO1N/s4/2026-bertone-runabout-production-version.jpg",
     category: "Style & Lifestyle",
     date: "2026-01-26",
