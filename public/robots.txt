@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://autojournal.de/sitemap.xml
+Sitemap: https://motorblick.com/sitemap.xml

@@ -3,7 +3,7 @@ import type { Plugin } from "vite";
 import fs from "fs";
 import path from "path";
 
-const BASE_URL = "https://autojournal.de";
+const BASE_URL = "https://motorblick.com";
 
 export function sitemapPlugin(): Plugin {
   return {
