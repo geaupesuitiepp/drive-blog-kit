@@ -28,11 +28,11 @@ const BlogFooter = () => {
             </ul>
           </div>
           <div>
-            <h4 className="mb-3 text-sm font-semibold text-foreground">Rechtliches</h4>
+            <h4 className="mb-3 text-sm font-semibold text-foreground">Links</h4>
             <ul className="space-y-1">
               <li>
-                <Link to="/impressum" className="text-sm text-muted-foreground transition-colors hover:text-primary">
-                  Impressum
+                <Link to="/kontakt" className="text-sm text-muted-foreground transition-colors hover:text-primary">
+                  Kontakt
                 </Link>
               </li>
               <li>

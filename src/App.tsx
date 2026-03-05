@@ -10,6 +10,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import Index from "./pages/Index";
 import ArticlePage from "./pages/ArticlePage";
 import CategoryPage from "./pages/CategoryPage";
+import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ const App = () => (
                 <Route path="/" element={<Index />} />
                 <Route path="/artikel/:slug" element={<ArticlePage />} />
                 <Route path="/kategorie/:name" element={<CategoryPage />} />
+                <Route path="/kontakt" element={<ContactPage />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </main>
