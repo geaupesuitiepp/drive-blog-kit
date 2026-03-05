@@ -1,11 +1,12 @@
 import { useParams, Link } from "react-router-dom";
 import { getArticlesByCategory, categories, type Category } from "@/data/articles";
 import ArticleCard from "@/components/ArticleCard";
+import Sidebar from "@/components/Sidebar";
 import PaginationControls from "@/components/PaginationControls";
 import { usePagination } from "@/hooks/use-pagination";
 import { Helmet } from "react-helmet-async";
 
-const ARTICLES_PER_PAGE = 6;
+const ARTICLES_PER_PAGE = 10;
 
 const CategoryPage = () => {
   const { name } = useParams<{ name: string }>();
@@ -25,6 +26,9 @@ const CategoryPage = () => {
     );
   }
 
+  const featured = categoryArticles[0];
+  const rest = categoryArticles.slice(1);
+
   return (
     <>
       <Helmet>
@@ -32,24 +36,53 @@ const CategoryPage = () => {
         <meta name="description" content={`Alle Artikel in der Kategorie ${decodedName} auf DerAutoBlog.`} />
       </Helmet>
 
-      <section className="container mx-auto px-4 py-8">
-        <Link to="/" className="mb-4 inline-block text-sm text-muted-foreground hover:text-primary">
-          ← Zurück
-        </Link>
-        <h1 className="mb-6 text-3xl font-bold text-foreground">{decodedName}</h1>
-        {categoryArticles.length === 0 ? (
-          <p className="text-muted-foreground">Keine Artikel in dieser Kategorie.</p>
-        ) : (
-          <>
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {paginatedItems.map((article) => (
-                <ArticleCard key={article.id} article={article} featured />
-              ))}
-            </div>
-            <PaginationControls currentPage={currentPage} totalPages={totalPages} onPageChange={setPage} />
-          </>
-        )}
-      </section>
+      <div className="container max-w-7xl py-6">
+        <div className="flex flex-col lg:flex-row gap-8">
+          <div className="flex-1 min-w-0">
+            {/* Breadcrumb */}
+            <nav className="flex items-center gap-2 text-xs text-muted-foreground mb-4">
+              <Link to="/" className="hover:text-primary transition-colors">Startseite</Link>
+              <span>›</span>
+              <span className="text-foreground">{decodedName}</span>
+            </nav>
+
+            <h1 className="text-2xl font-black text-foreground mb-6 uppercase tracking-wide">
+              {decodedName}
+            </h1>
+
+            {categoryArticles.length === 0 ? (
+              <p className="text-muted-foreground">Keine Artikel in dieser Kategorie.</p>
+            ) : (
+              <>
+                {featured && (
+                  <div className="mb-6">
+                    <ArticleCard article={featured} featured />
+                  </div>
+                )}
+                <div className="grid gap-4">
+                  {(totalPages > 1 ? paginatedItems : rest).map((article, i) => (
+                    <div
+                      key={article.id}
+                      className="animate-fade-in"
+                      style={{ animationDelay: `${i * 60}ms` }}
+                    >
+                      <ArticleCard article={article} />
+                    </div>
+                  ))}
+                </div>
+                <p className="text-center text-xs text-muted-foreground mt-3">
+                  Seite {currentPage} von {totalPages} · {categoryArticles.length} Artikel
+                </p>
+                <PaginationControls currentPage={currentPage} totalPages={totalPages} onPageChange={setPage} />
+              </>
+            )}
+          </div>
+
+          <div className="w-full lg:w-72 xl:w-80 flex-shrink-0">
+            <Sidebar />
+          </div>
+        </div>
+      </div>
     </>
   );
 };
