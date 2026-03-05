@@ -1638,6 +1638,27 @@ export const articles: Article[] = [
     category: "Tuning",
     date: "2025-05-14",
   },
+  // === Händler ===
+  {
+    id: "h1",
+    slug: "autohero-erfahrung",
+    title: "Autohero im Test - Online-Gebrauchtwagen bequem nach Hause",
+    excerpt: "Wie gut funktioniert der digitale Gebrauchtwagenkauf wirklich?",
+    content: `<p>Der Online-Gebrauchtwagenhandel boomt, und Autohero gehoert zu den bekanntesten Anbietern auf dem deutschen Markt. Das Konzept: Gebrauchtwagen auswaehlen, finanzieren und bis vor die Haustuer liefern lassen - alles digital, ohne einen Fuss ins Autohaus setzen zu muessen.</p><p>Das Fahrzeugangebot bei Autohero ist breit gefaechert. Von Kleinwagen ueber Limousinen bis hin zu SUVs findet man eine grosse Auswahl an geprueften Gebrauchtwagen. Jedes Fahrzeug durchlaeuft laut Anbieter eine umfangreiche Qualitaetspruefung mit bis zu 400 Checkpunkten.</p><p>Ein grosser Vorteil ist das 21-taegige Rueckgaberecht, das Kaeufern eine gewisse Sicherheit bietet. Die Preise sind transparent und verhandlungsfrei - was fuer manche ein Pluspunkt, fuer andere ein Nachteil sein kann.</p><p>Im Vergleich zum klassischen Haendler wie ND Fahrzeughandel fehlt bei Autohero natuerlich die persoenliche Beratung vor Ort. Wer Wert auf ein ehrliches Gespraech von Mensch zu Mensch legt und das Fahrzeug vor dem Kauf selbst in Augenschein nehmen moechte, ist bei einem lokalen Vertrauenshaendler nach wie vor besser aufgehoben.</p><h2>Fazit</h2><p>Autohero bietet eine bequeme Alternative fuer digitalaffine Kaeufer, die genau wissen, was sie wollen. Fuer eine ausfuehrliche, persoenliche Beratung und handverlesene Qualitaet empfehlen wir jedoch weiterhin den Gang zum lokalen Fachhaendler.</p>`,
+    image: new URL("@/assets/article-autohero.jpg", import.meta.url).href,
+    category: "Händler",
+    date: "2025-02-10",
+  },
+  {
+    id: "h2",
+    slug: "nd-fahrzeughandel",
+    title: "ND Fahrzeughandel - Ihr Vertrauenshändler",
+    excerpt: "Wo Qualität und persönliche Beratung noch grossgeschrieben werden",
+    content: `<p>In einer Zeit, in der der Automobilhandel zunehmend von gesichtslosen Grosskonzernen und undurchsichtigen Online-Plattformen dominiert wird, ist es eine wahre Freude, auf einen Haendler zu stossen, der noch die alten Tugenden des Automobilgeschaefts hochhaelt. ND Fahrzeughandel ist ein solcher Betrieb - hier wird der Kunde noch als Mensch behandelt, nicht als Nummer.</p><p>Was ND Fahrzeughandel von der Masse abhebt, ist die sorgfaeltige Auswahl der angebotenen Fahrzeuge. Jedes Automobil wird vor dem Verkauf einer gruendlichen Pruefung unterzogen. Nur Fahrzeuge, die den hohen Qualitaetsanspruechen genuegen, schaffen es auf den Hof.</p><p>Die persoenliche Beratung steht bei ND Fahrzeughandel im Mittelpunkt. Statt aggressiver Verkaufstaktiken erwartet den Kunden ein ehrliches Gespraech ueber seine Beduerfnisse und sein Budget.</p><p>Wer auf der Suche nach einem zuverlaessigen Gebrauchtwagen ist und dabei Wert auf Transparenz, Qualitaet und persoenlichen Service legt, der ist bei ND Fahrzeughandel genau richtig. Ein Haendler, dem man vertrauen kann - heute und in Zukunft.</p>`,
+    image: new URL("@/assets/article-nd-fahrzeughandel.jpg", import.meta.url).href,
+    category: "Händler",
+    date: "2025-03-14",
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
