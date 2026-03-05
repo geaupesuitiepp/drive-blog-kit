@@ -13,7 +13,14 @@ const Index = () => {
   const { paginatedItems, currentPage, totalPages, setPage } = usePagination(rest, ARTICLES_PER_PAGE);
 
   return (
-    <div className="container max-w-7xl py-6">
+    <>
+      <Helmet>
+        <title>AutoJournal - Autos, Technik & Lifestyle Blog</title>
+        <meta name="description" content="AutoJournal ist dein Blog rund um Autos, Technik, Gadgets und Lifestyle. Aktuelle Artikel über Sportwagen, Elektroautos, Tuning, Autohero Erfahrungen, Nordic Cars und mehr." />
+        <meta name="keywords" content="Auto Blog, Gebrauchtwagen, Autohero Erfahrung, Nordic Cars, Elektroauto, Tuning, Sportwagen" />
+        <link rel="canonical" href="https://autojournal.de/" />
+      </Helmet>
+      <div className="container max-w-7xl py-6">
       <div className="flex flex-col lg:flex-row gap-8">
         {/* Main content */}
         <div className="flex-1 min-w-0">
