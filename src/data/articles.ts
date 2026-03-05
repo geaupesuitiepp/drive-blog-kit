@@ -918,7 +918,7 @@ export const articles: Article[] = [
     slug: "mansory-carbonado-x-revuelto",
     title: "Mansory Carbonado X: Wüster Lamborghini für die Wüste",
     excerpt: "Das Unikat ist ein Atelier-Fahrzeug für den Mansory-Showroom in Dubai – basierend auf dem Revuelto.",
-    content: makeContent("Mansory Carbonado X", "Das Unikat ist ein Atelier-Fahrzeug für den Mansory-Showroom in Dubai – basierend auf dem Revuelto."),
+    content: `<p>Mansory hat mit dem Carbonado X ein Einzelstueck geschaffen, das selbst in Dubai fuer Aufsehen sorgt. Basierend auf dem Lamborghini Revuelto, kombiniert das Atelier-Fahrzeug extreme Aerodynamik mit den typischen Mansory-Designelementen aus Sichtcarbon.</p><h2>Wueste trifft Wahnsinn</h2><p>Das komplette Bodykit besteht aus Carbon und umfasst einen neuen Frontspoiler, verbreiterte Kotfluegel, Seitenschweller und einen massiven Heckdiffusor mit integriertem Fluegel. Die Leistung des V12-Hybridantriebs wurde auf ueber 1.100 PS gesteigert. Geschmiedete 21-Zoll-Raeder vorne und 22-Zoll-Raeder hinten in einem exklusiven Design runden den Auftritt ab.</p><p>Der Carbonado X ist als Showcar fuer den Mansory-Showroom in Dubai konzipiert und traegt eine spezielle Lackierung in Wuestentoenen. Ein Stueck Tuning-Wahnsinn, das die Grenzen des Machbaren neu auslotet.</p>`,
     image: "https://cdn.motor1.com/images/mgl/bgG0Ov/s4/mansory-carbonado-x-basiernd-auf-lamborghini-revuelto.jpg",
     category: "Tuning",
     date: "2026-02-17",
