@@ -796,7 +796,7 @@ export const articles: Article[] = [
     slug: "auto-neuheiten-2026-uebersicht",
     title: "Auto-Neuheiten 2026: Sämtliche kommenden Modelle in der Übersicht",
     excerpt: "Vom VW ID. Polo über den neuen Jaguar bis hin zu zahlreichen weiteren Neuvorstellungen – was uns 2026 erwartet.",
-    content: makeContent("Auto-Neuheiten 2026", "Vom VW ID. Polo über den neuen Jaguar bis hin zu zahlreichen weiteren Neuvorstellungen – was uns 2026 erwartet."),
+    content: `<p>Das Jahr 2026 wird eines der spannendsten Autojahre ueberhaupt. Von bezahlbaren Elektro-Kleinwagen bis hin zu exklusiven Supersportwagen ist alles dabei. Wir geben einen umfassenden Ueberblick ueber alle kommenden Modelle.</p><h2>Elektro-Kleinwagen</h2><p>Im Segment der bezahlbaren Stromer starten der VW ID. Polo, der Skoda Epiq und der Kia EV2 – alle fuer rund 25.000 Euro. Citroën lockt mit dem e-C3 sogar mit Preisen unter 20.000 Euro. Der Renault 5 Electric komplettiert das Angebot.</p><h2>Luxus und Performance</h2><p>Jaguar startet mit dem Luxury GT komplett neu, Ferrari bringt den elektrischen Luce, und Porsche praesentiert den vollelektrischen Cayenne. Bei den Performance-Modellen sorgen der Audi RS 5 mit 639 PS und der BMW M3 als Elektroversion fuer Schlagzeilen.</p><p>Auch im SUV-Segment gibt es zahlreiche Neuheiten: Der Volvo EX60, der Mercedes Little G und der Mazda CX-6e setzen auf rein elektrische Antriebe. BMW startet mit dem i3 auf Basis der Neuen Klasse. Ein aufregenderes Autojahr hat es selten gegeben.</p>`,
     image: "https://cdn.motor1.com/images/mgl/bgGyXr/s4/auto-neuheiten-2026.jpg",
     category: "Allgemein",
     date: "2026-01-16",
