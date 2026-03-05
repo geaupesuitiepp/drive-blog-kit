@@ -1421,7 +1421,7 @@ export const articles: Article[] = [
     slug: "bmw-m2-alphan-tracktool",
     title: "BMW M2 von Alpha-N: Ein echtes Tracktool",
     excerpt: "Viel Abtrieb, viel Carbon und getunte Hardware machen den M2 fit für die Rennstrecke.",
-    content: makeContent("Alpha-N BMW M2", "Viel Abtrieb, viel Carbon und getunte Hardware machen den M2 fit für die Rennstrecke."),
+    content: `<p>Alpha-N Performance hat den BMW M2 zum kompromisslosen Tracktool umgebaut. Viel Abtrieb, viel Carbon und getunte Hardware machen den kompakten Bayern fit fuer die Rennstrecke.</p><h2>Rennstrecke statt Strasse</h2><p>Ein grosser Heckfluegel, ein Carbon-Frontsplitter und ein ueberarbeiteter Diffusor sorgen fuer massiven Abtrieb. Der S58-Motor wurde auf ueber 550 PS gesteigert. Rennbremsen, ein Kaefig und Schalensitze komplettieren den Umbau. Das Ergebnis ist ein M2, der auf der Nordschleife so manchem GT3 davonfaehrt.</p>`,
     image: "https://cdn.motor1.com/images/mgl/nAqGvl/s4/alpha-n-bmw-m2-2025.jpg",
     category: "Tuning",
     date: "2025-08-20",
