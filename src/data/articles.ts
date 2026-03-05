@@ -1099,7 +1099,7 @@ export const articles: Article[] = [
     slug: "toyota-gr86-ae86-umbaukit",
     title: "Toyota GR86 mutiert zum kultigen AE86",
     excerpt: "Klappscheinwerfer und die markante Lackierung machen ihn zum absoluten Hingucker.",
-    content: makeContent("Toyota GR86 AE86 Kit", "Klappscheinwerfer und die markante Lackierung machen ihn zum absoluten Hingucker."),
+    content: `<p>Result Japan hat auf dem Tokyo Auto Salon ein Umbaukit vorgestellt, das den aktuellen Toyota GR86 in einen modernen AE86 verwandelt. Klappscheinwerfer, die typische Panda-Lackierung und Retro-Details machen die Verwandlung perfekt.</p><h2>Kultfaktor 10</h2><p>Das Kit umfasst eine komplett neue Frontpartie mit funktionierenden Klappscheinwerfern, die an den legendaeren AE86 Trueno erinnern. Die Seitenpartie wird durch spezielle Aufkleber und Chromleisten im 80er-Jahre-Stil ergaenzt. Am Heck sorgt ein Spoiler im Original-Design fuer den authentischen Look.</p><p>Mechanisch bleibt der GR86 unangetastet – der 2,4-Liter-Boxermotor mit 235 PS treibt weiterhin die Hinterraeder an. Doch rein optisch ist der Neo86 von Result Japan die perfekte Hommage an einen der beliebtesten Autos der japanischen Automobilgeschichte.</p>`,
     image: "https://cdn.motor1.com/images/mgl/OoMgje/s4/toyota-neo86-by-result-japan.jpg",
     category: "Tuning",
     date: "2026-01-08",
