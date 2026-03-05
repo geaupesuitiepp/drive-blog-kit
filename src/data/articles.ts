@@ -1199,7 +1199,7 @@ export const articles: Article[] = [
     slug: "essen-motor-show-2025",
     title: "Essen Motor Show 2025: Festival der heißen Karren",
     excerpt: "Tuning, Motorsport und heiße Beats – die Essen Motor Show bleibt das Mekka der Autofans.",
-    content: makeContent("Essen Motor Show 2025", "Tuning, Motorsport und heiße Beats – die Essen Motor Show bleibt das Mekka der Autofans."),
+    content: `<p>Die Essen Motor Show 2025 hat einmal mehr gezeigt, warum sie als Europas wichtigste Tuning-Messe gilt. Ueber 300 Aussteller praesentieren ihre neuesten Kreationen – von dezenten Fahrwerks-Upgrades bis hin zu 1.000-PS-Monstern.</p><h2>Highlights der Messe</h2><p>Zu den Hoehepunkten gehoerten ein von Manhart getunter BMW M5 mit ueber 900 PS, ein Brabus Rocket GTC mit 1.000 PS und ein wunderschoener Porsche 964 Restomod von Theon Design. Auch die Motorsport-Arena zog mit Driftshows und Rennwagen-Demonstrationen tausende Besucher an.</p><p>Die Tuning-Szene in Deutschland lebt – das hat die Essen Motor Show 2025 eindrucksvoll bewiesen. Die naechste Ausgabe findet im Dezember 2026 statt und verspricht bereits jetzt, die diesjaehrige Veranstaltung zu uebertreffen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/P3MbRG/s4/essen-motor-show-2025.jpg",
     category: "Tuning",
     date: "2025-12-04",
