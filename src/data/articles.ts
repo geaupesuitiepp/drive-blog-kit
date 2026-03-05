@@ -1411,7 +1411,7 @@ export const articles: Article[] = [
     slug: "porsche-911-ford-mustang-umbau",
     title: "Dieser Ford Mustang ist eigentlich ein Porsche 911",
     excerpt: "Irre: Eine Mustang-Karosse auf einem Porsche 997-Chassis – so hanebüchen wie es klingt.",
-    content: makeContent("Ford Mustang Porsche 911", "Irre: Eine Mustang-Karosse auf einem Porsche 997-Chassis – so hanebüchen wie es klingt."),
+    content: `<p>Dieses Projekt ist so verrueckt wie es klingt: Eine Ford-Mustang-Karosserie wurde auf das Chassis eines Porsche 997 montiert. Das Ergebnis faehrt sich wie ein 911, sieht aber aus wie ein Pony Car.</p><h2>Zwei Welten prallen aufeinander</h2><p>Der Boxermotor des 997 treibt weiterhin die Hinterraeder an, waehrend die Mustang-Karosserie fuer einen voellig anderen Look sorgt. Die Anpassungen am Radstand und den Aufhaengungspunkten waren enorm aufwendig. Doch das Ergebnis ueberzeugt: Der Mustang-911 vereint amerikanisches Muscle-Car-Design mit deutscher Ingenieurskunst.</p>`,
     image: "https://cdn.motor1.com/images/mgl/L3M3Bj/s4/ford-mustang-karosserie-auf-porsche-911-chassis.jpg",
     category: "Tuning",
     date: "2025-09-01",
