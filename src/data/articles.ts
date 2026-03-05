@@ -1461,7 +1461,7 @@ export const articles: Article[] = [
     slug: "brabus-1000-amg-gt63",
     title: "Brabus 1000: Mercedes-AMG GT 63 S E Performance in extrakrass",
     excerpt: "Der Name ist bei diesem Auto Programm – 1.000 PS und maximaler Auftritt.",
-    content: makeContent("Brabus 1000 AMG GT", "Der Name ist bei diesem Auto Programm – 1.000 PS und maximaler Auftritt."),
+    content: `<p>Der Brabus 1000 basiert auf dem Mercedes-AMG GT 63 S E Performance und bringt es auf exakt 1.000 PS Systemleistung. Der 4,0-Liter-V8 plus E-Motor werden zum ultimativen Kraftpaket.</p><h2>Programm ist Programm</h2><p>Carbon-Widebody, 24-Zoll-Felgen und eine Titan-Abgasanlage definieren den Auftritt. Im Innenraum trifft feinstes Leder auf Carbon und Alcantara. Die Beschleunigung auf 100 km/h erfolgt in unter 2,8 Sekunden. Auf 10 Stueck weltweit limitiert.</p>`,
     image: "https://cdn.motor1.com/images/mgl/7Z3k4q/s4/brabus-1000-2025-auf-basis-mercedes-amg-gt-63-s-e-performance.jpg",
     category: "Tuning",
     date: "2025-07-29",
