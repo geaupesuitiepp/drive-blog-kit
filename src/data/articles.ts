@@ -1632,7 +1632,7 @@ export const articles: Article[] = [
     slug: "brabus-xlp-800-adventure-2025",
     title: "Brabus XLP 800 Adventure (2025): 800-PS-Pick-up schlägt zurück",
     excerpt: "Aus einem Mercedes-AMG G 63 wird in Bottrop ein Abenteurer-Supercar.",
-    content: makeContent("Brabus XLP 800", "Aus einem Mercedes-AMG G 63 wird in Bottrop ein Abenteurer-Supercar."),
+    content: `<p>Brabus praesentiert den XLP 800 Adventure als neueste Interpretation des G-Klasse-Pick-ups. Aus dem Mercedes-AMG G 63 wird in Bottrop ein 800-PS-Abenteurer mit verlängertem Radstand und Ladeflaeche.</p><h2>800 PS fuer jedes Abenteuer</h2><p>Der 4,0-Liter-V8-Biturbo leistet 800 PS. Die Ladeflaeche bietet Platz fuer Offroad-Ausruestung, waehrend Portalachsen die Bodenfreiheit erhoehen. Im Innenraum erwartet die Insassen gewohnter Brabus-Luxus. Limitiert auf 20 Exemplare, beginnt der Preis bei ueber 700.000 Euro.</p>`,
     image: "https://cdn.motor1.com/images/mgl/P3AN4X/s4/brabus-xlp-800-adventure-pick-up-2025-auf-basis-mercedes-g-63-amg.jpg",
     category: "Tuning",
     date: "2025-05-14",
