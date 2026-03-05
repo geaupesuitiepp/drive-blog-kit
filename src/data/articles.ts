@@ -178,16 +178,6 @@ export const articles: Article[] = [
     date: "2026-03-02",
   },
   {
-    id: "s18",
-    slug: "audi-rs5-vs-bmw-m3-vergleich",
-    title: "Audi RS 5 Avant gegen BMW M3 Touring: Das Performance-Kombi-Duell",
-    excerpt: "Möglicherweise das Duell des Jahres: Der PHEV-Audi bringt 109 PS mehr als der M3 mit, wiegt aber auch deutlich mehr.",
-    content: makeContent("RS 5 vs. M3 Touring", "Möglicherweise das Duell des Jahres: Der PHEV-Audi bringt 109 PS mehr als der M3 mit, wiegt aber auch deutlich mehr. Wir vergleichen die beiden Premium-Kombis."),
-    image: "https://cdn.motor1.com/images/mgl/2N28Jn/s4/audi-rs-5-vs-bmw-m3.jpg",
-    category: "Auto & Fahrkultur",
-    date: "2026-03-02",
-  },
-  {
     id: "s19",
     slug: "renault-technik-upgrades-2026",
     title: "Technik-Updates für Renault Austral, Espace und Rafale",
