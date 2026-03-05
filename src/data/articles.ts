@@ -838,7 +838,7 @@ export const articles: Article[] = [
     slug: "porsche-911-gt3-manthey-kit",
     title: "Porsche 911 GT3 von Manthey: Wenn sauschnell nicht reicht",
     excerpt: "Für knapp 50.000 Euro macht Manthey den neuen Porsche 911 GT3 (992.2) noch schneller und noch brutaler.",
-    content: makeContent("Porsche 911 GT3 Manthey", "Für knapp 50.000 Euro macht Manthey den neuen Porsche 911 GT3 (992.2) noch schneller und noch brutaler. Das Kit umfasst Aerodynamik-Optimierungen und Fahrwerksanpassungen."),
+    content: `<p>Manthey Racing ist seit Jahren der Geheimtipp fuer alle, die das Maximale aus ihrem Porsche herausholen wollen. Fuer den neuen 911 GT3 der Generation 992.2 bietet die Firma aus Meuspath am Nuerburgring nun ein umfassendes Performance-Kit an, das den ohnehin schon brutalen Sportwagen auf ein neues Level hebt.</p><h2>Aerodynamik und Fahrwerk</h2><p>Das Manthey-Kit umfasst optimierte Aerodynamik-Komponenten, die den Abtrieb an Vorder- und Hinterachse deutlich erhoehen. Neue Flics an der Front, ein ueberarbeiteter Diffusor und ein justierter Heckfluegel sorgen dafuer, dass der GT3 in schnellen Kurven noch stabiler liegt. Dazu kommen speziell abgestimmte Federn und Daempfer, die das Handling auf der Rennstrecke verfeinern, ohne den Alltagskomfort komplett zu opfern.</p><p>Preislich liegt das komplette Kit bei knapp 50.000 Euro – eine Summe, die angesichts der gebotenen Leistungssteigerung im Porsche-Universum fast schon als Schnaeppchen durchgeht. Wer seinen GT3 regelmaessig auf Trackdays bewegt, bekommt hier ein Paket, das den Unterschied zwischen schnell und sauschnell ausmacht.</p>`,
     image: "https://cdn.motor1.com/images/mgl/7ZEZo1/s4/manthey-kit-fur-den-porsche-911-gt3-992.2.jpg",
     category: "Tuning",
     date: "2026-03-05",
