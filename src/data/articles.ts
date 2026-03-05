@@ -233,7 +233,7 @@ export const articles: Article[] = [
     slug: "mitsubishi-outlander-leasing",
     title: "Mitsubishi Outlander PHEV ab 249 Euro netto im Gewerbeleasing",
     excerpt: "Ein neues Gewerbeleasingangebot macht das Plug-in-Hybrid-SUV von Mitsubishi besonders attraktiv – ohne Anzahlung.",
-    content: makeContent("Mitsubishi Outlander Leasing", "Ein neues Gewerbeleasingangebot macht das Plug-in-Hybrid-SUV von Mitsubishi besonders attraktiv – ohne Anzahlung."),
+    content: `<p>Der Mitsubishi Outlander PHEV ist aktuell zu einem besonders attraktiven Gewerbeleasingpreis erhaeltlich. Ab 249 Euro netto pro Monat und ohne Anzahlung koennen Gewerbetreibende das Plug-in-Hybrid-SUV fahren. Das Angebot gilt bei einer Laufzeit von 48 Monaten und 10.000 Kilometern pro Jahr.</p><p>Der Outlander PHEV kombiniert einen 2,4-Liter-Benziner mit zwei Elektromotoren und verfuegt ueber eine Systemleistung von 302 PS. Die rein elektrische Reichweite betraegt bis zu 87 Kilometer, was fuer die meisten taeglichen Pendelstrecken ausreicht. Der Allradantrieb ist serienmässig.</p><p>Zur Ausstattung gehoeren unter anderem ein 12,3-Zoll-Infotainmentsystem, adaptiver Tempomat, 360-Grad-Kamera und beheizbare Ledersitze. Das Leasingangebot macht den Outlander PHEV zu einem der guenstigsten Plug-in-Hybride im Gewerbesegment.</p>`,
     image: "https://cdn.motor1.com/images/mgl/3WmzXL/s4/mitsubishi-outlander-phev.jpg",
     category: "Allgemein",
     date: "2026-02-25",
