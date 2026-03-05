@@ -1552,7 +1552,7 @@ export const articles: Article[] = [
     slug: "ac-schnitzer-bmw-x3-g45",
     title: "AC Schnitzer modifiziert den BMW X3 (G45) technisch und optisch",
     excerpt: "Für den X3 M50 ist bereits eine Leistungssteigerung in Arbeit.",
-    content: makeContent("AC Schnitzer BMW X3", "Für den X3 M50 ist bereits eine Leistungssteigerung in Arbeit."),
+    content: `<p>AC Schnitzer hat den neuen BMW X3 (G45) technisch und optisch aufgewertet. Fuer den X3 M50 ist bereits eine Leistungssteigerung in Arbeit, die den Sechszylinder auf ueber 420 PS bringen soll.</p><h2>Erste Tuning-Teile verfuegbar</h2><p>Aktuell erhaeltlich sind Sportfedern, 21-Zoll-Raeder und Carbon-Anbauteile fuer Front und Heck. Eine Sportabgasanlage mit vier Endrohren rundet das optische Paket ab. Die Leistungssteigerung fuer den M50 soll in Kuerze folgen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/ojGA82/s4/ac-schnitzer-bmw-x3-2025.jpg",
     category: "Tuning",
     date: "2025-06-27",
