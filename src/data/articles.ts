@@ -243,7 +243,7 @@ export const articles: Article[] = [
     slug: "gwm-haval-jolion-pro-2026",
     title: "GWM Haval Jolion Pro (2026): Volle Ausstattung zum Dacia-Preis",
     excerpt: "Der Chinese startet mit 177 PS und Automatik zu einem Preis von deutlich unter 25.000 Euro.",
-    content: makeContent("Haval Jolion Pro", "Der Chinese startet mit 177 PS und Automatik zu einem Preis von deutlich unter 25.000 Euro. Das Preis-Leistungs-Verhältnis sucht in dieser Klasse seinesgleichen."),
+    content: `<p>Der chinesische Hersteller GWM bringt den Haval Jolion Pro zum Kampfpreis auf den deutschen Markt. Mit 177 PS aus einem 1,5-Liter-Turbobenziner und serienmässiger Siebengang-Doppelkupplungsautomatik unterbietet er die europaeische Konkurrenz deutlich – der Startpreis liegt bei nur 23.990 Euro.</p><p>Fuer diesen Preis bietet der Jolion Pro eine Ausstattung, die bei vielen Wettbewerbern tausende Euro Aufpreis kostet: LED-Scheinwerfer, 18-Zoll-Alufelgen, Rueckfahrkamera, kabelloses Smartphone-Laden, ein 12,3-Zoll-Touchscreen und Sitzheizung vorne sind serienmässig an Bord.</p><p>Das Platzangebot ist fuer die Klasse grosszuegig: Der Kofferraum fasst 500 Liter, die Rueckbank laesst sich umklappen und erweitert das Ladevolumen auf 1.350 Liter. In Sachen Verarbeitung und Materialqualitaet hat GWM gegenueber der Vorgaengergeneration deutlich zugelegt. Der Jolion Pro kommt mit fuenf Jahren Garantie.</p>`,
     image: "https://cdn.motor1.com/images/mgl/OoMkXY/s4/gwm-haval-jolion-pro-2026-mit-deutschem-kennzeichen.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-25",
