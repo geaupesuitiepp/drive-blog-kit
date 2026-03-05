@@ -12,7 +12,7 @@ const BlogFooter = () => {
               <img src={logo} alt="Motorblick" className="h-7 brightness-0 invert" />
             </Link>
             <p className="text-sm text-[hsl(0,0%,55%)]">
-              Motorblick ist dein Blog rund um Autos, Technik, Lifestyle und alles was dazugehört. Wir berichten über Neuerscheinungen, testen Gebrauchtwagenhändler wie Autohero und Nordic Cars und liefern dir Hintergrundwissen zu Elektroautos, Tuning und moderner Fahrzeugtechnik.
+              Motorblick ist dein Blog rund um Autos, Technik, Lifestyle und alles was dazugehört. Wir berichten über Neuerscheinungen, vergleichen Gebrauchtwagenhändler und liefern dir Hintergrundwissen zu Elektroautos, Tuning und moderner Fahrzeugtechnik.
             </p>
           </div>
           <div>
