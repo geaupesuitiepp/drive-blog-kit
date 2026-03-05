@@ -454,7 +454,7 @@ export const articles: Article[] = [
     slug: "usa-ende-start-stopp",
     title: "Die USA und das mögliche Ende der Start-Stopp-Systeme",
     excerpt: "Die Technologie wird zwar nicht verboten, verliert aber den regulatorischen Anreiz in den Vereinigten Staaten.",
-    content: makeContent("Start-Stopp USA", "Die Technologie wird zwar nicht verboten, verliert aber den regulatorischen Anreiz in den Vereinigten Staaten."),
+    content: `<p>In den USA koennten Start-Stopp-Systeme bald der Vergangenheit angehoeren. Die Technologie, die den Motor an Ampeln und im Stau automatisch abschaltet, verliert unter der aktuellen Regierung ihren regulatorischen Anreiz. Die EPA hat angekuendigt, die Effizienzvorteile von Start-Stopp kuenftig nicht mehr in die Flottenverbrauchsberechnung einzubeziehen.</p><p>Die Folge: Hersteller haben weniger Motivation, die oft als laestig empfundene Technologie in ihre Fahrzeuge einzubauen. Mehrere US-Autobauer sollen bereits pruefen, ob sie Start-Stopp aus ihren Modellen streichen. Kunden beschweren sich seit Jahren ueber ruckelige Neustarts und verzoegerte Reaktionen beim Anfahren.</p><p>In Europa bleibt Start-Stopp dagegen weiterhin relevant, da die strengen CO2-Grenzwerte den Herstellern kaum Spielraum lassen. Die unterschiedlichen Regulierungen koennten dazu fuehren, dass Hersteller kuenftig verschiedene Motorvarianten fuer den US- und den europaeischen Markt anbieten.</p>`,
     image: "https://cdn.motor1.com/images/mgl/7Z2xKP/s4/start-stop-fine-incentivi-negli-usa.jpg",
     category: "Allgemein",
     date: "2026-02-13",
