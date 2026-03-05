@@ -695,7 +695,7 @@ export const articles: Article[] = [
     slug: "mercedes-amg-cle-black-series",
     title: "Mercedes-AMG schockt mit brachialem CLE Black Series",
     excerpt: "Das zweite Mythos-Modell ist ein extrem breiter CLE mit XL-Wing – aber was genau verbirgt sich dahinter?",
-    content: makeContent("Mercedes CLE Black Series", "Das zweite Mythos-Modell ist ein extrem breiter CLE mit XL-Wing – aber was genau verbirgt sich dahinter?"),
+    content: `<p>Mercedes-AMG hat mit dem CLE Black Series das zweite Modell der exklusiven Mythos-Serie enthuellt. Der extrem breitgebaute CLE traegt einen riesigen Heckfluegel und wirkt wie ein GT3-Rennwagen mit Strassenzulassung.</p><p>Die Verbreiterungen an den Kotfluegeln betragen an jeder Seite stolze 8 Zentimeter. Zusammen mit dem massiven Frontsplitter, den seitlichen Flics und dem Diffusor entsteht ein Abtrieb von geschaetzten 300 Kilogramm bei Hoechstgeschwindigkeit. Unter der breiten Haube arbeitet voraussichtlich der bekannte 4,0-Liter-V8-Biturbo mit deutlich ueber 700 PS.</p><p>Als Mythos-Modell wird der CLE Black Series streng limitiert produziert. Details zur Stueckzahl und zum Preis hat Mercedes noch nicht veroeffentlicht, doch Branchenkenner rechnen mit maximal 500 Exemplaren zu einem Preis von ueber 300.000 Euro. Die Auslieferungen sollen Ende 2026 beginnen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/404gBo/s4/mercedes-cle-black-series-2026-teaser.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-01-27",
