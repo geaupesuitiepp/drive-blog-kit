@@ -575,7 +575,7 @@ export const articles: Article[] = [
     slug: "lynk-co-08-reichweiten-weltrekord",
     title: "Lynk & Co 08 stellt neuen Reichweiten-Weltrekord für Plug-in-Hybride auf",
     excerpt: "Den rein elektrisch erzielten Wert würde auch manch reines Elektroauto gerne erreichen.",
-    content: makeContent("Lynk & Co 08 Weltrekord", "Den rein elektrisch erzielten Wert würde auch manch reines Elektroauto gerne erreichen."),
+    content: `<p>Der Lynk &amp; Co 08 hat einen neuen Guinness-Weltrekord fuer die groesste rein elektrische Reichweite eines Plug-in-Hybrids aufgestellt. Bei einer offiziell ueberwachten Testfahrt legte das SUV 365 Kilometer ausschliesslich mit Batteriestrom zurueck – ein Wert, den viele reine Elektroautos neidisch machen duerfte.</p><p>Der Rekord wurde unter standardisierten Bedingungen erzielt: Stadtverkehr, Landstrasse und Autobahn im Mix, Klimaanlage eingeschaltet, zwei Personen an Bord. Die grosse 40-kWh-Batterie des 08 macht diesen Wert moeglich. Im Normzyklus gibt Lynk &amp; Co eine elektrische Reichweite von 245 Kilometern an.</p><p>Der Gesamtantrieb kombiniert einen 1,5-Liter-Turbobenziner mit einem Elektromotor fuer eine Systemleistung von 390 PS. Die Gesamtreichweite inklusive Verbrenner liegt bei ueber 1.200 Kilometern. Der Lynk &amp; Co 08 ist in Europa seit Ende 2025 erhaeltlich und startet bei 49.900 Euro.</p>`,
     image: "https://cdn.motor1.com/images/mgl/AknMYP/s4/lynk-co-08-2026-guinness-weltrekord.jpg",
     category: "Technik & Gadgets",
     date: "2026-02-04",
