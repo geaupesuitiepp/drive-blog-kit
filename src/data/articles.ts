@@ -182,7 +182,7 @@ export const articles: Article[] = [
     slug: "renault-technik-upgrades-2026",
     title: "Technik-Updates für Renault Austral, Espace und Rafale",
     excerpt: "Schnelleres kabelloses Smartphone-Laden, ein KI-Sprachassistent und Fahrererkennung kommen per Update.",
-    content: makeContent("Renault Technik-Upgrades", "Schnelleres kabelloses Smartphone-Laden, ein KI-Sprachassistent und Fahrererkennung kommen per Update. Die Modelle Austral, Espace und Rafale profitieren davon."),
+    content: `<p>Renault rollt fuer die Modelle Austral, Espace und Rafale ein umfangreiches Technik-Update aus. Im Mittelpunkt stehen ein neuer KI-Sprachassistent, schnelleres kabelloses Laden und eine Fahrererkennung, die das Fahrzeug automatisch an den jeweiligen Nutzer anpasst.</p><p>Der neue Sprachassistent basiert auf einem grossen Sprachmodell und versteht natuerliche Sprache deutlich besser als sein Vorgaenger. Komplexe Anfragen wie "Finde ein italienisches Restaurant in der Naehe mit Parkmoeglichkeit" sollen zuverlaessig verarbeitet werden. Das kabellose Smartphone-Laden erfolgt kuenftig mit bis zu 50 Watt, was die Ladezeit gegenueber dem bisherigen System halbiert.</p><p>Die Fahrererkennung nutzt den Schluessel oder das gekoppelte Smartphone, um Sitzposition, Spiegeleinstellung, Klimatisierung und Infotainment-Praeferenzen automatisch anzupassen. Bis zu fuenf Profile koennen gespeichert werden. Das Update wird per Over-the-Air ausgerollt und ist fuer bestehende Fahrzeuge kostenlos.</p>`,
     image: "https://cdn.motor1.com/images/mgl/eoKMEK/s4/renault-rafale-e-tech-300-4x4-2024-im-test.jpg",
     category: "Technik & Gadgets",
     date: "2026-02-27",
