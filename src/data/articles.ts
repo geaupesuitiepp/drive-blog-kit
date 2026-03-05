@@ -1230,7 +1230,7 @@ export const articles: Article[] = [
     slug: "brabus-g-klasse-cabrio-portalachsen",
     title: "Brabus macht die G-Klasse zum Cabrio mit Portalachsen",
     excerpt: "Brabus 800 Cabrio und 800 XL Cabrio zeigen, was passiert, wenn die Bottroper komplett eskalieren.",
-    content: makeContent("Brabus G-Klasse Cabrio", "Brabus 800 Cabrio und 800 XL Cabrio zeigen, was passiert, wenn die Bottroper komplett eskalieren."),
+    content: `<p>Brabus hat die G-Klasse zum Cabrio umgebaut – und das gleich in zwei Varianten. Der 800 Cabrio und der 800 XL Cabrio mit Portalachsen zeigen, was passiert, wenn die Bottroper komplett eskalieren.</p><h2>Oben ohne mit 800 PS</h2><p>Beide Versionen basieren auf dem Mercedes-AMG G 63 und leisten dank Brabus-Tuning 800 PS. Das Dach wurde professionell entfernt und durch ein Faltverdeck ersetzt. Massive Ueberrollbuegel sorgen fuer Sicherheit. Die XL-Version erhaelt zusaetzlich Portalachsen, die die Bodenfreiheit um 15 Zentimeter erhoehen.</p><p>Im Innenraum bieten beide Modelle den gewohnten Brabus-Luxus mit feinstem Leder, individualisierten Farbkombinationen und dem typischen Brabus-Logo allgegenwaertig. Ein Statement-Fahrzeug fuer Kunden, die das Extreme suchen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/jlRjPN/s4/brabus-xl-800-cabrio-2026-auf-basis-mercedes-amg-g-63.jpg",
     category: "Tuning",
     date: "2025-11-24",
