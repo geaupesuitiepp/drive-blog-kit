@@ -928,7 +928,7 @@ export const articles: Article[] = [
     slug: "volvo-p1800-restomod",
     title: "Dieser Volvo P1800 Restomod ist einfach perfekt",
     excerpt: "Endlich mal etwas anderes als der tausendste alte Porsche 911 – ein wunderschöner P1800 ES.",
-    content: makeContent("Volvo P1800 Restomod", "Endlich mal etwas anderes als der tausendste alte Porsche 911 – ein wunderschöner P1800 ES."),
+    content: `<p>In einer Welt voller Porsche-911-Restomods ist der Volvo P1800 ES von Autoforma eine willkommene Abwechslung. Der schwedische Klassiker wurde von Grund auf restauriert und mit moderner Technik versehen, ohne seinen einzigartigen Charakter zu verlieren.</p><h2>Schwedische Eleganz neu interpretiert</h2><p>Der Shooting Brake behielt seine ikonische Silhouette, erhaelt aber ein komplett neues Fahrwerk mit einstellbaren Daempfern, Scheibenbremsen rundum und eine elektrische Servolenkung. Unter der Haube arbeitet ein moderner Volvo-Turbomotor mit rund 300 PS, gekoppelt an ein Sechsgang-Schaltgetriebe.</p><p>Das Interieur wurde mit feinstem Leder und modernen Instrumenten aufgewertet, waehrend die klassische Formgebung des Armaturenbretts erhalten blieb. Das Ergebnis ist ein Restomod, der zeigt, dass es nicht immer ein Elfer sein muss, um Automobilgeschichte stilvoll in die Neuzeit zu transportieren.</p>`,
     image: "https://cdn.motor1.com/images/mgl/nAgYY1/s4/volvo-p1800es-shooting-brake-restomod-by-autoforma.jpg",
     category: "Tuning",
     date: "2026-02-16",
