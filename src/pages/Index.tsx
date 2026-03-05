@@ -1,54 +1,54 @@
-import { Link } from "react-router-dom";
-import { articles, categories } from "@/data/articles";
+import { articles } from "@/data/articles";
 import ArticleCard from "@/components/ArticleCard";
+import Sidebar from "@/components/Sidebar";
 import PaginationControls from "@/components/PaginationControls";
 import { usePagination } from "@/hooks/use-pagination";
 
-const ARTICLES_PER_PAGE = 6;
+const ARTICLES_PER_PAGE = 10;
 
 const Index = () => {
-  const featured = articles.slice(0, 2);
-  const rest = articles.slice(2);
+  const featured = articles[0];
+  const rest = articles.slice(1);
   const { paginatedItems, currentPage, totalPages, setPage } = usePagination(rest, ARTICLES_PER_PAGE);
 
   return (
-    <>
-      {/* Hero / Featured */}
-      <section className="container mx-auto px-4 py-8">
-        <div className="grid gap-6 md:grid-cols-2">
-          {featured.map((article) => (
-            <ArticleCard key={article.id} article={article} featured />
-          ))}
-        </div>
-      </section>
+    <div className="container max-w-7xl py-6">
+      <div className="flex flex-col lg:flex-row gap-8">
+        {/* Main content */}
+        <div className="flex-1 min-w-0">
+          {/* Hero article */}
+          {featured && (
+            <div className="mb-6">
+              <ArticleCard article={featured} featured />
+            </div>
+          )}
 
-      {/* Categories section */}
-      <section className="container mx-auto px-4 py-8">
-        <h2 className="mb-6 text-xl font-bold text-foreground">Kategorien</h2>
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
-          {categories.map((cat) => (
-            <Link
-              key={cat}
-              to={`/kategorie/${encodeURIComponent(cat)}`}
-              className="rounded-lg border border-border bg-card p-4 text-center text-sm font-medium text-foreground transition-colors hover:border-primary hover:text-primary"
-            >
-              {cat}
-            </Link>
-          ))}
-        </div>
-      </section>
+          {/* Article list */}
+          <div className="grid gap-4">
+            {paginatedItems.map((article, i) => (
+              <div
+                key={article.id}
+                className="animate-fade-in"
+                style={{ animationDelay: `${i * 60}ms` }}
+              >
+                <ArticleCard article={article} />
+              </div>
+            ))}
+          </div>
 
-      {/* Weitere Artikel */}
-      <section className="container mx-auto px-4 py-8">
-        <h2 className="mb-6 text-xl font-bold text-foreground">Weitere Artikel</h2>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {paginatedItems.map((article) => (
-            <ArticleCard key={article.id} article={article} featured />
-          ))}
+          {/* Pagination info */}
+          <p className="text-center text-xs text-muted-foreground mt-3">
+            Seite {currentPage} von {totalPages} · {articles.length} Artikel gesamt
+          </p>
+          <PaginationControls currentPage={currentPage} totalPages={totalPages} onPageChange={setPage} />
         </div>
-        <PaginationControls currentPage={currentPage} totalPages={totalPages} onPageChange={setPage} />
-      </section>
-    </>
+
+        {/* Sidebar */}
+        <div className="w-full lg:w-72 xl:w-80 flex-shrink-0">
+          <Sidebar />
+        </div>
+      </div>
+    </div>
   );
 };
 

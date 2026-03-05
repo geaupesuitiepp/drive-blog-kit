@@ -3,17 +3,19 @@ import { categories } from "@/data/articles";
 
 const BlogFooter = () => {
   return (
-    <footer className="border-t border-border bg-card py-10">
-      <div className="container mx-auto px-4">
+    <footer className="border-t border-border bg-secondary py-10">
+      <div className="container max-w-7xl px-4">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <h3 className="mb-3 text-lg font-bold text-primary">DerAutoBlog</h3>
+            <h3 className="mb-3 text-lg font-black text-foreground tracking-tight">
+              <span className="text-primary italic">Auto</span>Journal
+            </h3>
             <p className="text-sm text-muted-foreground">
               Dein Blog rund um Autos, Technik, Lifestyle und alles was dazugehört.
             </p>
           </div>
           <div>
-            <h4 className="mb-3 text-sm font-semibold text-foreground">Kategorien</h4>
+            <h4 className="mb-3 text-xs font-black uppercase tracking-widest text-foreground">Kategorien</h4>
             <ul className="space-y-1">
               {categories.map((cat) => (
                 <li key={cat}>
@@ -28,7 +30,7 @@ const BlogFooter = () => {
             </ul>
           </div>
           <div>
-            <h4 className="mb-3 text-sm font-semibold text-foreground">Links</h4>
+            <h4 className="mb-3 text-xs font-black uppercase tracking-widest text-foreground">Links</h4>
             <ul className="space-y-1">
               <li>
                 <Link to="/kontakt" className="text-sm text-muted-foreground transition-colors hover:text-primary">
