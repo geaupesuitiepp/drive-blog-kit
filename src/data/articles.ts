@@ -1512,7 +1512,7 @@ export const articles: Article[] = [
     slug: "kalmar-rs7-safari-911",
     title: "Kalmar RS-7: Der ultimative Safari-911?",
     excerpt: "Auf Basis des Porsche 997 entsteht ein knallhartes Offroad-Viech mit mehr Bodenfreiheit als im Cayenne.",
-    content: makeContent("Kalmar RS-7", "Auf Basis des Porsche 997 entsteht ein knallhartes Offroad-Viech mit mehr Bodenfreiheit als im Cayenne."),
+    content: `<p>Kalmar praesentiert den RS-7, einen Safari-tauglichen Porsche 911 auf Basis des 997. Mit mehr Bodenfreiheit als ein Cayenne und knallharter Offroad-Technik ist er der ultimative Gelaende-Elfer.</p><h2>Mehr Bodenfreiheit als ein Cayenne</h2><p>Das Fahrwerk wurde um ueber 100 Millimeter angehoben. Offroad-Reifen, Unterbodenschutz und zusaetzliche LED-Scheinwerfer machen den RS-7 fit fuer jedes Terrain. Der 3,6-Liter-Boxermotor leistet ueber 350 PS. Kalmar produziert den RS-7 in Kleinserie – jedes Exemplar wird individuell konfiguriert.</p>`,
     image: "https://cdn.motor1.com/images/mgl/MkVzJm/s4/kalmar-rs-7-auf-basis-porsche-911.jpg",
     category: "Tuning",
     date: "2025-07-15",
