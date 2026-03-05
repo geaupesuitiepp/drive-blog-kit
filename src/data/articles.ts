@@ -433,7 +433,7 @@ export const articles: Article[] = [
     slug: "byd-seal-6-touring-interieur",
     title: "BYD Seal 6 DM-i Touring (2026): Das Interieur im Detail",
     excerpt: "Der erste Kombi von BYD ist ein Plug-in-Hybrid und steckt voller moderner Technologie.",
-    content: makeContent("BYD Seal 6 Touring", "Der erste Kombi von BYD ist ein Plug-in-Hybrid und steckt voller moderner Technologie."),
+    content: `<p>BYD hat den ersten Kombi der Marke vorgestellt: den Seal 6 DM-i Touring. Der Plug-in-Hybrid richtet sich vor allem an den europaeischen Markt und bietet ein ueberraschend geraeumigens Interieur mit modernster Technologie.</p><p>Im Cockpit dominiert ein drehbarer 15,6-Zoll-Touchscreen, der sich per Knopfdruck vom Hoch- ins Querformat schwenken laesst. Dahinter sitzt ein 12,3-Zoll-Kombiinstrument. Die Materialien sind hochwertig: Nappaleder, Alcantara-Applikationen und Ambient-Beleuchtung mit 256 Farben schaffen eine gemuetliche Atmosphaere.</p><p>Der Kofferraum fasst 575 Liter und ist dank der niedrigen Ladekante besonders gut zugaenglich. Die Ruecksitzbank laesst sich dreifach geteilt umklappen und schafft dann bis zu 1.510 Liter Ladevolumen. Der Plug-in-Hybridantrieb kombiniert einen 1,5-Liter-Benziner mit einem Elektromotor fuer eine Systemleistung von 218 PS und eine rein elektrische Reichweite von 120 Kilometern.</p>`,
     image: "https://cdn.motor1.com/images/mgl/7Z2JNW/s4/byd-seal-6-dm-i-touring-interni-e-bagagliaio.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-17",
