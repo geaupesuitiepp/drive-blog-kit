@@ -591,16 +591,6 @@ export const articles: Article[] = [
     date: "2026-02-04",
   },
   {
-    id: "s63",
-    slug: "audi-a2-reinkarnation",
-    title: "Reinkarnation des Audi A2: Die Pläne werden jetzt sehr konkret",
-    excerpt: "Eine unerwartete, aber kluge Positionierung für den Nachfolger von A1 und Q2.",
-    content: makeContent("Audi A2", "Eine unerwartete, aber kluge Positionierung für den Nachfolger von A1 und Q2."),
-    image: "https://cdn.motor1.com/images/mgl/QebLR8/s4/audi-a2-e-tron-2026-il-render-di-motor1.com.jpg",
-    category: "Auto & Fahrkultur",
-    date: "2026-02-04",
-  },
-  {
     id: "s64",
     slug: "defender-trophy-2026",
     title: "Defender Trophy 2026: Land Rover belebt den legendären Camel-Klassiker wieder",
