@@ -15,7 +15,7 @@ const BlogFooter = () => {
             </p>
           </div>
           <div>
-            <h4 className="mb-3 text-xs font-black uppercase tracking-widest text-foreground">Kategorien</h4>
+            <h4 className="mb-3 text-xs font-black uppercase tracking-widest text-[hsl(0,0%,92%)]">Kategorien</h4>
             <ul className="space-y-1">
               {categories.map((cat) => (
                 <li key={cat}>
