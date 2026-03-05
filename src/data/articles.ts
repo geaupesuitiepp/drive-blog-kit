@@ -1189,7 +1189,7 @@ export const articles: Article[] = [
     slug: "rolls-royce-ghost-spofec-tuning",
     title: "Rolls-Royce Ghost Series II: Spofec spendiert über 700 PS",
     excerpt: "Auch ein neues Bodykit und 22-Zöller hat man für die Ultra-Luxus-Limousine in petto.",
-    content: makeContent("Spofec Rolls-Royce Ghost", "Auch ein neues Bodykit und 22-Zöller hat man für die Ultra-Luxus-Limousine in petto."),
+    content: `<p>Spofec, die Novitec-Tochter fuer Rolls-Royce, hat den Ghost Series II unter die Fittiche genommen. Das Ergebnis: ueber 700 PS, ein neues Bodykit und massive 22-Zoll-Raeder fuer die Ultra-Luxus-Limousine.</p><h2>Luxus trifft Leistung</h2><p>Der 6,75-Liter-V12 wurde auf ueber 700 PS gesteigert. Das neue Bodykit umfasst eine dezent schaerfere Frontschuerze, Seitenschweller und einen Heckdiffusor – alles in Carbon gefertigt. Die 22-Zoll-Schmiedefelgen im eigenen Design runden den sportlichen Auftritt ab, ohne den Rolls-Royce-typischen Komfort zu beeintraechtigen.</p><p>Im Innenraum hat Spofec nur minimale Aenderungen vorgenommen, da der Ghost Series II bereits ab Werk auf hoecstem Niveau ausgestattet ist. Ein dezentes Tuning fuer Kunden, die das Besondere im Besonderen suchen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/G3YOvZ/s4/spofec-rolls-royce-black-badge-ghost-series-ii.jpg",
     category: "Tuning",
     date: "2025-12-08",
