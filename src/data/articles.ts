@@ -1139,7 +1139,7 @@ export const articles: Article[] = [
     slug: "manhart-mhx6-500-bmw-x6",
     title: "Manhart MHX6 500: 480 PS aus dem BMW X6 Basismodell",
     excerpt: "Manhart optimiert den BMW X6 xDrive40i – statt M-Power gibt es 480 PS plus Carbon und Sportfelgen.",
-    content: makeContent("Manhart BMW X6", "Manhart optimiert den BMW X6 xDrive40i – statt M-Power gibt es 480 PS plus Carbon und Sportfelgen."),
+    content: `<p>Manhart Performance hat den BMW X6 xDrive40i ins Visier genommen und ihm als MHX6 500 ein umfassendes Upgrade spendiert. Statt auf das teure M-Modell zu setzen, holt Manhart aus dem Basismodell beeindruckende 480 PS heraus.</p><h2>M-Power aus dem Basis-X6</h2><p>Die Leistungssteigerung erfolgt ueber eine ECU-Optimierung und einen verbesserten Ladeluftkuehler. Dazu kommen eine Sportabgasanlage mit Carbon-Endrohren, die dem X6 einen deutlich praegnanten Sound verleiht. Optisch setzen Carbon-Elemente an Frontlippe, Spiegelkappen und Diffusor Akzente, waehrend 22-Zoll-Schmiedefelgen den sportlichen Auftritt komplettieren.</p><p>Ein Gewindefahrwerk mit Tieferlegung rundet das Paket ab. Der MHX6 500 zeigt, dass man nicht zwingend zum BMW X6 M greifen muss, um ernsthafte Performance zu bekommen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/Zn1e7y/s4/manhart-mhx6-500-2026-auf-basis-bmw-x6-xdrive40i.jpg",
     category: "Tuning",
     date: "2025-12-19",
