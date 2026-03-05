@@ -1351,7 +1351,7 @@ export const articles: Article[] = [
     slug: "bmw-m4-cabrio-gpower-700ps",
     title: "BMW M4 Cabrio von G-Power: 700 PS im Freiluft-Modus",
     excerpt: "Krasser Frischlüfter mit voller Straßenzulassung – open-top Performance.",
-    content: makeContent("G-Power M4 Cabrio", "Krasser Frischlüfter mit voller Straßenzulassung – open-top Performance."),
+    content: `<p>G-Power hat den BMW M4 Competition als Cabriolet unter die Fittiche genommen und als G4M Bi-TURBO auf 700 PS gesteigert. Open-Top-Performance der Extraklasse – mit voller Strassenzulassung.</p><h2>700 PS unter freiem Himmel</h2><p>Der S58-Reihensechszylinder wurde mittels groesserer Turbolader, optimierter Software und einer Sportabgasanlage auf 700 PS und 850 Nm gebracht. Ein Gewindefahrwerk und 20/21-Zoll-Schmiedefelgen sorgen fuer die noetige Bodenhaftung. Carbon-Elemente an Frontlippe, Spoiler und Diffusor sparen Gewicht.</p><p>Das Cabriolet-Dach bleibt serienmässig und laesst sich bei Geschwindigkeiten bis 50 km/h oeffnen und schliessen. Der G4M Bi-TURBO ist der Beweis, dass man fuer echte Performance kein Dach braucht – und in diesem Fall auch nicht will.</p>`,
     image: "https://cdn.motor1.com/images/mgl/xqPAgz/s4/g-power-g4m-bi-turbo-auf-basis-bmw-m4-cabriolet-2025.jpg",
     category: "Tuning",
     date: "2025-09-23",
