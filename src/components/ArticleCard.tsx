@@ -30,7 +30,7 @@ const ArticleCard = ({ article, featured = false }: ArticleCardProps) => {
               <span className="inline-block bg-primary text-primary-foreground px-2.5 py-0.5 text-[10px] font-bold rounded-sm mb-3 tracking-widest uppercase">
                 {article.category}
               </span>
-              <h2 className="text-xl md:text-3xl lg:text-4xl font-bold mb-2 leading-tight text-[hsl(0,0%,100%)]">
+              <h2 className="text-xl md:text-3xl lg:text-4xl font-bold mb-2 leading-tight" style={{ color: 'white' }}>
                 {article.title}
               </h2>
               <p className="text-sm mb-3 max-w-2xl leading-relaxed hidden md:block" style={{ color: 'rgba(255,255,255,0.65)' }}>
