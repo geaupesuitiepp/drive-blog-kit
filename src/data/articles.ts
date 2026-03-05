@@ -1159,7 +1159,7 @@ export const articles: Article[] = [
     slug: "mercedes-unimog-luxus-hellgeth",
     title: "Mercedes verpasst dem Unimog einen Luxus-Maßanzug",
     excerpt: "Leder-Fußmatten, 300 PS, Kameras statt Spiegel und eine ordentliche Prise Übergeschnapptheit.",
-    content: makeContent("Mercedes Unimog Luxus", "Leder-Fußmatten, 300 PS, Kameras statt Spiegel und eine ordentliche Prise Übergeschnapptheit."),
+    content: `<p>Mercedes-Benz Special Trucks hat in Zusammenarbeit mit Hellgeth Engineering einen Luxus-Unimog geschaffen, der alle bisherigen Vorstellungen sprengt. Leder-Fussmatten, Kameras statt Spiegel und 300 PS machen den Arbeitstier zum rollenden Wohnzimmer.</p><h2>Luxus trifft Nutzfahrzeug</h2><p>Das Interieur wurde komplett mit feinstem Leder und Alcantara ausgekleidet. Digitale Aussenspiegel-Kameras ersetzen die konventionellen Spiegel, und ein modernes Infotainmentsystem mit grossem Touchscreen haelt Einzug in die Kabine. Unter der Haube arbeitet ein auf 300 PS gesteigerter Reihensechszylinder-Diesel.</p><p>Von aussen erkennt man den Luxus-Unimog an speziellen Leichtmetallfelgen, einer exklusiven Lackierung und dezenten Chrome-Akzenten. Ein Fahrzeug, das zeigt, dass Luxus und Gelaendetauglichkeit sich nicht ausschliessen muessen – wenn man bereit ist, den entsprechenden Preis zu zahlen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/OoMmZl/s4/mercedes-benz-special-trucks-luxus-unimog-2026.jpg",
     category: "Tuning",
     date: "2025-12-16",
