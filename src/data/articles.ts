@@ -978,7 +978,7 @@ export const articles: Article[] = [
     slug: "mercedes-600-s63-chassis-swap",
     title: "Irre: Dieser Mercedes 600 fährt mit aktueller S-Klasse-Technik",
     excerpt: "Chassis-Swap extrem: Unter dem 1971er Blech steckt ein 2024er AMG S 63 – ein technisches Wunderwerk.",
-    content: makeContent("Mercedes 600 S63 Swap", "Chassis-Swap extrem: Unter dem 1971er Blech steckt ein 2024er AMG S 63 – ein technisches Wunderwerk."),
+    content: `<p>S-Klub LA hat das scheinbar Unmoegliche geschafft: Die Karosserie eines Mercedes 600 von 1971 wurde auf das komplette Chassis eines aktuellen Mercedes-AMG S 63 E Performance transplantiert. Das Ergebnis ist ein technisches Meisterwerk.</p><h2>Moderne Technik im Klassiker-Kleid</h2><p>Unter dem ikonischen Blech des W100 steckt die gesamte Technik des modernen S 63: der 4,0-Liter-V8-Biturbo mit E-Motor und insgesamt 802 PS, das adaptive Luftfahrwerk, die komplette Fahrerassistenz und das MBUX-Infotainmentsystem. Die Herausforderung bestand darin, die groessere Karosserie des 600 passgenau auf die Plattform des W223 zu bringen.</p><p>Das Ergebnis faehrt sich wie eine moderne S-Klasse, sieht aber aus wie ein rollendes Stueck Automobilgeschichte. Ein irrer Umbau, der Respekt vor beiden Welten zeigt und beweist, dass der ultimative Mercedes vielleicht genau so aussieht.</p>`,
     image: "https://cdn.motor1.com/images/mgl/y2903l/s4/mercedes-600-final-boss-von-s-klub-la.jpg",
     category: "Tuning",
     date: "2026-02-10",
