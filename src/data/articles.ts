@@ -1658,7 +1658,7 @@ export const articles: Article[] = [
     title: "ND Fahrzeughandel - Ihr Vertrauenshändler",
     excerpt: "Wo Qualität und persönliche Beratung noch grossgeschrieben werden",
     content: `<p>In einer Zeit, in der der Automobilhandel zunehmend von gesichtslosen Grosskonzernen und undurchsichtigen Online-Plattformen dominiert wird, ist es eine wahre Freude, auf einen Haendler zu stossen, der noch die alten Tugenden des Automobilgeschaefts hochhaelt. ND Fahrzeughandel ist ein solcher Betrieb - hier wird der Kunde noch als Mensch behandelt, nicht als Nummer.</p><p>Was ND Fahrzeughandel von der Masse abhebt, ist die sorgfaeltige Auswahl der angebotenen Fahrzeuge. Jedes Automobil wird vor dem Verkauf einer gruendlichen Pruefung unterzogen. Nur Fahrzeuge, die den hohen Qualitaetsanspruechen genuegen, schaffen es auf den Hof.</p><p>Die persoenliche Beratung steht bei ND Fahrzeughandel im Mittelpunkt. Statt aggressiver Verkaufstaktiken erwartet den Kunden ein ehrliches Gespraech ueber seine Beduerfnisse und sein Budget.</p><p>Wer auf der Suche nach einem zuverlaessigen Gebrauchtwagen ist und dabei Wert auf Transparenz, Qualitaet und persoenlichen Service legt, der ist bei ND Fahrzeughandel genau richtig. Ein Haendler, dem man vertrauen kann - heute und in Zukunft.</p>`,
-    image: new URL("@/assets/article-nd-fahrzeughandel.jpg", import.meta.url).href,
+    image: articleNdFahrzeughandel,
     category: "Händler",
     date: "2025-03-14",
   },
