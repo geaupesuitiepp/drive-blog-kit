@@ -1482,7 +1482,7 @@ export const articles: Article[] = [
     slug: "porsche-911-964-theon-restomod",
     title: "Irrer 964er Porsche 911: Nimmt es mit jedem GT3 RS auf",
     excerpt: "Theon Design macht aus dem alten 964 ein unfassbares Einzelstück – auch beim Preis.",
-    content: makeContent("Theon Design 964", "Theon Design macht aus dem alten 964 ein unfassbares Einzelstück – auch beim Preis."),
+    content: `<p>Theon Design macht aus dem Porsche 964 ein unfassbares Einzelstueck, das es mit jedem modernen GT3 RS aufnehmen kann. Jedes Detail wird von Hand gefertigt – und der Preis spiegelt das wider.</p><h2>Perfektion ohne Kompromisse</h2><p>Der 3,8-Liter-Boxermotor leistet ueber 400 PS. Carbon-Karosserieteile, ein Rennfahrwerk und eine handgefertigte Abgasanlage machen den 964 zum ultimativen Fahrerauto. Im Innenraum verbinden sich klassische Formen mit modernsten Materialien. Der Preis beginnt bei ueber 500.000 Euro.</p>`,
     image: "https://cdn.motor1.com/images/mgl/NGK0qn/s4/porsche-911-964-theo-design.jpg",
     category: "Tuning",
     date: "2025-07-25",
