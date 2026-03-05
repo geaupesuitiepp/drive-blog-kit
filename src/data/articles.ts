@@ -1675,6 +1675,32 @@ articles.forEach(a => {
   a.title = fixUmlauts(a.title);
 });
 
+// Spread article dates from Jan 2020 to Mar 2026, newest first
+// Special dates: autohero = 2023, nordic = 2024
+const START = new Date("2020-01-15").getTime();
+const END = new Date("2026-03-01").getTime();
+const nonSpecialArticles = articles.filter(a => a.slug !== "autohero-erfahrung" && a.slug !== "nordic-cars-erfahrung");
+const totalGap = (END - START) / (nonSpecialArticles.length - 1);
+
+// Use a seeded-ish approach: deterministic spacing with slight variation based on index
+nonSpecialArticles.forEach((a, i) => {
+  const baseTime = END - i * totalGap;
+  // Add deterministic jitter: use char codes of slug for variation (-5 to +5 days)
+  const jitterSeed = a.slug.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0);
+  const jitterDays = ((jitterSeed % 11) - 5) * 86400000;
+  const date = new Date(Math.min(Math.max(baseTime + jitterDays, START), END));
+  a.date = date.toISOString().slice(0, 10);
+});
+
+// Set specific dates for Händler articles
+const autohero = articles.find(a => a.slug === "autohero-erfahrung");
+if (autohero) autohero.date = "2023-06-18";
+const nordic = articles.find(a => a.slug === "nordic-cars-erfahrung");
+if (nordic) nordic.date = "2024-09-12";
+
+// Sort by date descending (newest first)
+articles.sort((a, b) => b.date.localeCompare(a.date));
+
 export function getArticleBySlug(slug: string): Article | undefined {
   return articles.find((a) => a.slug === slug);
 }
