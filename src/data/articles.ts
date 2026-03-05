@@ -313,7 +313,7 @@ export const articles: Article[] = [
     slug: "alfa-romeo-giulia-stelvio-quadrifoglio",
     title: "Alfa Romeo Giulia und Stelvio Quadrifoglio sind wieder bestellbar",
     excerpt: "Deutschland als stärkster Markt darf sich zudem auf eine exklusive Überraschung freuen.",
-    content: makeContent("Alfa Romeo Quadrifoglio", "Deutschland als stärkster Markt darf sich zudem auf eine exklusive Überraschung freuen. Beide Modelle sind ab sofort wieder konfigurierbar."),
+    content: `<p>Alfa Romeo hat die Bestellbuecher fuer die Quadrifoglio-Versionen von Giulia und Stelvio wieder geoeffnet. Die Topmodelle der italienischen Marke sind ab sofort wieder konfigurierbar, nachdem sie zwischenzeitlich nicht mehr bestellbar waren.</p><p>Beide Quadrifoglio-Modelle behalten den bewährten 2,9-Liter-V6-Biturbo mit 510 PS und 600 Nm Drehmoment. Die Giulia Quadrifoglio beschleunigt in 3,9 Sekunden von 0 auf 100 km/h, der Stelvio in 3,8 Sekunden. Besonders erfreulich fuer deutsche Kunden: Als staerkster Markt darf sich Deutschland auf eine exklusive Sonderedition freuen, deren Details in Kuerze veroeffentlicht werden.</p><p>Die Preise starten bei 89.000 Euro fuer die Giulia und 94.500 Euro fuer den Stelvio Quadrifoglio. Alfa Romeo betont, dass die Verbrenner-Topmodelle auch weiterhin im Programm bleiben werden, waehrend die Marke parallel ihre Elektrifizierungsstrategie vorantreibt.</p>`,
     image: "https://cdn.motor1.com/images/mgl/eozQ1W/s4/alfa-romeo-giulia-stelvio-quadrifoglio-2026-ruckkehr.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-23",
