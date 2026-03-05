@@ -323,7 +323,7 @@ export const articles: Article[] = [
     slug: "dacia-neuheiten-2026",
     title: "Dacia Neuheiten 2026: Umfangreiche Updates für Sandero, Duster und Spring",
     excerpt: "LPG erstmals mit Automatik, Spring mit deutlich stärkeren Motoren, Duster und Bigster mit neuartigem Allrad-Hybrid.",
-    content: makeContent("Dacia Updates 2026", "LPG erstmals mit Automatik, Spring mit deutlich stärkeren Motoren, Duster und Bigster mit neuartigem Allrad-Hybrid. Das Jahr 2026 wird für Dacia ein großes Update-Jahr."),
+    content: `<p>Dacia hat fuer 2026 umfangreiche Updates fuer gleich drei Modelle angekuendigt. Der Sandero erhaelt erstmals die LPG-Motorisierung in Kombination mit einer Automatik, der Spring bekommt deutlich staerkere Motoren, und Duster sowie Bigster werden mit einem neuartigen Allrad-Hybrid ausgestattet.</p><p>Der Sandero TCe 110 ECO-G wird kuenftig mit einem CVT-Getriebe angeboten, das den Komfort des Gasantriebs deutlich steigert. Der Spring erhaelt einen neuen Elektromotor mit 65 PS statt bisher 45 PS sowie eine groessere Batterie mit 26,8 kWh, die die Reichweite auf rund 250 Kilometer erhoeht.</p><p>Das spannendste Update betrifft den Duster und Bigster: Ein neuer Allrad-Hybrid kombiniert einen 1,2-Liter-Turbobenziner an der Vorderachse mit einem Elektromotor an der Hinterachse. Das System bietet elektrischen Allrad ohne mechanische Verbindung zwischen den Achsen und soll besonders effizient sein.</p>`,
     image: "https://cdn.motor1.com/images/mgl/KbMPmb/s4/dacia-modellpalette-facelift-2026.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-20",
