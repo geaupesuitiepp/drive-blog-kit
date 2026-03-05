@@ -1169,7 +1169,7 @@ export const articles: Article[] = [
     slug: "brabus-bentley-b900-superblack",
     title: "Superblack: Brabus zeigt Bentley, wo der Turbo hängt",
     excerpt: "Mit dem Brabus 900 auf Basis des Bentley Continental GT Speed treibt der Bottroper Tuner auch die Engländer vor sich her.",
-    content: makeContent("Brabus Bentley Superblack", "Mit dem Brabus 900 auf Basis des Bentley Continental GT Speed treibt der Bottroper Tuner auch die Engländer vor sich her."),
+    content: `<p>Brabus und Bentley – zwei Namen, die fuer ultimativen Luxus stehen. Mit dem 900 Superblack verbindet Brabus den Continental GT Speed mit einer Leistungssteigerung auf 900 PS und einer komplett schwarzen Optik.</p><h2>Dunkel und maechtig</h2><p>Der 6,0-Liter-W12 wurde auf 900 PS und ueber 1.100 Nm gesteigert. Die gesamte Karosserie ist in tiefem Schwarz gehalten, ergaenzt durch schwarze Carbon-Elemente und schwarze 22-Zoll-Schmiedefelgen. Im Innenraum dominieren schwarzes Leder und Alcantara mit dezenten roten Kontrastnaehten.</p><p>Der 900 Superblack ist auf wenige Exemplare limitiert und richtet sich an Kunden, die den ultimativen Grand Tourer suchen – dunkel, maechtig und kompromisslos.</p>`,
     image: "https://cdn.motor1.com/images/mgl/y29L1K/s4/brabus-900-superblack-2026-auf-basis-bentley-continental-gt-speed.jpg",
     category: "Tuning",
     date: "2025-12-11",
