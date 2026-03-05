@@ -423,7 +423,7 @@ export const articles: Article[] = [
     slug: "china-physische-tasten-auto",
     title: "Trend-Wende: China will zurück zu physischen Tasten im Auto",
     excerpt: "Das Hightech-Land setzt künftig auf echte Tasten für zentrale Funktionen und verschärft die Regeln für autonomes Fahren.",
-    content: makeContent("China Tasten im Auto", "Das Hightech-Land setzt künftig auf echte Tasten für zentrale Funktionen und verschärft die Regeln für autonomes Fahren."),
+    content: `<p>China, das Land der Riesendisplays und Touchscreens im Auto, vollzieht eine ueberraschende Kehrtwende. Die chinesische Regierung plant neue Vorschriften, die kuenftig physische Tasten fuer sicherheitsrelevante Funktionen wie Scheibenwischer, Warnblinker und Hupe vorschreiben.</p><p>Die neuen Regeln sind eine Reaktion auf zunehmende Sicherheitsbedenken. Studien haben gezeigt, dass die Bedienung ueber Touchscreens waehrend der Fahrt zu laengeren Blickabwendungen fuehrt als physische Tasten. Euro NCAP hatte bereits angekuendigt, Fahrzeuge ohne physische Basisbedienelemente schlechter zu bewerten.</p><p>Gleichzeitig verschaerft China die Regeln fuer autonomes Fahren. Level-3-Systeme sollen kuenftig strenger geprueft und zertifiziert werden. Hersteller muessen nachweisen, dass ihre Systeme in verschiedenen Verkehrsszenarien zuverlaessig funktionieren. Die neuen Vorschriften koennten ab 2027 in Kraft treten.</p>`,
     image: "https://cdn.motor1.com/images/mgl/Ak448y/s4/hyundai-motor-group-ploes-connect.jpg",
     category: "Technik & Gadgets",
     date: "2026-02-17",
