@@ -1331,7 +1331,7 @@ export const articles: Article[] = [
     slug: "porsche-904-restomod-aerfal",
     title: "US-Restomoder will den Porsche 904 wiederbeleben – ganz anders als gedacht",
     excerpt: "Aerfal Automotive arbeitet an einem 904-Restomod auf einem ungewöhnlichen und günstigeren Chassis.",
-    content: makeContent("Aerfal Porsche 904", "Aerfal Automotive arbeitet an einem 904-Restomod auf einem ungewöhnlichen und günstigeren Chassis."),
+    content: `<p>Aerfal Automotive aus den USA arbeitet an einem Restomod des legendaeren Porsche 904, geht dabei aber einen ungewoehnlichen Weg. Statt auf ein originales 904-Chassis zurueckzugreifen, nutzt das Unternehmen eine guenstigere Basis und macht den Traum vom 904 damit erschwinglicher.</p><h2>Anders als gedacht</h2><p>Das Chassis basiert auf einem Rohrrahmen mit Mittelmotor-Layout, der die Proportionen des originalen 904 exakt nachbildet. Die Karosserie wird aus Carbon gefertigt und ist optisch kaum vom Original zu unterscheiden. Als Antrieb dient ein moderner Boxermotor mit ueber 300 PS.</p><p>Der Preis soll deutlich unter dem eines originalen 904 liegen, der mittlerweile Millionenbetraege erzielt. Fuer Porsche-Enthusiasten, die den 904 lieben, aber nicht Millionaer sind, koennte der Aerfal-Restomod die perfekte Loesung sein.</p>`,
     image: "https://cdn.motor1.com/images/mgl/3WmE1A/s4/aerfal-automotive-porsche-904-restomod.jpg",
     category: "Tuning",
     date: "2025-09-30",
