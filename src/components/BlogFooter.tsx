@@ -21,7 +21,7 @@ const BlogFooter = () => {
                 <li key={cat}>
                   <Link
                     to={`/kategorie/${encodeURIComponent(cat)}`}
-                    className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                    className="text-sm text-[hsl(0,0%,55%)] transition-colors hover:text-primary"
                   >
                     {cat}
                   </Link>
