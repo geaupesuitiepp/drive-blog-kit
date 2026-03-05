@@ -30,6 +30,7 @@ export const blacklistedSlugs: string[] = [
   "kia-ev2-renault-4-vergleich",
   "mazda-cx5-vw-tiguan-vergleich",
   "audi-a2-reinkarnation",
+  "mercedes-little-g-verbrenner",
 ];
 
 import articleAutohero from "@/assets/article-autohero.jpg";
