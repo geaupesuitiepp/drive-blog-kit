@@ -1622,7 +1622,7 @@ export const articles: Article[] = [
     slug: "nissan-gtr-schaltgetriebe-umbau",
     title: "Nissan GT-R mit Schaltgetriebe: Real und sehr kompliziert",
     excerpt: "Drei Pedale, sechs Gänge und neuer Allradantrieb – ein Mega-Umbau aus Japan.",
-    content: makeContent("Nissan GT-R Schaltgetriebe", "Drei Pedale, sechs Gänge und neuer Allradantrieb – ein Mega-Umbau aus Japan."),
+    content: `<p>Ein japanischer Tuner hat das scheinbar Unmoegliche geschafft: den Nissan GT-R R35 mit einem manuellen Schaltgetriebe auszustatten. Drei Pedale, sechs Gaenge und ein komplett neuer Allradantrieb machen diesen Umbau einzigartig.</p><h2>Drei Pedale im GT-R</h2><p>Der serienmaessige Doppelkupplungsgetriebe wurde entfernt und durch ein 6-Gang-Handschaltgetriebe ersetzt. Da der originale Allradantrieb eng mit dem Getriebe verzahnt ist, musste auch dieser komplett neu konstruiert werden. Das Ergebnis: ein GT-R, wie ihn Nissan nie gebaut haette – aber vielleicht haette bauen sollen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/2N0y1k/s4/manual-r35-nissan-gt-r-feature.jpg",
     category: "Tuning",
     date: "2025-05-19",
