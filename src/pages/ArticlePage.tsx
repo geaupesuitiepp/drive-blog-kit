@@ -33,16 +33,16 @@ const ArticlePage = () => {
   return (
     <>
       <Helmet>
-        <title>{article.title} | AutoJournal</title>
+        <title>{article.title} | Motorblick</title>
         <meta name="description" content={article.excerpt} />
-        <meta name="keywords" content={`${article.category}, ${article.title.split(/\s+/).slice(0, 5).join(", ")}, AutoJournal, Auto, Gebrauchtwagen`} />
-        <link rel="canonical" href={`https://autojournal.de/artikel/${article.slug}`} />
+        <meta name="keywords" content={`${article.category}, ${article.title.split(/\s+/).slice(0, 5).join(", ")}, Motorblick, Auto, Gebrauchtwagen`} />
+        <link rel="canonical" href={`https://motorblick.com/artikel/${article.slug}`} />
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.excerpt} />
         <meta property="og:image" content={article.image} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://autojournal.de/artikel/${article.slug}`} />
-        <meta property="og:site_name" content="AutoJournal" />
+        <meta property="og:url" content={`https://motorblick.com/artikel/${article.slug}`} />
+        <meta property="og:site_name" content="Motorblick" />
         <meta property="og:locale" content="de_DE" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={article.title} />
