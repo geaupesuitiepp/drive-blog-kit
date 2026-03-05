@@ -675,7 +675,7 @@ export const articles: Article[] = [
     slug: "bmw-modellpflege-fruehjahr-2026",
     title: "BMW-Modellpflege Frühjahr 2026: Mehr Reichweite für iX1 und iX2",
     excerpt: "Neue Technik steigert die Effizienz der kleinen Stromer um 40 Kilometer. M5 und XM werden fit für Euro 7.",
-    content: makeContent("BMW Modellpflege", "Neue Technik steigert die Effizienz der kleinen Stromer um 40 Kilometer. M5 und XM werden fit für Euro 7."),
+    content: `<p>BMW hat die Modellpflege fuer das Fruehjahr 2026 angekuendigt. Im Fokus stehen der iX1 und der iX2, die dank neuer Technik rund 40 Kilometer mehr Reichweite erhalten. Gleichzeitig werden der M5 und der XM fit fuer die kommende Euro-7-Norm gemacht.</p><p>Die Reichweitensteigerung bei iX1 und iX2 resultiert aus einer optimierten Leistungselektronik und verbesserter Software. Die Batteriekapazitaet bleibt unveraendert bei 64,7 kWh, doch der WLTP-Verbrauch sinkt um rund 0,8 kWh pro 100 Kilometer. Der iX1 eDrive20 kommt damit auf 475 Kilometer Reichweite.</p><p>Beim M5 und XM betreffen die Aenderungen vor allem die Abgasnachbehandlung: Neue Partikelfilter und ein optimiertes SCR-System sorgen dafuer, dass die strengen Euro-7-Grenzwerte eingehalten werden. Aeusserlich erkennt man die Modellpflege an neuen Lackfarben und ueberarbeiteten Felgendesigns. Alle Updates sind ab Maerz 2026 verfuegbar.</p>`,
     image: "https://cdn.motor1.com/images/mgl/pb9q4P/s4/bmw-m5-2026.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-01-28",
