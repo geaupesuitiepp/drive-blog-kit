@@ -564,7 +564,7 @@ export const articles: Article[] = [
     slug: "mercedes-s-klasse-ohne-leder",
     title: "So sieht das neue Mercedes S-Klasse-Basismodell ohne Leder aus",
     excerpt: "Leder bleibt als kostenlose Option verfügbar – das Basismodell kommt aber erstmals ohne Tierhaut.",
-    content: makeContent("Mercedes S-Klasse", "Leder bleibt als kostenlose Option verfügbar – das Basismodell kommt aber erstmals ohne Tierhaut."),
+    content: `<p>Mercedes hat erstmals ein S-Klasse-Basismodell ohne Leder vorgestellt. Die neue Einstiegsversion der Luxuslimousine kommt mit einem hochwertigen Textil-Mix aus Mikrofaser und recyceltem Polyester, der in Optik und Haptik ueberraschend ueberzeugend wirkt.</p><p>Leder bleibt als kostenlose Option verfuegbar – Mercedes macht die tierfreie Variante zum Standard und nicht umgekehrt. Die Entscheidung folgt dem Trend in der Luxusindustrie, bei dem nachhaltiges Design zunehmend als Premium wahrgenommen wird. Die Oberflaechen sind in Schwarz, Macchiatobeige und Seidengrau erhaeltlich.</p><p>Im uebrigen Interieur aendert sich nichts: Der MBUX Superscreen, die Burmester-Soundanlage und die Massagesitze sind weiterhin an Bord. Mercedes betont, dass die lederfreie Variante in Sachen Verschleissfestigkeit und Pflegeleichtigkeit sogar Vorteile gegenueber echtem Leder biete. Der Preis der S-Klasse startet weiterhin bei 114.700 Euro.</p>`,
     image: "https://cdn.motor1.com/images/mgl/ojPV2y/s4/2027-mercedes-s-class-base-model-with-leather-free-interior.jpg",
     category: "Style & Lifestyle",
     date: "2026-02-04",
