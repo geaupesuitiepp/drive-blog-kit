@@ -585,7 +585,7 @@ export const articles: Article[] = [
     slug: "bmw-i3-produktion-2026",
     title: "BMW i3: Produktionsstart in der zweiten Jahreshälfte 2026",
     excerpt: "Das erste Vorserienexemplar des Elektro-3er mit iX3-Technik wurde in München gebaut.",
-    content: makeContent("BMW i3 Produktion", "Das erste Vorserienexemplar des Elektro-3er mit iX3-Technik wurde in München gebaut."),
+    content: `<p>BMW hat den Produktionsstart des neuen i3 fuer die zweite Jahreshaelfte 2026 bestaetigt. Das erste Vorserienexemplar wurde bereits im Werk Muenchen gebaut und markiert einen wichtigen Meilenstein fuer die Neue-Klasse-Offensive des Konzerns.</p><p>Der neue i3 basiert auf der Neuen-Klasse-Plattform und teilt sich die Technik mit dem iX3. Im Gegensatz zum Vorgaenger-i3, der als Stadtauto konzipiert war, ist der neue i3 eine vollwertige Limousine in der Groesse des aktuellen 3er. Das Design folgt der Neue-Klasse-Formensprache mit schmalem Kuehlergrill und markanten Tagfahrlichtern.</p><p>Technisch setzt BMW auf 800-Volt-Architektur, runde Lithium-Ionen-Zellen der sechsten Generation und bis zu 400 kW Ladeleistung. Die Reichweite soll bei ueber 600 Kilometern liegen. Zum Marktstart werden zwei Leistungsstufen erwartet: der i3 eDrive40 mit rund 340 PS und der i3 xDrive50 mit etwa 500 PS und Allradantrieb.</p>`,
     image: "https://cdn.motor1.com/images/mgl/6ZeM3r/s4/bmw-i3-vorserienfahrzeug-im-bmw-group-werk-munchen.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-04",
