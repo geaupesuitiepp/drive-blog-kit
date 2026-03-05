@@ -443,7 +443,7 @@ export const articles: Article[] = [
     slug: "novitec-ferrari-daytona-sp3",
     title: "Gold und Krawall: Novitec veredelt den Ferrari Daytona SP3",
     excerpt: "868 PS und ein vergoldeter Auspuff für alle, denen der limitierte Ferrari zu dezent erscheint.",
-    content: makeContent("Novitec Ferrari Daytona SP3", "868 PS und ein vergoldeter Auspuff für alle, denen der limitierte Ferrari zu dezent erscheint."),
+    content: `<p>Der Tuner Novitec hat seine Interpretation des streng limitierten Ferrari Daytona SP3 praesentiert. Das Ergebnis ist ebenso geschmacklos wie beeindruckend: 868 PS, ein vergoldeter Auspuff und ein Bodykit, das den Icona-Ferrari noch dramatischer wirken laesst.</p><p>Durch optimierte Motorsteuerung und eine Sportauspuffanlage steigt die Leistung des 6,5-Liter-V12 von 840 auf 868 PS. Die Abgasanlage aus Inconel – einem Hochtemperatur-Spezialmetall aus der Luft- und Raumfahrt – ist optional mit 999er-Gold-Beschichtung an den Endrohren erhaeltlich.</p><p>Geschmiedete Felgen im 21/22-Zoll-Format, eine Tieferlegung um 30 Millimeter und dezente Carbon-Anbauteile runden das Paket ab. Angesichts eines Basispreises des Daytona SP3 von ueber zwei Millionen Euro duerfte der Novitec-Aufpreis von geschaetzt 150.000 Euro fuer die Zielgruppe verkraftbar sein.</p>`,
     image: "https://cdn.motor1.com/images/mgl/MkMrY8/s4/novitec-ferrari-daytona-sp3.jpg",
     category: "Style & Lifestyle",
     date: "2026-02-16",
