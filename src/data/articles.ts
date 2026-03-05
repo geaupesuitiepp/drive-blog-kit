@@ -1179,7 +1179,7 @@ export const articles: Article[] = [
     slug: "mazda-mx5-rocketeer-375ps",
     title: "Mazda MX-5 wird zum Ferrari F40-Jäger – dank Rocketeer",
     excerpt: "Der Keiryo Miata von Rocketeer hat 375 PS und wiegt unter 900 Kilo. Banzai!",
-    content: makeContent("Rocketeer MX-5", "Der Keiryo Miata von Rocketeer hat 375 PS und wiegt unter 900 Kilo. Banzai!"),
+    content: `<p>Der Rocketeer Keiryo Miata ist das, wovon MX-5-Fans traeumen: ein radikaler Umbau, der den kleinen Roadster auf Ferrari-F40-Niveau hebt. Mit 375 PS und einem Gewicht von unter 900 Kilogramm ist das Leistungsgewicht absurd gut.</p><h2>Leicht und brutal schnell</h2><p>Im Zentrum steht ein komplett ueberarbeiteter Ford-EcoBoost-Motor mit Turboaufladung, der 375 PS an die Hinterraeder schickt. Dazu kommen ein sequenzielles Renngetriebe, ein Ueberrollkaefig und eine Carbon-Karosserie, die das Gewicht drastisch reduziert. Das Fahrwerk wurde fuer Rennstreckeneinsatz optimiert.</p><p>Mit einem Leistungsgewicht von unter 2,4 kg pro PS ist der Keiryo Miata schneller als die meisten Supersportler – und kostet einen Bruchteil davon. Ein Traum fuer jeden Puristen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/0eEbVk/s4/rocketeer-cars-mazda-mx-5-miatas.jpg",
     category: "Tuning",
     date: "2025-12-11",
