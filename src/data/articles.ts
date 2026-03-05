@@ -1532,7 +1532,7 @@ export const articles: Article[] = [
     slug: "dacia-bigster-redust-offroad",
     title: "Dacia Bigster Redust von Carpoint geht steil!",
     excerpt: "Nach dem Duster wird nun auch der Bigster zum Offroad-King umgebaut.",
-    content: makeContent("Dacia Bigster Redust", "Nach dem Duster wird nun auch der Bigster zum Offroad-King umgebaut."),
+    content: `<p>Nach dem erfolgreichen Duster-Umbau nimmt Carpoint nun auch den Dacia Bigster ins Visier. Der Redust verwandelt das guenstige SUV in einen echten Offroad-King mit Hoeherlegung, Schutzplatten und Zusatzscheinwerfern.</p><h2>Budget-Offroader wird ernst</h2><p>Die Hoeherlegung um 40 Millimeter, Offroad-Reifen und ein Unterfahrschutz machen den Bigster gelaendetauglich. LED-Lightbars und ein Dachtraeger vervollstaendigen den Look. Der Preis fuer den Komplettumbau bleibt typisch Dacia – erschwinglich.</p>`,
     image: "https://cdn.motor1.com/images/mgl/Vzv6WL/s4/dacia-bigster-2025-redust.jpg",
     category: "Tuning",
     date: "2025-07-03",
