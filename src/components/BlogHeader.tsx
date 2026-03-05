@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
-import { categories } from "@/data/articles";
+import { Link, useNavigate } from "react-router-dom";
+import { categories, articles } from "@/data/articles";
 import { Menu, X, Search } from "lucide-react";
 import logo from "@/assets/logo.png";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 
 const mainCategories = categories.slice(0, 5);
 const subCategories = categories.slice(5);
@@ -11,6 +11,15 @@ const BlogHeader = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const navigate = useNavigate();
+
+  const searchResults = useMemo(() => {
+    if (searchQuery.length < 2) return [];
+    const q = searchQuery.toLowerCase();
+    return articles
+      .filter((a) => a.title.toLowerCase().includes(q) || a.excerpt.toLowerCase().includes(q))
+      .slice(0, 6);
+  }, [searchQuery]);
 
   return (
     <header className="sticky top-0 z-50">
@@ -80,16 +89,35 @@ const BlogHeader = () => {
 
       {/* Search bar */}
       {searchOpen && (
-        <div className="border-b border-border bg-secondary px-4 py-3">
+        <div className="border-b border-border bg-[hsl(220,20%,10%)] px-4 py-3">
           <div className="container max-w-7xl">
             <input
               type="text"
               placeholder="Artikel suchen..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-background border border-border rounded px-4 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary"
+              className="w-full bg-[hsl(220,20%,14%)] border border-[hsl(220,14%,22%)] rounded px-4 py-2 text-sm text-[hsl(0,0%,92%)] placeholder:text-[hsl(0,0%,45%)] focus:outline-none focus:ring-1 focus:ring-primary"
               autoFocus
             />
+            {searchQuery.length >= 2 && (
+              <div className="mt-2 max-h-72 overflow-y-auto">
+                {searchResults.length === 0 ? (
+                  <p className="text-sm text-[hsl(0,0%,45%)] py-2">Keine Ergebnisse gefunden.</p>
+                ) : (
+                  searchResults.map((a) => (
+                    <Link
+                      key={a.id}
+                      to={`/artikel/${a.slug}`}
+                      onClick={() => { setSearchOpen(false); setSearchQuery(""); }}
+                      className="block py-2.5 px-2 border-b border-[hsl(220,14%,22%)] last:border-0 hover:bg-[hsl(220,20%,14%)] transition-colors"
+                    >
+                      <span className="text-[10px] font-bold text-primary uppercase tracking-widest">{a.category}</span>
+                      <h4 className="text-sm font-semibold text-[hsl(0,0%,92%)] mt-0.5 leading-snug">{a.title}</h4>
+                    </Link>
+                  ))
+                )}
+              </div>
+            )}
           </div>
         </div>
       )}

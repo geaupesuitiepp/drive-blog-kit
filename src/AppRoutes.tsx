@@ -11,6 +11,7 @@ import ArticlePage from "./pages/ArticlePage";
 import CategoryPage from "./pages/CategoryPage";
 import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
+import DatenschutzPage from "./pages/DatenschutzPage";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +29,7 @@ const AppRoutes = () => (
             <Route path="/artikel/:slug" element={<ArticlePage />} />
             <Route path="/kategorie/:name" element={<CategoryPage />} />
             <Route path="/kontakt" element={<ContactPage />} />
+            <Route path="/datenschutz" element={<DatenschutzPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
