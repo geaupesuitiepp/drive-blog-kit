@@ -78,16 +78,6 @@ export const articles: Article[] = [
     date: "2026-03-05",
   },
   {
-    id: "s5",
-    slug: "dacia-striker-kombi-2026",
-    title: "Neuer Dacia Striker: Kombi-Offensive gegen Octavia und Co.",
-    excerpt: "Während die Konkurrenz fast ausschließlich auf SUVs setzt, erfreut Dacia die Kombi-Fans mit einem neuen Modell.",
-    content: makeContent("Dacia Striker Kombi", "Während die Konkurrenz fast ausschließlich auf SUVs setzt, erfreut Dacia die Kombi-Fans mit einem neuen Modell. Der Striker soll preislich attraktiv bleiben und gleichzeitig viel Platz bieten."),
-    image: "https://cdn.motor1.com/images/mgl/JONOA4/s4/dacia-striker-2026-rendering.jpg",
-    category: "Auto & Fahrkultur",
-    date: "2026-03-05",
-  },
-  {
     id: "s6",
     slug: "vw-id-polo-kia-ev2-vergleich",
     title: "VW ID. Polo gegen Kia EV2: Elektro-Kleinwagen im direkten Vergleich",
