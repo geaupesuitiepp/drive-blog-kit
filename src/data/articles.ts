@@ -554,7 +554,7 @@ export const articles: Article[] = [
     slug: "dacia-bigster-taxi",
     title: "Auch der Dacia Bigster lässt sich jetzt zum Taxi umbauen",
     excerpt: "Wie bereits bei Jogger und Duster übernimmt die Firma Intax den professionellen Umbau.",
-    content: makeContent("Dacia Bigster Taxi", "Wie bereits bei Jogger und Duster übernimmt die Firma Intax den professionellen Umbau."),
+    content: `<p>Nach Jogger und Duster laesst sich nun auch der Dacia Bigster zum Taxi umbauen. Die Firma Intax aus Oldenburg uebernimmt den professionellen Umbau und ruestet das SUV mit allem aus, was ein Taxi braucht: Taxameter, Dachzeichen, Funkanlage und die vorgeschriebene Sicherheitsausstattung.</p><p>Der Bigster eignet sich dank seines grosszuegigen Platzangebots besonders gut fuer den Taxibetrieb. Der Kofferraum fasst 667 Liter, die Ruecksitzbank bietet auch fuer groessere Passagiere ausreichend Beinfreiheit. Als Antrieb stehen der 1,2-Liter-Turbobenziner mit 130 PS sowie der Vollhybrid mit 140 PS zur Verfuegung.</p><p>Mit einem Basispreis von unter 25.000 Euro ist der Bigster eine der guenstigsten Optionen fuer Taxiunternehmer. Dacia bietet zudem attraktive Gewerbeleasing-Konditionen an. Die ersten Bigster-Taxis sollen ab dem Fruehjahr 2026 auf den Strassen unterwegs sein.</p>`,
     image: "https://cdn.motor1.com/images/mgl/W87xE6/s4/dacia-bigster-2026-als-taxi.jpg",
     category: "Allgemein",
     date: "2026-02-04",
