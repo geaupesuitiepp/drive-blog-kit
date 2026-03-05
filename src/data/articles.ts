@@ -158,16 +158,6 @@ export const articles: Article[] = [
     date: "2026-03-03",
   },
   {
-    id: "s15",
-    slug: "land-rover-baby-defender",
-    title: "Land Rovers kleiner Defender ist weit fortgeschritten und offroad sehr fähig",
-    excerpt: "Land Rover treibt die Entwicklung des Baby-Defenders weiter voran. Neue Details klingen vielversprechend.",
-    content: makeContent("Land Rover Baby-Defender", "Land Rover treibt die Entwicklung des Baby-Defenders weiter voran. Neue Details klingen vielversprechend. Das kompakte Modell soll echte Geländefähigkeiten mitbringen."),
-    image: "https://cdn.motor1.com/images/mgl/eolPZE/s4/land-rover-defender-80-il-render-di-motor1.com.jpg",
-    category: "Auto & Fahrkultur",
-    date: "2026-03-02",
-  },
-  {
     id: "s16",
     slug: "skoda-superb-iv-2026-limousine",
     title: "Skoda Superb iV (2026): Mehr Leistung für den Plug-in-Hybrid",
