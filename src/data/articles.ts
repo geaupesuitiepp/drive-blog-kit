@@ -1209,7 +1209,7 @@ export const articles: Article[] = [
     slug: "gpower-g8m-biturbo-820ps",
     title: "G-Power G8M Bi-TURBO mit 820 PS im neuen Farbdesign",
     excerpt: "Grün, Gold und jede Menge Carbon – der BMW M8 wird zum Unikat.",
-    content: makeContent("G-Power BMW M8", "Grün, Gold und jede Menge Carbon – der BMW M8 wird zum Unikat."),
+    content: `<p>G-Power ist zurueck mit dem G8M Bi-TURBO – einer extremen Interpretation des BMW M8 Coupe mit 820 PS. Die neue Farbkombination aus Gruen und Gold macht das Fahrzeug zum echten Unikat.</p><h2>Gruen, Gold und Carbon</h2><p>Der 4,4-Liter-V8-Biturbo wurde auf 820 PS und 950 Nm gesteigert. Die Lackierung in einem tiefen British Racing Green wird durch goldene Akzente an Felgen, Bremssaetteln und Zierleisten ergaenzt. Carbon-Elemente an Motorhaube, Dach und Diffusor sparen Gewicht und setzen sportliche Akzente.</p><p>Im Innenraum hat G-Power das Farbkonzept fortgesetzt: Gruenes Leder trifft auf goldene Steppnaehte und Carbon-Verkleidungen. Der G8M Bi-TURBO ist ein Rolling Art Piece, das Leistung und Aesthetik in einem einzigartigen Paket vereint.</p>`,
     image: "https://cdn.motor1.com/images/mgl/E6Yo6R/s4/g-power-g8m-bi-turbo-auf-basis-bmw-m8-coupe.jpg",
     category: "Tuning",
     date: "2025-12-01",
