@@ -16,6 +16,8 @@ const ContactPage = () => {
       <Helmet>
         <title>Kontakt | AutoJournal</title>
         <meta name="description" content="Kontaktiere das Team von AutoJournal. Wir freuen uns auf deine Nachricht." />
+        <link rel="canonical" href="https://autojournal.de/kontakt" />
+        <meta name="robots" content="index, follow" />
       </Helmet>
 
       <section className="container mx-auto max-w-xl px-4 py-12">
