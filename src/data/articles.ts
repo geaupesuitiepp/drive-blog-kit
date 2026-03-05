@@ -514,7 +514,7 @@ export const articles: Article[] = [
     slug: "skoda-epiq-2026-details",
     title: "Skoda Epiq (2026): Neue Details zum Bruder des VW ID. Polo",
     excerpt: "Frontantrieb, 475 Liter Kofferraum und bis zu 430 Kilometer Reichweite – der kleine Skoda-Stromer nimmt Form an.",
-    content: makeContent("Skoda Epiq", "Frontantrieb, 475 Liter Kofferraum und bis zu 430 Kilometer Reichweite – der kleine Skoda-Stromer nimmt Form an."),
+    content: `<p>Skoda hat neue Details zum Epiq veroeffentlicht, dem elektrischen Bruder des VW ID. Polo. Der kompakte Stromer setzt auf Frontantrieb, bietet einen Kofferraum von 475 Litern und eine maximale Reichweite von bis zu 430 Kilometern.</p><p>Der Epiq basiert auf der MEB-Short-Plattform und wird in zwei Batterie-Varianten angeboten: Eine 38-kWh-Version mit rund 300 Kilometern Reichweite und eine 58-kWh-Version fuer bis zu 430 Kilometer. Der Frontmotor leistet je nach Variante 125 oder 170 kW. Schnellladen ist mit bis zu 145 kW moeglich.</p><p>Das Design orientiert sich an der Modern-Solid-Designsprache von Skoda und wirkt deutlich eigenstaendiger als der VW-Bruder. Im Innenraum gibt es ein 13-Zoll-Touchscreen und ein 5-Zoll-Kombiinstrument. Besonders praktisch: Ein kleiner Frunk mit 50 Litern bietet Platz fuer Ladekabel. Die Preise sollen bei rund 25.000 Euro starten, der Marktstart ist fuer Ende 2026 geplant.</p>`,
     image: "https://cdn.motor1.com/images/mgl/jlRp1l/s4/skoda-epiq-2026-covered-drive.jpg",
     category: "Technik & Gadgets",
     date: "2026-02-09",
