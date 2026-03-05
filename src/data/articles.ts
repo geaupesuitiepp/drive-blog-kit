@@ -938,7 +938,7 @@ export const articles: Article[] = [
     slug: "skoda-elroq-hr-federn",
     title: "Skoda Elroq mit H&R-Tieferlegungsfedern: Mehr Dynamik für den Stromer",
     excerpt: "Die Tieferlegungsfedern sorgen für eine sportlichere Optik und besseres Handling beim tschechischen Elektro-SUV.",
-    content: makeContent("Skoda Elroq H&R", "Die Tieferlegungsfedern sorgen für eine sportlichere Optik und besseres Handling beim tschechischen Elektro-SUV."),
+    content: `<p>Der Skoda Elroq ist der pragmatische Einstieg in die Elektromobilitaet aus Tschechien. Mit den H&R-Tieferlegungsfedern erhaelt der Stromer nun eine sportlichere Note, die seiner ohnehin schon modernen Optik schmeichelt.</p><h2>Tiefer und dynamischer</h2><p>Die Absenkung um circa 30 Millimeter sorgt fuer eine optisch deutlich staemmigere Erscheinung. Fahrdynamisch profitiert der Elroq von einem niedrigeren Schwerpunkt, was insbesondere in Kurven fuer mehr Stabilitaet und Praezision sorgt. Die progressiv gewickelten Federn bieten dabei den typischen H&R-Kompromiss aus Sport und Komfort.</p><p>Fuer Elroq-Fahrer, die sich von der Masse abheben moechten, sind die Tieferlegungsfedern eine einfache und wirkungsvolle Modifikation. Dank TUeV-Gutachten steht einer problemlosen Eintragung nichts im Wege.</p>`,
     image: "https://cdn.motor1.com/images/mgl/nAgYRy/s4/skoda-elroq-85---h-r-tieferlegungsfedern-28625-2---front.jpg",
     category: "Tuning",
     date: "2026-02-13",
