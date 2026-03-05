@@ -1431,7 +1431,7 @@ export const articles: Article[] = [
     slug: "brabus-rocket-gtc-deep-red",
     title: "Brabus Rocket GTC Deep Red: Der rote Carbon-Baron",
     excerpt: "1.000 PS und ein wahnwitziges Drehmoment – der AMG GT wird zum roten Monster.",
-    content: makeContent("Brabus Rocket GTC", "1.000 PS und ein wahnwitziges Drehmoment – der AMG GT wird zum roten Monster."),
+    content: `<p>Der Brabus Rocket GTC Deep Red basiert auf dem Mercedes-AMG GT und leistet 1.000 PS. Die Lackierung in tiefem Rot und das komplette Carbon-Bodykit machen ihn zum roten Monster auf Raedern.</p><h2>1.000 PS in Rot</h2><p>Der 4,0-Liter-V8-Biturbo wurde auf 1.000 PS und 1.250 Nm gesteigert. Carbon-Motorhaube, Breitbau-Kit und eine Titan-Abgasanlage definieren den Auftritt. Im Innenraum dominiert rotes Leder mit schwarzen Akzenten. Der Rocket GTC Deep Red ist auf 10 Exemplare limitiert.</p>`,
     image: "https://cdn.motor1.com/images/mgl/L3XQGW/s4/brabus-rocket-gtc-deep-red-2025.jpg",
     category: "Tuning",
     date: "2025-08-19",
