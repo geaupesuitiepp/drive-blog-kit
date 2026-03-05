@@ -858,7 +858,7 @@ export const articles: Article[] = [
     slug: "kia-ev3-hr-tieferlegungsfedern",
     title: "Progressiv: Der Kia EV3 mit H&R-Tieferlegungsfedern",
     excerpt: "Der Kia EV3 setzt optische Standards – besonders mit den neuen H&R-Tieferlegungsfedern für verbesserte Fahrdynamik.",
-    content: makeContent("Kia EV3 H&R", "Der Kia EV3 setzt optische Standards – besonders mit den neuen H&R-Tieferlegungsfedern für verbesserte Fahrdynamik."),
+    content: `<p>Der Kia EV3 ueberzeugt bereits ab Werk mit einem eigenstaendigen Design, das in der Klasse der kompakten Elektro-SUVs heraussticht. Mit den neuen Tieferlegungsfedern von H&R wird die Optik nun noch dynamischer, ohne den Fahrkomfort zu beeintraechtigen.</p><h2>Optimierte Fahrdynamik</h2><p>Die progressiv gewickelten Federn senken den EV3 um etwa 30 Millimeter ab. Das Ergebnis ist ein niedrigerer Schwerpunkt, der sich in praeziserem Einlenkverhalten und weniger Wankneigung in Kurven bemerkbar macht. Gleichzeitig bleiben die Federwege gross genug, um Unebenheiten im Alltag komfortabel zu absorbieren.</p><p>H&R bietet die Federn mit TUeV-Gutachten an, sodass einer problemlosen Eintragung nichts im Wege steht. Fuer EV3-Besitzer, die ihrem Stromer eine sportlichere Stance verleihen moechten, sind die Tieferlegungsfedern eine kostenguenstige und effektive Loesung.</p>`,
     image: "https://cdn.motor1.com/images/mgl/W87BwN/s4/kia-ev3-sv1---h-r-tieferlegungsfedern---28505-1---front.jpg",
     category: "Tuning",
     date: "2026-02-27",
