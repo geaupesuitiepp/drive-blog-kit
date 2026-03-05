@@ -1008,7 +1008,7 @@ export const articles: Article[] = [
     slug: "mercedes-e-klasse-hr-federn",
     title: "H&R-Tieferlegungsfedern für die Mercedes E-Klasse",
     excerpt: "Die obere Mittelklasse mit Stern sieht gut aus und fährt mit Tieferlegung noch besser.",
-    content: makeContent("Mercedes E-Klasse H&R", "Die obere Mittelklasse mit Stern sieht gut aus und fährt mit Tieferlegung noch besser."),
+    content: `<p>Die aktuelle Mercedes E-Klasse der Baureihe W214 ist bereits ab Werk ein elegantes Fahrzeug. Mit den H&R-Tieferlegungsfedern erhaelt sie nun einen Hauch von AMG-Optik, ohne gleich das volle Performance-Paket kaufen zu muessen.</p><h2>Eleganz trifft Dynamik</h2><p>Die Absenkung um etwa 25 bis 30 Millimeter verleiht der E-Klasse eine deutlich sportlichere Silhouette. Besonders auf groesseren Felgen ab 19 Zoll kommt die Tieferlegung optimal zur Geltung. Fahrdynamisch profitiert die Limousine von weniger Seitenneigung und einem direkteren Fahrgefuehl.</p><p>H&R bietet die Federn fuer alle gaengigen Motorvarianten der E-Klasse an. Die Montage ist unkompliziert und kann in jeder Fachwerkstatt durchgefuehrt werden. Ein dezentes, aber wirkungsvolles Upgrade fuer den Alltags-Mercedes.</p>`,
     image: "https://cdn.motor1.com/images/mgl/pb9qPo/s4/mercedes-e-klasse-limousine-typ-r2ew---h-r-tieferlegungsfedern---28540-1---front.jpg",
     category: "Tuning",
     date: "2026-01-30",
