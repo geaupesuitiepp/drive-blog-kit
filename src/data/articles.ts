@@ -15,6 +15,7 @@ export const categories: Category[] = [
   "Auto & Fahrkultur",
   "Technik & Gadgets",
   "Style & Lifestyle",
+  "Tuning",
   "Allgemein",
 ];
 
