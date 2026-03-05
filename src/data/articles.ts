@@ -1381,7 +1381,7 @@ export const articles: Article[] = [
     slug: "honda-prelude-mugen-bodykit",
     title: "Honda Prelude: Legendärer Tuner Mugen zeigt scharfes Bodykit",
     excerpt: "Mugen arbeitet an Bodykit und Sportauspuff für das neue Hybrid-Coupé von Honda.",
-    content: makeContent("Mugen Honda Prelude", "Mugen arbeitet an Bodykit und Sportauspuff für das neue Hybrid-Coupé von Honda."),
+    content: `<p>Mugen, Hondas legendaerer Haupt-Tuner, hat fuer den neuen Prelude ein scharfes Bodykit und einen Sportauspuff entwickelt. Das neue Hybrid-Coupe erhaelt damit einen deutlich aggressiveren Auftritt.</p><h2>Mugen-Magie fuer den Prelude</h2><p>Das Bodykit umfasst eine neue Frontlippe, Seitenschweller, einen Heckdiffusor und einen dezenten Heckspoiler. Alle Teile sind in Mugens typischem Design gehalten – sportlich, aber nicht uebertrieben. Der Sportauspuff verleiht dem Hybrid-Antrieb einen praegnanteren Sound.</p><p>Mugen kuendigt ausserdem Sportfedern und leichtere Raeder an, die in Kuerze erhaeltlich sein sollen. Fuer Prelude-Kaeufer, die den sportlichen Charakter ihres Coupe betonen moechten, ist das Mugen-Zubehoer die erste Wahl – direkt vom Honda-Werkstuner.</p>`,
     image: "https://cdn.motor1.com/images/mgl/2N2pWn/s4/mugen-prelude.jpg",
     category: "Tuning",
     date: "2025-09-05",
