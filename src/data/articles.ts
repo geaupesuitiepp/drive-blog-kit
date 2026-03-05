@@ -1572,7 +1572,7 @@ export const articles: Article[] = [
     slug: "bmw-m5-g90-mansory-tuning",
     title: "Neuer BMW M5 nicht auffällig genug? Mansory regelt das",
     excerpt: "Sehr viel Carbon und drei Auspuffrohre für die PHEV-Performance-Limo.",
-    content: makeContent("Mansory BMW M5", "Sehr viel Carbon und drei Auspuffrohre für die PHEV-Performance-Limo."),
+    content: `<p>Mansory hat den neuen BMW M5 (G90) ins Programm genommen. Sehr viel Carbon und drei Auspuffrohre statt der serienmässigen zwei machen die PHEV-Performance-Limo noch auffaelliger.</p><h2>Carbon und drei Rohre</h2><p>Das Bodykit umfasst eine neue Frontschuerze, Seitenschweller, einen Heckspoiler und den markanten Dreifach-Auspuff. Die Leistung wird auf ueber 750 PS gesteigert. 22-Zoll-Raeder im eigenen Design und ein Tieferlegungsmodul runden das Paket ab.</p>`,
     image: "https://cdn.motor1.com/images/mgl/OoJNVR/s4/bmw-m5-by-mansory.jpg",
     category: "Tuning",
     date: "2025-06-16",
