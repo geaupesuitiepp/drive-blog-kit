@@ -878,7 +878,7 @@ export const articles: Article[] = [
     slug: "bmw-i8-motorumbau-b58",
     title: "Der BMW i8 bekommt endlich den Motorumbau, den er verdient hat",
     excerpt: "Ein YouTuber schraubt einen B58-3,0-Liter-Reihensechszylinder in den Hybrid-Sportwagen.",
-    content: makeContent("BMW i8 B58 Swap", "Ein YouTuber schraubt einen B58-3,0-Liter-Reihensechszylinder in den Hybrid-Sportwagen. Das Ergebnis ist beeindruckend."),
+    content: `<p>Der BMW i8 war seiner Zeit voraus – doch der kleine Dreizylinder wurde seinem futuristischen Design nie ganz gerecht. Ein YouTuber hat nun den lang ersehnten Motorumbau realisiert und einen B58-Reihensechszylinder mit drei Litern Hubraum in den Hybrid-Sportwagen verpflanzt.</p><h2>Komplexer Umbau mit grossem Ergebnis</h2><p>Der Swap war alles andere als einfach: Die Mittelmotorarchitektur des i8 erforderte umfangreiche Anpassungen an Motortraeger, Kuehlung und Elektronik. Doch das Ergebnis spricht fuer sich. Mit ueber 400 PS aus dem B58-Motor und dem zusaetzlichen E-Antrieb an der Vorderachse bietet der umgebaute i8 eine Systemleistung, die deutlich ueber dem Original liegt.</p><p>Der Sound allein ist den Aufwand wert: Statt des zurueckhaltenden Dreizylinder-Summens ertönt nun der markante Klang des BMW-Reihensechszylinders. Ein Projekt, das zeigt, was im i8 von Anfang an haette stecken sollen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/W87B8q/s4/bmw-i8-engine-swap.jpg",
     category: "Tuning",
     date: "2026-02-26",
