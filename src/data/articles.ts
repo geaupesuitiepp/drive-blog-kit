@@ -1310,7 +1310,7 @@ export const articles: Article[] = [
     slug: "nissan-patrol-forsberg-1000ps",
     title: "Nissan Patrol mit 1.000 PS: Ein Offroad-Ungetüm",
     excerpt: "Chris Forsbergs Racing-Team baut einen monströsen Klassiker – mit Stil und Turbo-Wahnsinn.",
-    content: makeContent("Nissan Patrol 1000 PS", "Chris Forsbergs Racing-Team baut einen monströsen Klassiker – mit Stil und Turbo-Wahnsinn."),
+    content: `<p>Chris Forsbergs Racing-Team hat einen klassischen Nissan Patrol in ein Offroad-Ungetuem mit 1.000 PS verwandelt. Der Klassiker aus den 80ern wurde komplett neuaufgebaut und mit modernster Technik ausgestattet.</p><h2>Turbo-Wahnsinn im Klassiker</h2><p>Unter der Haube arbeitet ein RB26-Reihensechszylinder aus dem Nissan Skyline GT-R, der mit einem grossen Turbolader auf 1.000 PS gesteigert wurde. Ein sequenzielles Getriebe und ein modifizierter Allradantrieb uebertragen die Kraft auf massive 37-Zoll-Offroad-Reifen. Das Fahrwerk mit Langhub-Daempfern erlaubt Federwege von ueber 30 Zentimetern.</p><p>Gezeigt auf der SEMA Show, sorgte der Patrol fuer Begeisterung. Er vereint japanische Klassiker-Kultur mit modernem Motorsport – ein einzigartiges Fahrzeug, das sowohl in der Wueste als auch auf der Rennstrecke bestehen kann.</p>`,
     image: "https://cdn.motor1.com/images/mgl/ojP39q/s4/forsberg-racing-nissan-patrol-sema.jpg",
     category: "Tuning",
     date: "2025-10-30",
