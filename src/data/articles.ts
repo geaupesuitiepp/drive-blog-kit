@@ -615,7 +615,7 @@ export const articles: Article[] = [
     slug: "audi-namensstrategie-fehler",
     title: "Audi gibt zu: Die Änderung der Namensstrategie war ein Fehler",
     excerpt: "Der Fehler wurde inzwischen größtenteils korrigiert – aber eben nur größtenteils.",
-    content: makeContent("Audi Namensstrategie", "Der Fehler wurde inzwischen größtenteils korrigiert – aber eben nur größtenteils."),
+    content: `<p>Audi hat oeffentlich eingeraeumt, dass die Umstellung der Modellbezeichnungen ein Fehler war. Die Entscheidung, etablierte Namen wie A4, A6 und A8 durch Nummern wie A5, A7 und A9 zu ersetzen, hatte fuer erhebliche Verwirrung bei Kunden und Haendlern gesorgt.</p><p>Markenchef Gernot Doellner erklaerte, man habe die emotionale Bindung der Kunden an die gewohnten Bezeichnungen unterschaetzt. Der Fehler sei inzwischen groesstenteils korrigiert: Die E-Modelle tragen wieder die vertrauten Nummern wie e-tron GT, Q6 e-tron und Q8 e-tron. Bei den Verbrennern bleibt es jedoch vorerst bei der neuen Nomenklatur.</p><p>Die Verwirrung zeigt sich besonders im Handel: Kunden fragen nach dem A4 und bekommen den A5 angeboten, der aeusserlich voellig anders aussieht. Audi plant daher eine groessere Kommunikationsoffensive, um die neue Modellstruktur verstaendlicher zu machen. Langfristig sollen die Bezeichnungen wieder vereinfacht werden.</p>`,
     image: "https://cdn.motor1.com/images/mgl/Oo096X/s4/audi-a4-1994-im-fahrbericht.jpg",
     category: "Allgemein",
     date: "2026-02-03",
