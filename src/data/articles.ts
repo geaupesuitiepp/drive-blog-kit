@@ -383,7 +383,7 @@ export const articles: Article[] = [
     slug: "byd-geely-ueberholen-gm-honda",
     title: "BYD und Geely überholen GM und Honda in der Weltrangliste",
     excerpt: "Die beiden chinesischen Giganten verdrängen weitere traditionsreiche Marken und klettern weiter nach oben.",
-    content: makeContent("BYD und Geely", "Die beiden chinesischen Giganten verdrängen weitere traditionsreiche Marken und klettern weiter nach oben."),
+    content: `<p>Die chinesischen Autohersteller BYD und Geely haben in der globalen Absatzrangliste erstmals GM und Honda ueberholt. BYD kletterte auf Platz sechs, Geely auf Platz acht der weltweit groessten Automobilhersteller. Beide Unternehmen profitieren von einer aggressiven Expansion in Schwellenlaender und wettbewerbsfähigen Preisen.</p><p>BYD verkaufte im vergangenen Jahr ueber 4,2 Millionen Fahrzeuge – ein Plus von 41 Prozent gegenueber dem Vorjahr. Geely steigerte seinen Absatz um 32 Prozent auf 2,8 Millionen Einheiten. Waehrend GM mit 5,8 Millionen und Honda mit 3,6 Millionen Fahrzeugen stagnierten, wachsen die chinesischen Hersteller rasant.</p><p>Besonders in Suedostasien, Suedamerika und zunehmend auch in Europa machen BYD und Geely den etablierten Herstellern Marktanteile streitig. Analysten erwarten, dass BYD bis 2028 in die Top 3 der globalen Rangliste vorstoessen koennte.</p>`,
     image: "https://cdn.motor1.com/images/mgl/W87VvN/s4/motor1-numbers-byd-und-geely-uberholen-gm-und-honda.jpg",
     category: "Allgemein",
     date: "2026-02-19",
