@@ -1069,7 +1069,7 @@ export const articles: Article[] = [
     slug: "rocket-bunny-mini-skyline-gtr",
     title: "Der süßeste Nissan Skyline R32 GT-R? Rocket Bunny macht's möglich",
     excerpt: "Rocket Bunny hat ein Suzuki Twin Kei Car in einen Mini-GT-R verwandelt – herrlich verrückt.",
-    content: makeContent("Rocket Bunny Mini GT-R", "Rocket Bunny hat ein Suzuki Twin Kei Car in einen Mini-GT-R verwandelt – herrlich verrückt."),
+    content: `<p>Rocket Bunny ist bekannt fuer seine wilden Bodykits, doch dieses Projekt toppt alles: Ein winziges Suzuki Twin Kei-Car wurde mit einem Bodykit versehen, das es aussehen laesst wie einen Nissan Skyline R32 GT-R – nur eben in Mini-Format.</p><h2>Kei-Car trifft JDM-Legende</h2><p>Der Umbau umfasst eine komplett neue Frontpartie mit den typischen R32-Scheinwerfern, einen Heckspoiler im GT-R-Stil und verbreiterte Kotfluegel. Die Proportionen sind herrlich absurd: Ein 660-ccm-Dreizylinder-Motor treibt eine Mini-Version des wohl beruehmtesten japanischen Sportwagens an.</p><p>Gezeigt wurde das Fahrzeug auf dem Tokyo Auto Salon und sorgte dort fuer Begeisterung. Es ist die perfekte Mischung aus Humor und handwerklichem Koennen – typisch Rocket Bunny.</p>`,
     image: "https://cdn.motor1.com/images/mgl/y29OX7/s4/rocket-bunny-pandem-skyline-r32-gt-r-body-kit.jpg",
     category: "Tuning",
     date: "2026-01-12",
