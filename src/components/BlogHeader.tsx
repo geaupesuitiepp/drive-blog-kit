@@ -54,7 +54,7 @@ const BlogHeader = () => {
 
       {/* Sub-categories row (desktop) */}
       {subCategories.length > 0 && (
-        <div className="hidden md:block border-b border-border bg-secondary">
+        <div className="hidden md:block border-b border-[hsl(220,14%,22%)] bg-[hsl(220,20%,14%)]">
           <div className="container max-w-7xl px-4">
             <nav className="flex items-center gap-1 overflow-x-auto">
               <Link
