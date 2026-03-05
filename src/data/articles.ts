@@ -484,7 +484,7 @@ export const articles: Article[] = [
     slug: "ferrari-luce-elektroauto",
     title: "Ferraris Elektroauto heißt Luce und überzeugt mit grandiosem Interieur",
     excerpt: "Ex-Apple-Designchef entwirft ein radikales Interieur mit klassischen Vibes – kein normales E-Auto, sondern ein elektrischer Ferrari.",
-    content: makeContent("Ferrari Luce", "Ex-Apple-Designchef entwirft ein radikales Interieur mit klassischen Vibes – kein normales E-Auto, sondern ein elektrischer Ferrari."),
+    content: `<p>Ferraris erstes Elektroauto hat einen Namen: Luce. Der italienische Sportwagenhersteller hat das Fahrzeug offiziell enthuellt und ueberrascht vor allem mit einem Interieur, das von Ex-Apple-Designchef Jony Ive mitgestaltet wurde.</p><p>Das Cockpit bricht mit nahezu allen Konventionen moderner Elektroautos. Statt riesiger Bildschirme setzt Ferrari auf analoge Rundinstrumente mit digitalen Einlagen, handgenahtes Leder und Aluminium-Bedienelemente. Ive beschreibt das Design als "Respekt vor der Tradition bei gleichzeitiger Umarmung der Zukunft".</p><p>Technisch nutzt der Luce eine 800-Volt-Architektur mit einer 100-kWh-Batterie und Allradantrieb durch drei Elektromotoren. Die Systemleistung soll bei ueber 1.000 PS liegen, die Reichweite bei rund 500 Kilometern. Das Ladegeraet mit bis zu 350 kW ermoeglicht das Laden von 10 auf 80 Prozent in unter 20 Minuten.</p><p>Der Ferrari Luce soll Ende 2026 auf den Markt kommen. Der Preis wird voraussichtlich bei ueber 500.000 Euro liegen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/7Z2JKJ/s4/ferrari-luce-vista-pilota.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-09",
