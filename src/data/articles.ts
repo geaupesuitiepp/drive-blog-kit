@@ -19,6 +19,18 @@ export const categories: Category[] = [
   "Allgemein",
 ];
 
+// Blacklist: these slugs should never be re-added when scraping
+export const blacklistedSlugs: string[] = [
+  "opel-corsa-gse-2026-erlkoenig",
+  "dacia-striker-kombi-2026",
+  "audi-rs5-vs-bmw-m3-vergleich",
+  "land-rover-baby-defender",
+  "bmw-geheime-modelle-2026-2027",
+  "kia-ev2-renault-4-vergleich",
+  "mazda-cx5-vw-tiguan-vergleich",
+  "audi-a2-reinkarnation",
+];
+
 function makeContent(title: string, excerpt: string): string {
   return `<h2>${title}</h2><p>${excerpt}</p>`;
 }
