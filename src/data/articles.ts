@@ -1038,7 +1038,7 @@ export const articles: Article[] = [
     slug: "fiat-124-spider-honda-k24-swap",
     title: "Fiat 124 Spider mit japanischem Hochdrehzahl-Motor",
     excerpt: "Der brachiale 124 Spider setzt auf einen Honda-Hochdrehzahlsauger – der Besitzer erzählt vom Projekt.",
-    content: makeContent("Fiat 124 Spider K24", "Der brachiale 124 Spider setzt auf einen Honda-Hochdrehzahlsauger – der Besitzer erzählt vom Projekt."),
+    content: `<p>Ein Fiat 124 Spider der ersten Generation mit einem Honda K24-Motor ist eine ungewoehnliche Kombination, die auf den ersten Blick nicht zusammenpassen will. Doch genau das macht dieses Projekt so faszinierend.</p><h2>Hochdrehzahl-Sauger trifft Klassiker</h2><p>Der K24-Motor aus dem Honda Accord Type S wurde komplett ueberarbeitet und liefert nun ueber 280 PS – bei einem Fahrzeuggewicht von unter 900 Kilogramm. Der Motor dreht willig bis 8.500 Touren und begeistert mit einem Saugmotor-Charakter, der im modernen Automobilbau praktisch ausgestorben ist.</p><p>Der Besitzer berichtet von ueber zwei Jahren Arbeit, zahllosen Anpassungen an Motortraeger, Getriebetunnel und Kuehlung. Doch das Ergebnis ist ein einzigartiger Fahrspass, der die besten Eigenschaften beider Welten vereint: italienisches Design und japanische Motortechnik.</p>`,
     image: "https://cdn.motor1.com/images/mgl/W870rr/s4/fiat-124-spider-k24-swap-project.jpg",
     category: "Tuning",
     date: "2026-01-19",
