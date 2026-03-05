@@ -30,6 +30,7 @@ export const blacklistedSlugs: string[] = [
   "kia-ev2-renault-4-vergleich",
   "mazda-cx5-vw-tiguan-vergleich",
   "audi-a2-reinkarnation",
+  "mercedes-little-g-verbrenner",
 ];
 
 import articleAutohero from "@/assets/article-autohero.jpg";
@@ -299,16 +300,6 @@ export const articles: Article[] = [
     excerpt: "Vom robusten 8-Sitzer bis zum VIP-Gefährt mit Holzboden und drehbaren Sitzen – der Bulli wird vielseitiger denn je.",
     content: `<p>Volkswagen erweitert das Caravelle-Angebot um drei neue Shuttle-Varianten: den 8-Sitzer Shuttle, den Shuttle Comfort und den exklusiven Shuttle VIP. Damit wird der Bulli vielseitiger als je zuvor und deckt ein breites Einsatzspektrum ab.</p><p>Der Shuttle bietet Platz fuer acht Passagiere auf robusten, pflegeleichten Sitzbezuegen und eignet sich ideal fuer Hotels, Flughafentransfers oder Firmen. Der Shuttle Comfort setzt auf bequemere Sitze mit Armlehnen und Tischchen in der zweiten Reihe. Das Highlight ist der VIP: Drehbare Einzelsitze in der zweiten Reihe, ein Holzboden im skandinavischen Stil und eine Ambient-Beleuchtung machen ihn zum rollenden Besprechungsraum.</p><p>Alle drei Varianten sind mit dem 2,0-Liter-TDI in 150 oder 204 PS sowie optional mit 4MOTION-Allrad erhaeltlich. Die Preise starten bei 56.900 Euro fuer den Basis-Shuttle und reichen bis ueber 80.000 Euro fuer den VIP mit Vollausstattung.</p>`,
     image: "https://cdn.motor1.com/images/mgl/G3Y6E8/s4/vw-caravelle-tdi-4motion-2025-im-test.jpg",
-    category: "Auto & Fahrkultur",
-    date: "2026-02-23",
-  },
-  {
-    id: "s32",
-    slug: "mercedes-little-g-verbrenner",
-    title: "Mercedes Little G (2027): Die Mini-G-Klasse kommt auch als Verbrenner",
-    excerpt: "Der Einstieg in die G-Familie soll den Verbrennungsmotor vom CLA übernehmen – nicht nur elektrisch.",
-    content: `<p>Mercedes plant mit der Little G eine kompaktere Version der legendaeren G-Klasse – und sie soll nicht nur als Elektroauto kommen. Der Einstieg in die G-Familie wird voraussichtlich den Verbrennerantrieb vom neuen CLA uebernehmen: einen 2,0-Liter-Vierzylinder mit Mild-Hybrid-Technik.</p><p>Die Little G soll rund 4,50 Meter lang werden und damit deutlich kompakter als die aktuelle G-Klasse ausfallen. Das Design orientiert sich am kantigen Ur-G, allerdings mit modernen Interpretationen wie schmalen LED-Scheinwerfern und einem integrierten Dachtraeger. Der Innenraum soll das MBUX-System der neuesten Generation erhalten.</p><p>Als Elektroverison ist eine Reichweite von ueber 450 Kilometern geplant. Die Verbrenner-Variante duerfte bei rund 200 PS starten. Mercedes positioniert die Little G gezielt gegen den Jeep Wrangler und den Land Rover Defender. Der Marktstart ist fuer 2027 geplant, die Preise sollen bei rund 60.000 Euro beginnen.</p>`,
-    image: "https://cdn.motor1.com/images/mgl/Zn1bny/s4/mercedes-classe-g-2027-il-render-di-motor1.com.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-23",
   },
@@ -1683,6 +1674,32 @@ articles.forEach(a => {
   a.excerpt = fixUmlauts(a.excerpt);
   a.title = fixUmlauts(a.title);
 });
+
+// Spread article dates from Jan 2020 to Mar 2026, newest first
+// Special dates: autohero = 2023, nordic = 2024
+const START = new Date("2020-01-15").getTime();
+const END = new Date("2026-03-01").getTime();
+const nonSpecialArticles = articles.filter(a => a.slug !== "autohero-erfahrung" && a.slug !== "nordic-cars-erfahrung");
+const totalGap = (END - START) / (nonSpecialArticles.length - 1);
+
+// Use a seeded-ish approach: deterministic spacing with slight variation based on index
+nonSpecialArticles.forEach((a, i) => {
+  const baseTime = END - i * totalGap;
+  // Add deterministic jitter: use char codes of slug for variation (-5 to +5 days)
+  const jitterSeed = a.slug.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0);
+  const jitterDays = ((jitterSeed % 11) - 5) * 86400000;
+  const date = new Date(Math.min(Math.max(baseTime + jitterDays, START), END));
+  a.date = date.toISOString().slice(0, 10);
+});
+
+// Set specific dates for Händler articles
+const autohero = articles.find(a => a.slug === "autohero-erfahrung");
+if (autohero) autohero.date = "2023-06-18";
+const nordic = articles.find(a => a.slug === "nordic-cars-erfahrung");
+if (nordic) nordic.date = "2024-09-12";
+
+// Sort by date descending (newest first)
+articles.sort((a, b) => b.date.localeCompare(a.date));
 
 export function getArticleBySlug(slug: string): Article | undefined {
   return articles.find((a) => a.slug === slug);
