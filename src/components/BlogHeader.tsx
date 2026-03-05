@@ -95,7 +95,7 @@ const BlogHeader = () => {
 
       {/* Mobile nav */}
       {menuOpen && (
-        <nav className="border-b border-border bg-background px-4 pb-4 md:hidden">
+        <nav className="border-b border-[hsl(220,14%,22%)] bg-[hsl(220,20%,10%)] px-4 pb-4 md:hidden">
           {categories.map((cat) => (
             <Link
               key={cat}
