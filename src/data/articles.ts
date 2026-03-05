@@ -968,7 +968,7 @@ export const articles: Article[] = [
     slug: "mercedes-sec-renntech-v12-breitbau",
     title: "Mercedes SEC mit Breitbau und Brutalo-V12: Grandioser Irrsinn",
     excerpt: "Renntech verleiht dem kultigen SEC ein neues Erscheinungsbild und einen brachialen 7,5-Liter-V12.",
-    content: makeContent("Renntech Mercedes SEC", "Renntech verleiht dem kultigen SEC ein neues Erscheinungsbild und einen brachialen 7,5-Liter-V12."),
+    content: `<p>Der Mercedes SEC der Baureihe C126 ist einer der elegantesten Mercedes aller Zeiten. Renntech, der US-amerikanische Mercedes-Spezialist, hat nun einen SEC geschaffen, der die Grenzen des Vorstellbaren sprengt: Breitbau und ein 7,5-Liter-V12 mit ueber 600 PS.</p><h2>Grandioser Irrsinn</h2><p>Die Breitbau-Karosserie wurde von Hand gefertigt und nahtlos in die Originallinien integriert. Unter der Haube thront ein handgefertigter V12-Motor, der auf 7,5 Liter aufgebohrt wurde und ueber 600 PS leistet. Ein modernes Sechsgang-Schaltgetriebe uebertraegt die Kraft an die Hinterraeder.</p><p>Fahrwerk, Bremsen und Lenkung wurden komplett modernisiert, waehrend das Interieur den klassischen Mercedes-Luxus mit modernen Annehmlichkeiten verbindet. Das Resultat ist ein Auto, das die Eleganz der 80er mit der Leistung von heute vereint – grandioser Irrsinn im besten Sinne.</p>`,
     image: "https://cdn.motor1.com/images/mgl/mMgrq4/s4/renntech-sec-v12-widebody.jpg",
     category: "Tuning",
     date: "2026-02-11",
