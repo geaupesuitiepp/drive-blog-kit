@@ -1542,7 +1542,7 @@ export const articles: Article[] = [
     slug: "renault-5-electric-delta-gelaende",
     title: "Renault 5 fürs Gelände: Dieser irre Umbau soll in Serie gehen",
     excerpt: "Der Umbau von Delta Geländesport wird aber nicht allzu günstig sein.",
-    content: makeContent("Renault 5 Offroad", "Der Umbau von Delta Geländesport wird aber nicht allzu günstig sein."),
+    content: `<p>Delta Gelaendesport hat den Renault 5 Electric zum Offroader umgebaut. Hoeherlegung, Offroad-Reifen und Schutzplatten verwandeln den suessen Stromer in ein gelaendetaugliches Abenteuerauto.</p><h2>Elektro-Offroad</h2><p>Die Hoeherlegung betraegt 40 Millimeter, dazu kommen All-Terrain-Reifen und ein robuster Unterfahrschutz. Der elektrische Antrieb bleibt unangetastet. Delta plant eine Kleinserie – der Preis duerfte allerdings deutlich ueber dem des Serienmodells liegen.</p>`,
     image: "https://cdn.motor1.com/images/mgl/ZnvebZ/s4/delta4x4-renault-r5-2025.jpg",
     category: "Tuning",
     date: "2025-07-02",
