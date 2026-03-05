@@ -18,7 +18,7 @@ const BlogHeader = () => {
       <div className="bg-[hsl(220,20%,10%)] border-b border-[hsl(220,14%,22%)]">
         <div className="container max-w-7xl flex items-center justify-between px-4 py-3">
           <Link to="/" className="flex items-center">
-            <img src={logo} alt="AutoJournal" className="h-7 brightness-0 invert" />
+            <img src={logo} alt="Motorblick" className="h-10 brightness-0 invert" />
           </Link>
 
           {/* Desktop main nav */}
