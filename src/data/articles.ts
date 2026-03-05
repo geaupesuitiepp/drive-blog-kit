@@ -403,7 +403,7 @@ export const articles: Article[] = [
     slug: "jp-performance-mega-projekt",
     title: "JP Performance: Mega-Projekt in Dortmund angekündigt",
     excerpt: "Jean Pierre Kraemer baut weiter: Indoor-Kartbahn und Hotel entstehen in seiner Dortmunder Heimat als neues Mekka für Autofans.",
-    content: makeContent("JP Performance Dortmund", "Jean Pierre Kraemer baut weiter: Indoor-Kartbahn und Hotel entstehen in seiner Dortmunder Heimat als neues Mekka für Autofans."),
+    content: `<p>Jean Pierre Kraemer, bekannt als JP Performance, hat ein Mega-Projekt in seiner Heimatstadt Dortmund angekuendigt. Neben seiner bereits bestehenden Werkstatt und dem Museum sollen eine Indoor-Kartbahn und ein Hotel entstehen, die ein neues Mekka fuer Autofans schaffen sollen.</p><p>Die Indoor-Kartbahn wird nach Angaben von Kraemer eine der modernsten in Europa sein. Elektrische Karts mit bis zu 80 km/h Hoechstgeschwindigkeit sollen auf einer anspruchsvollen Strecke fuer Adrenalinkicks sorgen. Das angeschlossene Hotel mit rund 80 Zimmern richtet sich an Auto-Enthusiasten und soll thematisch im Motorsport-Stil gestaltet werden.</p><p>Das Gesamtprojekt hat ein geschaetztes Investitionsvolumen im zweistelligen Millionenbereich. Die Bauarbeiten sollen im Sommer 2026 beginnen, die Eroeffnung ist fuer Mitte 2028 geplant. Kraemer betont, dass das Projekt Arbeitsplaetze schaffen und die Region als Automotive-Standort staerken soll.</p>`,
     image: "https://cdn.motor1.com/images/mgl/pb9LWV/s4/jean-pierre-kraemer.jpg",
     category: "Style & Lifestyle",
     date: "2026-02-17",
