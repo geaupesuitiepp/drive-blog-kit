@@ -1270,7 +1270,7 @@ export const articles: Article[] = [
     slug: "eagle-e-type-lightweight-gtr",
     title: "Jaguar E-Type-Restomod von Eagle: Leichter als ein MX-5",
     excerpt: "Der Eagle Lightweight GTR klingt unglaublich, ist federleicht und kostet über eine Million Euro.",
-    content: makeContent("Eagle E-Type GTR", "Der Eagle Lightweight GTR klingt unglaublich, ist federleicht und kostet über eine Million Euro."),
+    content: `<p>Eagle ist seit Jahren der Goldstandard unter den Jaguar-E-Type-Restomods. Mit dem Lightweight GTR hat die britische Manufaktur nun ihr bisher radikalstes Modell vorgestellt – leichter als ein Mazda MX-5 und teurer als die meisten Supersportler.</p><h2>Federleicht und unbezahlbar</h2><p>Dank einer Karosserie aus Aluminium und Carbon wiegt der Lightweight GTR unter 1.000 Kilogramm. Der 4,7-Liter-Reihensechszylinder wurde auf ueber 400 PS gesteigert und klingt dank einer handgefertigten Abgasanlage absolut berauschend. Ein Sechsgang-Schaltgetriebe und ein auf Rennstrecken abgestimmtes Fahrwerk machen den GTR zum ultimativen Fahrgeraet.</p><p>Der Preis? Ueber eine Million Euro. Doch wer einmal die perfekte Verarbeitung gesehen und den Klang gehoert hat, versteht, warum der Eagle Lightweight GTR seinen Preis wert ist.</p>`,
     image: "https://cdn.motor1.com/images/mgl/koGLPM/s4/eagle-e-type-lightweight-gtr.jpg",
     category: "Tuning",
     date: "2025-11-06",
