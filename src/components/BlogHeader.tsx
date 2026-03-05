@@ -12,11 +12,11 @@ const BlogHeader = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   return (
-    <header className="sticky top-0 z-50 bg-background">
-      {/* Top row */}
-      <div className="border-b border-border">
+    <header className="sticky top-0 z-50">
+      {/* Top row - dark */}
+      <div className="bg-[hsl(220,20%,10%)] border-b border-[hsl(220,14%,22%)]">
         <div className="container max-w-7xl flex items-center justify-between px-4 py-3">
-          <Link to="/" className="text-2xl font-black text-foreground tracking-tight">
+          <Link to="/" className="text-2xl font-black tracking-tight text-[hsl(0,0%,92%)]">
             <span className="text-primary italic">Auto</span>Journal
           </Link>
 
@@ -26,7 +26,7 @@ const BlogHeader = () => {
               <Link
                 key={cat}
                 to={`/kategorie/${encodeURIComponent(cat)}`}
-                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+                className="text-sm font-medium text-[hsl(0,0%,65%)] transition-colors hover:text-primary"
               >
                 {cat}
               </Link>
@@ -36,13 +36,13 @@ const BlogHeader = () => {
           <div className="flex items-center gap-3">
             <button
               onClick={() => setSearchOpen(!searchOpen)}
-              className="text-muted-foreground hover:text-foreground transition-colors"
+              className="text-[hsl(0,0%,65%)] hover:text-[hsl(0,0%,92%)] transition-colors"
               aria-label="Suche"
             >
               <Search size={20} />
             </button>
             <button
-              className="text-foreground md:hidden"
+              className="text-[hsl(0,0%,92%)] md:hidden"
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Menü"
             >
@@ -54,12 +54,12 @@ const BlogHeader = () => {
 
       {/* Sub-categories row (desktop) */}
       {subCategories.length > 0 && (
-        <div className="hidden md:block border-b border-border bg-secondary">
+        <div className="hidden md:block border-b border-[hsl(220,14%,22%)] bg-[hsl(220,20%,14%)]">
           <div className="container max-w-7xl px-4">
             <nav className="flex items-center gap-1 overflow-x-auto">
               <Link
                 to="/"
-                className="px-3 py-2.5 text-[11px] font-bold uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors whitespace-nowrap"
+                className="px-3 py-2.5 text-[11px] font-bold uppercase tracking-widest text-[hsl(0,0%,55%)] hover:text-primary transition-colors whitespace-nowrap"
               >
                 Alle
               </Link>
@@ -67,7 +67,7 @@ const BlogHeader = () => {
                 <Link
                   key={cat}
                   to={`/kategorie/${encodeURIComponent(cat)}`}
-                  className="px-3 py-2.5 text-[11px] font-bold uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors whitespace-nowrap"
+                  className="px-3 py-2.5 text-[11px] font-bold uppercase tracking-widest text-[hsl(0,0%,55%)] hover:text-primary transition-colors whitespace-nowrap"
                 >
                   {cat}
                 </Link>
@@ -95,12 +95,12 @@ const BlogHeader = () => {
 
       {/* Mobile nav */}
       {menuOpen && (
-        <nav className="border-b border-border bg-background px-4 pb-4 md:hidden">
+        <nav className="border-b border-[hsl(220,14%,22%)] bg-[hsl(220,20%,10%)] px-4 pb-4 md:hidden">
           {categories.map((cat) => (
             <Link
               key={cat}
               to={`/kategorie/${encodeURIComponent(cat)}`}
-              className="block py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              className="block py-2 text-sm font-medium text-[hsl(0,0%,65%)] transition-colors hover:text-primary"
               onClick={() => setMenuOpen(false)}
             >
               {cat}
