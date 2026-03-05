@@ -888,7 +888,7 @@ export const articles: Article[] = [
     slug: "bmw-m2-gpower-700ps",
     title: "BMW M2 mit 700 PS und Carbon-Haube von G-Power",
     excerpt: "M2 CS zu brav? G-Power hat da eine Lösung mit 700 PS und viel Sichtcarbon.",
-    content: makeContent("G-Power BMW M2", "M2 CS zu brav? G-Power hat da eine Lösung mit 700 PS und viel Sichtcarbon."),
+    content: `<p>Waehrend BMW den M2 CS mit rund 550 PS als Krone der M2-Baureihe positioniert, setzt G-Power noch einen drauf. Der Tuner aus Autenzell steigert die Leistung des S58-Motors auf 700 PS und verwandelt den kompakten Bayern in ein echtes Kraftpaket.</p><h2>Carbon-Haube und Biturbo-Power</h2><p>Im Zentrum steht die hauseigene Biturbo-Nachruestung mit groesseren Ladern und optimierter Ladedruckregelung. Dazu kommen ein Sportluftfilter-System und eine Titan-Abgasanlage. Optisch dominiert die Carbon-Motorhaube mit Luftauslassoeffnungen, die nicht nur aggressiv aussieht, sondern auch die Waermeabfuhr verbessert.</p><p>Ein KW-Clubsport-Gewindefahrwerk und ultraleichte Schmiedefelgen senken das Gewicht und den Schwerpunkt. Mit 700 PS im kompakten M2-Kleid entsteht ein Auto, das auf der Rennstrecke so manchem Supersportler das Fuerchten lehrt.</p>`,
     image: "https://cdn.motor1.com/images/mgl/6ZeLmN/s4/g-power-g2m-bi-turbo-bmw-m2-2026.jpg",
     category: "Tuning",
     date: "2026-02-25",
