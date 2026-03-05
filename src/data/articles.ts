@@ -1451,7 +1451,7 @@ export const articles: Article[] = [
     slug: "rezvani-porsche-911-retro",
     title: "Rezvani 911 im Retro-Look: Cooler als die meisten echten Elfer?",
     excerpt: "Ab 195.000 Dollar – aber den Spender-Elfer muss man selbst mitbringen.",
-    content: makeContent("Rezvani Porsche 911", "Ab 195.000 Dollar – aber den Spender-Elfer muss man selbst mitbringen."),
+    content: `<p>Rezvani bietet mit dem RR1 einen Retro-Umbau fuer den Porsche 911 an, der den modernen Elfer in einen Klassiker verwandelt. Ab 195.000 Dollar – allerdings muss der Spender-911 selbst mitgebracht werden.</p><h2>Retro-Elfer zum Selberbauen</h2><p>Das Kit verwandelt einen 992er in ein Auto, das aussieht wie ein 911 aus den fruehen 70ern. Runde Scheinwerfer, schlanke Stossstangen und Retro-Felgen erzeugen den klassischen Look. Mechanisch bleibt der 992 komplett unangetastet, sodass die moderne Technik erhalten bleibt. Ab 195.000 Dollar – ein stolzer Preis, der sich aber angesichts der Handarbeit erklaert.</p>`,
     image: "https://cdn.motor1.com/images/mgl/7Z3JqJ/s4/rezvani-rr1.jpg",
     category: "Tuning",
     date: "2025-08-12",
