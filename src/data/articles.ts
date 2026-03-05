@@ -222,7 +222,7 @@ export const articles: Article[] = [
     slug: "seat-zukunft-bestaetigt",
     title: "Seat bleibt bestehen: CEO sichert die Zukunft der Marke",
     excerpt: "Markus Haupt bestätigt den Fortbestand von Seat und kündigt darüber hinaus neue Hybridmodelle an.",
-    content: makeContent("Seat Zukunft", "Markus Haupt bestätigt den Fortbestand von Seat und kündigt darüber hinaus neue Hybridmodelle an. Die Marke soll sich innerhalb des VW-Konzerns neu positionieren."),
+    content: `<p>Seat-CEO Markus Haupt hat den Fortbestand der Marke Seat offiziell bestaetigt und damit Spekulationen ueber ein moegliches Aus ein Ende gesetzt. In einem Interview erklaerte er, dass Seat und Cupra kuenftig als komplementaere Marken innerhalb des Volkswagen-Konzerns positioniert werden.</p><p>Waehrend Cupra als sportliche Lifestyle-Marke weiter wachsen soll, wird Seat als zugaengliche Volumenmarke beibehalten. Haupt kuendigte zudem neue Hybridmodelle an, die auf der MQB-evo-Plattform basieren werden. Der Seat Ibiza und der Seat Arona sollen in der naechsten Generation als Mild-Hybride angeboten werden.</p><p>Seat soll sich kuenftig staerker auf den suedeuropaeischen und nordafrikanischen Markt konzentrieren, waehrend Cupra den globalen Expansionskurs fortsetzt. Die Produktion beider Marken bleibt am Standort Martorell gesichert, der aktuell fuer die neue Plattform umgeruestet wird.</p>`,
     image: "https://cdn.motor1.com/images/mgl/3Wml7A/s4/seat-ibiza-fr-2026-im-kurztest.jpg",
     category: "Allgemein",
     date: "2026-02-25",
