@@ -10,6 +10,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 import Index from "./pages/Index";
 import ArticlePage from "./pages/ArticlePage";
 import CategoryPage from "./pages/CategoryPage";
+import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
