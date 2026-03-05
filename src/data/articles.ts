@@ -504,7 +504,7 @@ export const articles: Article[] = [
     slug: "mazda-wankel-sportwagen",
     title: "Mazda: Zahlreiche Mitarbeiter wünschen sich einen neuen Wankel-Sportwagen",
     excerpt: "Mazda hält den Traum vom Kreiskolbenmotor am Leben – die interne Begeisterung dafür ist enorm.",
-    content: makeContent("Mazda Wankel", "Mazda hält den Traum vom Kreiskolbenmotor am Leben – die interne Begeisterung dafür ist enorm."),
+    content: `<p>Bei Mazda arbeiten zahlreiche Mitarbeiter leidenschaftlich an der Zukunft des Wankelmotors. Das Unternehmen haelt den Traum vom Kreiskolbenmotor bewusst am Leben und investiert weiterhin in die Forschung und Entwicklung der einzigartigen Technologie.</p><p>Aktuell dient der Wankelmotor im MX-30 R-EV als Range Extender. Doch intern traeumt man von mehr: Ein eigenstaendiger Sportwagen mit Wankelantrieb steht auf der Wunschliste vieler Mazda-Ingenieure ganz oben. Das Concept Car Iconic SP hat gezeigt, wie ein solches Fahrzeug aussehen koennte – ein kompakter Zweisitzer mit Mittelmotor und unter 1.000 Kilogramm Gewicht.</p><p>Mazda-Chef Masahiro Moro hat die interne Begeisterung bestaetigt, aber auch darauf hingewiesen, dass ein reiner Wankel-Sportwagen wirtschaftlich schwer darstellbar sei. Eine Loesung koennte ein Hybrid-Konzept sein, bei dem der Wankelmotor einen Elektromotor unterstuetzt – aehnlich wie im MX-30, aber deutlich sportlicher ausgelegt.</p>`,
     image: "https://cdn.motor1.com/images/mgl/7Z2V0J/s4/mazda-iconic-sp-concept.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-09",
