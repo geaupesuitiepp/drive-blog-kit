@@ -162,7 +162,7 @@ export const articles: Article[] = [
     slug: "skoda-superb-iv-2026-limousine",
     title: "Skoda Superb iV (2026): Mehr Leistung für den Plug-in-Hybrid",
     excerpt: "Der Verbrenner im Superb iV bekommt künftig 28 PS zusätzliche Leistung spendiert.",
-    content: makeContent("Skoda Superb iV", "Der Verbrenner im Superb iV bekommt künftig 28 PS zusätzliche Leistung spendiert. Die Limousine wird damit noch attraktiver für Dienstwagenfahrer."),
+    content: `<p>Skoda spendiert dem Superb iV ein kraeftiges Leistungsupdate. Der Plug-in-Hybrid der tschechischen Limousine erhaelt kuenftig 28 PS mehr, was die Systemleistung auf 272 PS anhebt. Die rein elektrische Reichweite bleibt mit rund 130 Kilometern nach WLTP unveraendert.</p><p>Der ueberarbeitete 1,5-Liter-Turbobenziner leistet nun 177 statt bisher 150 PS und arbeitet mit einem 85-kW-Elektromotor zusammen. Das Zusammenspiel beider Antriebe erfolgt ueber ein Sechsgang-Doppelkupplungsgetriebe. Der Normverbrauch sinkt laut Skoda leicht auf 0,5 Liter pro 100 Kilometer bei voller Batterie.</p><p>Besonders fuer Dienstwagenfahrer wird der Superb iV damit noch attraktiver. Dank der hohen elektrischen Reichweite profitieren Nutzer weiterhin von der reduzierten Dienstwagenbesteuerung. Die Preise starten bei 52.990 Euro fuer die Limousine und 53.990 Euro fuer den Combi.</p>`,
     image: "https://cdn.motor1.com/images/mgl/Znzkw3/s4/skoda-superb-iv-limousine-2026.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-03-02",
