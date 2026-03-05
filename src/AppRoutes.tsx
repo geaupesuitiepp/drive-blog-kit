@@ -29,6 +29,7 @@ const AppRoutes = () => (
             <Route path="/artikel/:slug" element={<ArticlePage />} />
             <Route path="/kategorie/:name" element={<CategoryPage />} />
             <Route path="/kontakt" element={<ContactPage />} />
+            <Route path="/datenschutz" element={<DatenschutzPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
