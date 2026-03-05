@@ -14,8 +14,8 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Kontakt | DerAutoBlog</title>
-        <meta name="description" content="Kontaktiere das Team von DerAutoBlog. Wir freuen uns auf deine Nachricht." />
+        <title>Kontakt | AutoJournal</title>
+        <meta name="description" content="Kontaktiere das Team von AutoJournal. Wir freuen uns auf deine Nachricht." />
       </Helmet>
 
       <section className="container mx-auto max-w-xl px-4 py-12">

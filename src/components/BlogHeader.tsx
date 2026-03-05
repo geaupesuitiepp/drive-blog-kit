@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { categories } from "@/data/articles";
 import { Menu, X, Search } from "lucide-react";
+import logo from "@/assets/logo.png";
 import { useState } from "react";
 
 const mainCategories = categories.slice(0, 5);
@@ -16,8 +17,8 @@ const BlogHeader = () => {
       {/* Top row - dark */}
       <div className="bg-[hsl(220,20%,10%)] border-b border-[hsl(220,14%,22%)]">
         <div className="container max-w-7xl flex items-center justify-between px-4 py-3">
-          <Link to="/" className="text-2xl font-black tracking-tight text-[hsl(0,0%,92%)]">
-            <span className="text-primary italic">Auto</span>Journal
+          <Link to="/" className="flex items-center">
+            <img src={logo} alt="AutoJournal" className="h-7" />
           </Link>
 
           {/* Desktop main nav */}

@@ -33,7 +33,7 @@ const ArticlePage = () => {
   return (
     <>
       <Helmet>
-        <title>{article.title} | DerAutoBlog</title>
+        <title>{article.title} | AutoJournal</title>
         <meta name="description" content={article.excerpt} />
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.excerpt} />
@@ -102,7 +102,7 @@ const ArticlePage = () => {
               <span className="flex items-center gap-1.5">
                 <User className="w-3.5 h-3.5" />
                 <span itemProp="author" className="font-semibold text-foreground">
-                  DerAutoBlog
+                  AutoJournal
                 </span>
               </span>
               <span className="w-px h-3.5 bg-border" />

@@ -37,7 +37,7 @@ const ArticleCard = ({ article, featured = false }: ArticleCardProps) => {
                 {article.excerpt}
               </p>
               <div className="flex items-center gap-2 text-xs" style={{ color: 'rgba(255,255,255,0.45)' }}>
-                <span className="font-semibold">DerAutoBlog</span>
+                <span className="font-semibold">AutoJournal</span>
                 <span>·</span>
                 <span>{formattedDate}</span>
               </div>
@@ -76,7 +76,7 @@ const ArticleCard = ({ article, featured = false }: ArticleCardProps) => {
             </p>
           </div>
           <div className="mt-2.5 flex items-center gap-1.5">
-            <span className="text-xs font-semibold text-muted-foreground">DerAutoBlog</span>
+            <span className="text-xs font-semibold text-muted-foreground">AutoJournal</span>
           </div>
         </div>
       </article>
