@@ -898,7 +898,7 @@ export const articles: Article[] = [
     slug: "datsun-240z-v12-umbau",
     title: "Datsun 240Z mit V12-Umbau: Klingt wie ein Ferrari!",
     excerpt: "Ein alter Datsun mit Mercedes-V12-Motor? Warum nicht! Das Ergebnis klingt fantastisch.",
-    content: makeContent("Datsun 240Z V12", "Ein alter Datsun mit Mercedes-V12-Motor? Warum nicht! Das Ergebnis klingt fantastisch."),
+    content: `<p>Ein Datsun 240Z gehoert zu den begehrtesten japanischen Klassikern ueberhaupt. Doch dieser hier hat etwas Besonderes unter der langen Haube: einen Mercedes-Benz M120 V12-Motor mit 6,0 Litern Hubraum. Das Ergebnis ist ein Klang, der an einen Ferrari erinnert.</p><h2>Deutsch-japanische Fusion</h2><p>Der Umbau erforderte erhebliche Anpassungen am Motorraum, eine komplett neue Abgasanlage und ein verstaerktes Getriebe. Doch die Muehe hat sich gelohnt: Der V12 liefert ueber 400 PS an die Hinterraeder und beschleunigt den leichten Z mit einer Vehemenz, die dem Original nie vergoennt war.</p><p>Am beeindruckendsten ist der Sound: Der V12 dreht willig hoch und klingt dabei so melodisch, dass man meinen koennte, ein italienischer Sportwagen faehrt vorbei. Ein einzigartiges Projekt, das die Grenzen des klassischen Motorswaps neu definiert.</p>`,
     image: "https://cdn.motor1.com/images/mgl/MkMBPn/s4/v12-swapped-datsun-240z.jpg",
     category: "Tuning",
     date: "2026-02-24",
