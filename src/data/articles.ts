@@ -1059,7 +1059,7 @@ export const articles: Article[] = [
     slug: "brabus-900-rocket-g-klasse",
     title: "Brabus 900 Rocket Edition: 900 PS und epische Felgen für die G-Klasse",
     excerpt: "Brabus setzt der aktuellen G-eneration die Krone auf – mit 900 PS und massiven Rädern.",
-    content: makeContent("Brabus 900 Rocket", "Brabus setzt der aktuellen G-eneration die Krone auf – mit 900 PS und massiven Rädern."),
+    content: `<p>Brabus hat die G-Klasse schon immer als Spielwiese betrachtet, doch die 900 Rocket Edition setzt neue Massstaebe. Mit 900 PS aus dem 4,0-Liter-V8-Biturbo und einem komplett ueberarbeiteten Bodykit ist sie das aktuelle Non-Plus-Ultra der G-Klasse.</p><h2>Epische Felgen und brutale Leistung</h2><p>Die massiven 24-Zoll-Schmiedefelgen im Monoblock-Design sind das optische Highlight des Fahrzeugs. Dazu kommen ein komplett aus Carbon gefertigtes Widebody-Kit, eine Titan-Abgasanlage mit vier Endrohren und ein tiefergelegtes Fahrwerk. Im Innenraum dominieren feinstes Leder und Alcantara mit goldenen Ziersteppungen.</p><p>Die 900 Rocket Edition ist auf 25 Exemplare limitiert und startet bei ueber 600.000 Euro. Fuer Brabus-Enthusiasten ist sie das ultimative Statement – eine G-Klasse, wie es sie nie wieder geben wird.</p>`,
     image: "https://cdn.motor1.com/images/mgl/L3ME1M/s4/brabus-900-rocket-edition-2026.jpg",
     category: "Tuning",
     date: "2026-01-15",
