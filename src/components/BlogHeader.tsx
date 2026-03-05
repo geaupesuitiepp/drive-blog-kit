@@ -59,7 +59,7 @@ const BlogHeader = () => {
             <nav className="flex items-center gap-1 overflow-x-auto">
               <Link
                 to="/"
-                className="px-3 py-2.5 text-[11px] font-bold uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors whitespace-nowrap"
+                className="px-3 py-2.5 text-[11px] font-bold uppercase tracking-widest text-[hsl(0,0%,55%)] hover:text-primary transition-colors whitespace-nowrap"
               >
                 Alle
               </Link>
@@ -67,7 +67,7 @@ const BlogHeader = () => {
                 <Link
                   key={cat}
                   to={`/kategorie/${encodeURIComponent(cat)}`}
-                  className="px-3 py-2.5 text-[11px] font-bold uppercase tracking-widest text-muted-foreground hover:text-primary transition-colors whitespace-nowrap"
+                  className="px-3 py-2.5 text-[11px] font-bold uppercase tracking-widest text-[hsl(0,0%,55%)] hover:text-primary transition-colors whitespace-nowrap"
                 >
                   {cat}
                 </Link>
