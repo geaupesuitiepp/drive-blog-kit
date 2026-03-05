@@ -635,7 +635,7 @@ export const articles: Article[] = [
     slug: "mercedes-s-klasse-gepanzert-v12",
     title: "Die neue gepanzerte Mercedes S-Klasse kommt mit V12",
     excerpt: "Noch vor der runderneuerten Maybach S-Klasse gibt es einen S mit Zwölfzylindermotor – kugelsicher.",
-    content: makeContent("Mercedes S-Klasse Guard", "Noch vor der runderneuerten Maybach S-Klasse gibt es einen S mit Zwölfzylindermotor – kugelsicher."),
+    content: `<p>Mercedes hat die neue gepanzerte S-Klasse Guard vorgestellt – und sie kommt mit einem V12. Der S 680 Guard 4MATIC ist damit das erste Modell der ueberarbeiteten S-Klasse-Baureihe mit Zwoelfzylindermotor, noch vor der runderneuerten Maybach S-Klasse.</p><p>Der 6,0-Liter-V12-Biturbo leistet 612 PS und 900 Nm Drehmoment. Das Panzerungspaket erfuellt die hoechste zivile Schutzklasse VR10 und bietet Schutz gegen Beschuss mit Sturmgewehren und gegen Sprengstoffanschlaege. Die Verglasung besteht aus ueber 100 Millimeter dickem Verbundglas.</p><p>Trotz eines Leergewichts von ueber 4,2 Tonnen beschleunigt der Guard in 4,8 Sekunden auf 100 km/h. Spezielle Run-Flat-Reifen ermoeglichen die Weiterfahrt auch bei voellig leeren Reifen. Ein Frischluftversorgungssystem schuetzt gegen chemische und biologische Bedrohungen. Der Preis beginnt bei ueber 500.000 Euro.</p>`,
     image: "https://cdn.motor1.com/images/mgl/g4g6E8/s4/2027-mercedes-s-class-s680-guard.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-02",
