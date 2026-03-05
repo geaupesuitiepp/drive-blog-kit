@@ -283,7 +283,7 @@ export const articles: Article[] = [
     slug: "mazda-cx6e-innenraum",
     title: "Mazda CX-6e (2026): Der Innenraum des ersten Elektro-SUV von Mazda",
     excerpt: "Der Drehdrücksteller gehört der Vergangenheit an – der Stromer kommt mit 26-Zoll-Display und minimalistischem Design.",
-    content: makeContent("Mazda CX-6e Interieur", "Der Drehdrücksteller gehört der Vergangenheit an – der Stromer kommt mit 26-Zoll-Display und minimalistischem Design."),
+    content: `<p>Mazda hat den Innenraum seines ersten reinen Elektro-SUV enthuellt. Der CX-6e verabschiedet sich vom bekannten Drehdrücksteller und setzt stattdessen auf ein minimalistisches Bedienkonzept mit einem 26 Zoll grossen Display, das sich ueber die gesamte Armaturenbrettbreite erstreckt.</p><p>Das Design ist betont aufgeraeumt: Unterhalb des riesigen Bildschirms befinden sich nur wenige physische Tasten fuer Lautstaerke, Klimaanlage und Fahrmodus. Die Mittelkonsole bietet eine grosse Ablagebox mit kabelloser Lademoeglichkeit und Cupholdern. Die Materialien bestehen aus recyceltem Alcantara und nachhaltig gewonnenem Leder.</p><p>Der Kofferraum fasst 570 Liter und bietet einen doppelten Ladeboden. Die Ruecksitzbank ist dreifach geteilt umklappbar. Mazda betont, dass der CX-6e trotz seiner modernen Technik das typische Mazda-Fahrgefuehl beibehalten soll – mit einer Batterie im Unterboden und einem niedrigen Schwerpunkt.</p>`,
     image: "https://cdn.motor1.com/images/mgl/rK7Mq6/s4/mazda-cx-6e-gli-interni-e-il-bagagliaio.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-24",
