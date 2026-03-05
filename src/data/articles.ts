@@ -1582,7 +1582,7 @@ export const articles: Article[] = [
     slug: "manhart-tr900-porsche-911-turbo",
     title: "Manhart TR 900 II: Porsche 911 Turbo S mit 922 PS",
     excerpt: "Muss man den Ober-Elfer tunen? Man kann es zumindest versuchen.",
-    content: makeContent("Manhart 911 Turbo S", "Muss man den Ober-Elfer tunen? Man kann es zumindest versuchen."),
+    content: `<p>Manhart hat den Porsche 911 Turbo S als TR 900 II auf 922 PS gesteigert. Der Ober-Elfer wird damit zum absoluten Leistungsmonster – die Frage ist nur, ob man das ueberhaupt braucht.</p><h2>922 PS im Turbo S</h2><p>Groessere Turbolader, verstaerkte Internals und eine Rennabgasanlage liefern die Basis fuer 922 PS. Carbon-Anbauteile und 21/22-Zoll-Felgen definieren die Optik. Ein Gewindefahrwerk senkt den Elfer um 25 Millimeter ab. Die Beschleunigung auf 100 km/h erfolgt in unter 2,5 Sekunden.</p>`,
     image: "https://cdn.motor1.com/images/mgl/OoJwlA/s4/manhart-tr-900-ii-auf-basis-porsche-911-turbo-s.jpg",
     category: "Tuning",
     date: "2025-06-10",
