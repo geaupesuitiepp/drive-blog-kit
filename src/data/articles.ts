@@ -413,7 +413,7 @@ export const articles: Article[] = [
     slug: "citroen-berlingo-2026-diesel",
     title: "Citroën Berlingo (2026): So viel kostet die Diesel-Variante",
     excerpt: "102 PS aus 1,5 Liter Hubraum – die Eckdaten des neuen Berlingo-Diesel stehen fest.",
-    content: makeContent("Citroën Berlingo Diesel", "102 PS aus 1,5 Liter Hubraum – die Eckdaten des neuen Berlingo-Diesel stehen fest."),
+    content: `<p>Citroën hat die Preise fuer die Diesel-Variante des neuen Berlingo bekanntgegeben. Der Hochdachkombi mit dem 1,5-Liter-BlueHDi und 102 PS startet bei 27.490 Euro. Damit positioniert sich der Berlingo als guenstige Alternative zu vergleichbaren Modellen von VW und Ford.</p><p>Der Dieselmotor bietet ein Drehmoment von 250 Nm und ist serienmässig an ein Sechsgang-Schaltgetriebe gekoppelt. Der Normverbrauch liegt bei 4,8 Liter pro 100 Kilometer. Die Anhängelast betraegt gebremst bis zu 1.500 Kilogramm.</p><p>Der neue Berlingo bietet ein Ladevolumen von 850 bis 3.000 Liter bei umgeklappten Sitzen. Die Serienausstattung umfasst einen 10-Zoll-Touchscreen, Apple CarPlay, Android Auto und einen Spurhalteassistenten. Eine Achtgang-Automatik ist gegen Aufpreis erhaeltlich.</p>`,
     image: "https://cdn.motor1.com/images/mgl/zxBz80/s4/citroen-berlingo-2026-basis-version.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-17",
