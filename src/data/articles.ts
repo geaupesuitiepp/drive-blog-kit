@@ -17,6 +17,7 @@ export const categories: Category[] = [
   "Style & Lifestyle",
   "Tuning",
   "Allgemein",
+  "Händler",
 ];
 
 // Blacklist: these slugs should never be re-added when scraping
