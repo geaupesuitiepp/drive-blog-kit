@@ -36,13 +36,13 @@ const BlogHeader = () => {
           <div className="flex items-center gap-3">
             <button
               onClick={() => setSearchOpen(!searchOpen)}
-              className="text-muted-foreground hover:text-foreground transition-colors"
+              className="text-[hsl(0,0%,65%)] hover:text-[hsl(0,0%,92%)] transition-colors"
               aria-label="Suche"
             >
               <Search size={20} />
             </button>
             <button
-              className="text-foreground md:hidden"
+              className="text-[hsl(0,0%,92%)] md:hidden"
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label="Menü"
             >
