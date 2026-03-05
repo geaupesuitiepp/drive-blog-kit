@@ -30,6 +30,7 @@ const App = () => (
                 <Route path="/" element={<Index />} />
                 <Route path="/artikel/:slug" element={<ArticlePage />} />
                 <Route path="/kategorie/:name" element={<CategoryPage />} />
+                <Route path="/kontakt" element={<ContactPage />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </main>
