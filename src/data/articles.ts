@@ -293,7 +293,7 @@ export const articles: Article[] = [
     slug: "vw-caravelle-shuttle-2026",
     title: "VW Caravelle (2026): Drei neue Shuttle-Varianten für den Bulli",
     excerpt: "Vom robusten 8-Sitzer bis zum VIP-Gefährt mit Holzboden und drehbaren Sitzen – der Bulli wird vielseitiger denn je.",
-    content: makeContent("VW Caravelle Shuttle", "Vom robusten 8-Sitzer bis zum VIP-Gefährt mit Holzboden und drehbaren Sitzen – der Bulli wird vielseitiger denn je."),
+    content: `<p>Volkswagen erweitert das Caravelle-Angebot um drei neue Shuttle-Varianten: den 8-Sitzer Shuttle, den Shuttle Comfort und den exklusiven Shuttle VIP. Damit wird der Bulli vielseitiger als je zuvor und deckt ein breites Einsatzspektrum ab.</p><p>Der Shuttle bietet Platz fuer acht Passagiere auf robusten, pflegeleichten Sitzbezuegen und eignet sich ideal fuer Hotels, Flughafentransfers oder Firmen. Der Shuttle Comfort setzt auf bequemere Sitze mit Armlehnen und Tischchen in der zweiten Reihe. Das Highlight ist der VIP: Drehbare Einzelsitze in der zweiten Reihe, ein Holzboden im skandinavischen Stil und eine Ambient-Beleuchtung machen ihn zum rollenden Besprechungsraum.</p><p>Alle drei Varianten sind mit dem 2,0-Liter-TDI in 150 oder 204 PS sowie optional mit 4MOTION-Allrad erhaeltlich. Die Preise starten bei 56.900 Euro fuer den Basis-Shuttle und reichen bis ueber 80.000 Euro fuer den VIP mit Vollausstattung.</p>`,
     image: "https://cdn.motor1.com/images/mgl/G3Y6E8/s4/vw-caravelle-tdi-4motion-2025-im-test.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-23",
