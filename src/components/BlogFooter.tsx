@@ -38,7 +38,7 @@ const BlogFooter = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/datenschutz" className="text-sm text-muted-foreground transition-colors hover:text-primary">
+                <Link to="/datenschutz" className="text-sm text-[hsl(0,0%,55%)] transition-colors hover:text-primary">
                   Datenschutz
                 </Link>
               </li>
