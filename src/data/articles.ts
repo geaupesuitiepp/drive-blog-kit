@@ -1361,7 +1361,7 @@ export const articles: Article[] = [
     slug: "ferrari-12cilindri-mansory",
     title: "Ferrari 12Cilindri verliert seine Eleganz an Mansory",
     excerpt: "Breitbau, buntes Carbon und Leistungssteigerung für Ferraris hinreißenden Zwölfzylinder-GT.",
-    content: makeContent("Mansory Ferrari 12Cilindri", "Breitbau, buntes Carbon und Leistungssteigerung für Ferraris hinreißenden Zwölfzylinder-GT."),
+    content: `<p>Mansory hat den Ferrari 12Cilindri als Equestre vorgestellt – und das Ergebnis spaltet wie immer die Gemüter. Der wunderschoene Gran Turismo erhaelt ein Breitbau-Kit, buntes Carbon und eine Leistungssteigerung, die seine Eleganz zugunsten von Aggressivitaet opfert.</p><h2>Breitbau und buntes Carbon</h2><p>Das Bodykit verbreitert den 12Cilindri um insgesamt 50 Millimeter und umfasst neue Stossfaenger, Seitenschweller und einen massiven Heckdiffusor. Das Carbon kann in verschiedenen Farben bestellt werden – von klassischem Schwarz bis hin zu Blau, Rot oder Gold. Die Leistung des 6,5-Liter-V12 steigt auf ueber 830 PS.</p><p>Ob Mansory mit dem Equestre den 12Cilindri aufwertet oder seine natuerliche Schoenheit zerstoert, haengt ganz vom persoenlichen Geschmack ab. Eines ist sicher: Uebersehen wird man diesen Ferrari nicht.</p>`,
     image: "https://cdn.motor1.com/images/mgl/Zn1g0A/s4/mansory-equestre-auf-basis-ferrari-12-cilindri.jpg",
     category: "Tuning",
     date: "2025-09-23",
