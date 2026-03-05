@@ -121,7 +121,7 @@ const ArticlePage = () => {
         {/* Content */}
         <div className="container max-w-4xl py-8">
           <div
-            className="space-y-5 [&_p]:text-foreground [&_p]:leading-relaxed [&_p]:text-base md:[&_p]:text-[17px] [&_p:first-of-type]:first-letter:text-5xl [&_p:first-of-type]:first-letter:font-black [&_p:first-of-type]:first-letter:float-left [&_p:first-of-type]:first-letter:mr-2 [&_p:first-of-type]:first-letter:leading-none [&_p:first-of-type]:first-letter:text-primary [&_h2]:text-xl [&_h2]:font-bold [&_h2]:text-foreground [&_h2]:mt-8 [&_h2]:mb-3"
+            className="space-y-5 [&_p]:text-foreground [&_p]:leading-relaxed [&_p]:text-base md:[&_p]:text-[17px] [&_p:first-of-type]:first-letter:text-5xl [&_p:first-of-type]:first-letter:font-black [&_p:first-of-type]:first-letter:float-left [&_p:first-of-type]:first-letter:mr-2 [&_p:first-of-type]:first-letter:leading-none [&_p:first-of-type]:first-letter:text-primary [&_h2]:text-xl [&_h2]:font-bold [&_h2]:text-foreground [&_h2]:mt-8 [&_h2]:mb-3 [&_a]:text-primary [&_a]:underline [&_a]:font-semibold [&_a]:hover:text-primary/80 [&_a]:transition-colors"
             dangerouslySetInnerHTML={{ __html: article.content }}
             itemProp="articleBody"
           />
