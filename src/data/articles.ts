@@ -816,7 +816,7 @@ export const articles: Article[] = [
     slug: "ford-mustang-dark-horse-sc",
     title: "Ford Mustang Dark Horse SC (2026): Kompressor-V8 als Volks-GTD",
     excerpt: "Das neue Track-Tool kommt mit 5,2-Liter-V8 und 7-Gang-DKG – der Startschuss fällt im Sommer.",
-    content: makeContent("Ford Mustang Dark Horse SC", "Das neue Track-Tool kommt mit 5,2-Liter-V8 und 7-Gang-DKG – der Startschuss fällt im Sommer."),
+    content: `<p>Ford hat den Mustang Dark Horse SC vorgestellt – ein kompressorbestücktes Track-Tool mit Strassenzulassung. Der 5,2-Liter-V8 mit Roots-Kompressor leistet 810 PS und wird ueber ein neues Siebengang-Doppelkupplungsgetriebe an die Hinterraeder geleitet.</p><p>Das SC-Paket umfasst ein ueberarbeitetes Fahrwerk mit adaptiven Daempfern, Brembo-Keramikbremsen mit Sechs-Kolben-Saetteln vorne und Carbon-Keramik-Scheiben. Die Aerodynamik wurde komplett neu entwickelt: Ein grosser Frontsplitter, seitliche Dive Planes und ein feststehender Heckfluegel erzeugen bei 250 km/h rund 350 Kilogramm Abtrieb.</p><p>Ford positioniert den Dark Horse SC als amerikanische Antwort auf den Porsche 911 GT3. Der Preis von geschaetzten 120.000 US-Dollar macht ihn deutlich guenstiger als die deutsche Konkurrenz. Der Marktstart in den USA erfolgt im Sommer 2026, eine Europa-Version ist in Planung.</p>`,
     image: "https://cdn.motor1.com/images/mgl/Qeb9NY/s4/2026-ford-mustang-dark-horse-sc-front-3-4.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-01-15",
