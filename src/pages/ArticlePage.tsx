@@ -57,10 +57,10 @@ const ArticlePage = () => {
             description: article.excerpt,
             image: article.image,
             datePublished: article.date,
-            url: `https://autojournal.de/artikel/${article.slug}`,
-            author: { "@type": "Organization", name: "AutoJournal", url: "https://autojournal.de" },
-            publisher: { "@type": "Organization", name: "AutoJournal", url: "https://autojournal.de" },
-            mainEntityOfPage: { "@type": "WebPage", "@id": `https://autojournal.de/artikel/${article.slug}` },
+            url: `https://motorblick.com/artikel/${article.slug}`,
+            author: { "@type": "Organization", name: "Motorblick", url: "https://motorblick.com" },
+            publisher: { "@type": "Organization", name: "Motorblick", url: "https://motorblick.com" },
+            mainEntityOfPage: { "@type": "WebPage", "@id": `https://motorblick.com/artikel/${article.slug}` },
           })}
         </script>
         {article.slug === "nordic-cars-erfahrung" && (
