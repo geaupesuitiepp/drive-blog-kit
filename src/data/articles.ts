@@ -343,7 +343,7 @@ export const articles: Article[] = [
     slug: "audi-rs5-2026-limousine",
     title: "Audi RS 5 (2026): Ist die Limousine schöner als der Avant?",
     excerpt: "Der neue RS 5 ist massiv, aber scharf. Wir finden: Diesmal überzeugt besonders die Limousinen-Variante.",
-    content: makeContent("Audi RS 5 Limousine", "Der neue RS 5 ist massiv, aber scharf. Wir finden: Diesmal überzeugt besonders die Limousinen-Variante."),
+    content: `<p>Der neue Audi RS 5 ist als Limousine und als Avant erhaeltlich. Und waehrend Kombis in der Performance-Szene traditionell einen Sonderstatus geniessen, ueberzeugt diesmal besonders die Limousinenvariante mit ihren Proportionen.</p><p>Die niedrigere Dachlinie, der laengere hintere Ueberhang und die flacher auslaufende Heckscheibe verleihen der Limousine eine elegantere, athletischere Silhouette. Die markante Schulterpartie und die breiten Raeder betonen den sportlichen Anspruch. Im Profil erinnert der RS 5 an einen geschrumpften A7 – fliessend und dennoch muskuloes.</p><p>Technisch sind beide Varianten identisch: 639 PS Systemleistung, 825 Nm Drehmoment, Allradantrieb und das neue Torque-Vectoring-System. Die Limousine ist mit 2.370 Kilogramm etwa 30 Kilogramm leichter als der Avant. In 3,6 Sekunden spurtet sie auf 100 km/h, abgeregelt wird bei 285 km/h. Die Preise starten bei 118.900 Euro.</p>`,
     image: "https://cdn.motor1.com/images/mgl/BXY326/s4/audi-rs-5-limousine-2026.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-19",
