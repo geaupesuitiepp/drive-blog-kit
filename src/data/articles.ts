@@ -745,7 +745,7 @@ export const articles: Article[] = [
     slug: "bmw-elektro-m3-kuenstlicher-sound",
     title: "BMWs elektrischer M3 bekommt künstlichen R6-, V8- und V10-Klang",
     excerpt: "Die M GmbH verwendet die Geräuschkulisse einiger ihrer ikonischsten Motoren für das neue Elektromodell.",
-    content: makeContent("BMW M3 EV Sound", "Die M GmbH verwendet die Geräuschkulisse einiger ihrer ikonischsten Motoren für das neue Elektromodell."),
+    content: `<p>BMWs kommender elektrischer M3 wird kuenstliche Motorengeraeusche bieten, die auf den Klangprofilen einiger der ikonischsten BMW-Motoren basieren. Die M GmbH hat bestaetigt, dass Fahrer zwischen dem Sound eines Reihensechszylinders, eines V8 und sogar eines V10 waehlen koennen.</p><p>Die Klangsimulation wird ueber die Fahrzeuglautsprecher und spezielle Resonanzkoerper in der Karosserie erzeugt. BMW betont, dass es sich nicht um einen simplen Soundgenerator handelt, sondern um eine aufwaendig entwickelte Simulation, die auf Gaspedaldruck, Geschwindigkeit und Fahrmodus reagiert. Die Basis bilden Aufnahmen realer M-Motoren wie dem S54 (E46 M3), dem S65 (E92 M3 V8) und dem S85 (E60 M5 V10).</p><p>Im Sport-Plus-Modus wird der Sound besonders intensiv und expressiv. Im Comfort-Modus bleibt er dezent im Hintergrund. Puristen koennen den kuenstlichen Klang auch komplett deaktivieren. Der elektrische M3 wird voraussichtlich Ende 2026 vorgestellt und soll ueber 600 PS leisten.</p>`,
     image: "https://cdn.motor1.com/images/mgl/OoMWzy/s4/bmw-m3-ev-prototype.jpg",
     category: "Technik & Gadgets",
     date: "2026-01-23",
