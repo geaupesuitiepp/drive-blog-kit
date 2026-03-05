@@ -393,7 +393,7 @@ export const articles: Article[] = [
     slug: "gwm-haval-6-aktionsrabatt",
     title: "GWM Haval 6: Mittelklasse-SUV jetzt für 28.990 Euro",
     excerpt: "Der Aktionsrabatt in Deutschland gilt bis Ende Juni 2026 – ein starkes Angebot im Mittelklasse-Segment.",
-    content: makeContent("GWM Haval 6", "Der Aktionsrabatt in Deutschland gilt bis Ende Juni 2026 – ein starkes Angebot im Mittelklasse-Segment."),
+    content: `<p>Der GWM Haval 6 ist dank eines Aktionsrabatts ab sofort fuer 28.990 Euro erhaeltlich. Das Angebot gilt bis Ende Juni 2026 und macht das Mittelklasse-SUV des chinesischen Herstellers zu einem der preiswertesten Modelle in seinem Segment.</p><p>Fuer den reduzierten Preis bietet der Haval 6 einen 2,0-Liter-Turbobenziner mit 211 PS, eine Neungang-Automatik und Allradantrieb. Die Serienausstattung umfasst LED-Matrix-Scheinwerfer, ein 12,3-Zoll-Infotainment, Sitzheizung, Rueckfahrkamera und einen adaptiven Tempomaten.</p><p>Der Kofferraum fasst 600 Liter und laesst sich durch Umklappen der Ruecksitzlehne auf 1.485 Liter erweitern. GWM gewaehrt zudem eine Fuenf-Jahres-Garantie ohne Kilometerbegrenzung. Das Aktionsangebot ist bei allen deutschen GWM-Haendlern verfuegbar.</p>`,
     image: "https://cdn.motor1.com/images/mgl/BXYbe6/s4/gwm-haval-h6-2026.jpg",
     category: "Allgemein",
     date: "2026-02-18",
