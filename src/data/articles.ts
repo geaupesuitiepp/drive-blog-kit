@@ -1502,7 +1502,7 @@ export const articles: Article[] = [
     slug: "mazda-rx7-tokyo-drift-auktion",
     title: "Der Mazda RX-7 aus Tokyo Drift erzielt eine absurde Verkaufssumme",
     excerpt: "Fast teurer als Paul Walkers Nissan Skyline R34 GT-R – ein Stück Filmgeschichte.",
-    content: makeContent("Mazda RX-7 Tokyo Drift", "Fast teurer als Paul Walkers Nissan Skyline R34 GT-R – ein Stück Filmgeschichte."),
+    content: `<p>Der Mazda RX-7 FD mit Veilside-Bodykit aus dem Film Tokyo Drift wurde auf einer Auktion fuer eine absurde Summe versteigert. Fast teurer als Paul Walkers Skyline R34 GT-R – ein Stueck Filmgeschichte hat seinen Preis.</p><h2>Filmgeschichte unter dem Hammer</h2><p>Das Fahrzeug wurde fuer die Dreharbeiten von The Fast and the Furious: Tokyo Drift im Jahr 2006 aufgebaut und ist eines der bekanntesten Filmautos der Franchise-Geschichte. Der Veilside Fortune-Bodykit, die orangefarbene Lackierung und der modifizierte 13B-Wankelmotor sind Original-Requisiten.</p>`,
     image: "https://cdn.motor1.com/images/mgl/1Z176w/s4/1992-mazda-rx-7-fd-veilside-fortune-coupe-from-tokyo-drift.jpg",
     category: "Tuning",
     date: "2025-07-16",
