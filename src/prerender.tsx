@@ -71,7 +71,7 @@ export async function prerender(data: { url: string }) {
     links,
     head: {
       lang: "de",
-      title: helmet?.title?.toString?.()?.replace(/<\/?title>/g, "") || "Motorblick",
+      title: helmet?.title?.toString?.()?.replace(/<title[^>]*>|<\/title>/g, "") || "Motorblick",
       elements: headElements,
     },
   };
