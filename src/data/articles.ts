@@ -806,7 +806,7 @@ export const articles: Article[] = [
     slug: "bmw-4er-neue-klasse",
     title: "Neue Klasse-BMW 4er: Elektrisch, als Verbrenner und als M4",
     excerpt: "Der 4er bleibt wichtig für BMW – ebenso wie X4 und X6. Zudem hat man die Euro-7-Norm offenbar gut im Griff.",
-    content: makeContent("BMW 4er Neue Klasse", "Der 4er bleibt wichtig für BMW – ebenso wie X4 und X6. Zudem hat man die Euro-7-Norm offenbar gut im Griff."),
+    content: `<p>BMW plant den 4er als Teil der Neuen-Klasse-Familie. Das Coupe wird sowohl als Elektrofahrzeug i4 als auch als Verbrenner A4 Coupe erhaeltlich sein. Auch ein neuer M4 steht auf der Agenda – er soll sowohl mit Verbrennungsmotor als auch rein elektrisch kommen.</p><p>Frank Weber, Entwicklungsvorstand bei BMW, bestaetigte zudem, dass der X4 und der X6 ebenfalls weitergefuehrt werden. Beide SUV-Coupes erhalten eigene Neue-Klasse-Versionen. Die Euro-7-Norm, die viele Hersteller vor Herausforderungen stellt, hat BMW offenbar gut im Griff: Durch optimierte Abgasnachbehandlung koennen alle Verbrenner-Modelle die neuen Grenzwerte einhalten.</p><p>Der neue 4er wird voraussichtlich 2027 vorgestellt. Der elektrische i4 soll ueber 600 Kilometer Reichweite bieten, der Verbrenner wird als Mildhybrid mit Reihensechszylinder angeboten. Der M4 duerfte sowohl als Plug-in-Hybrid als auch als reines Elektromodell erhaeltlich sein.</p>`,
     image: "https://cdn.motor1.com/images/mgl/JOZYnX/s4/bmw-i4-coupe-m-performance-2027-rendering.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-01-16",
