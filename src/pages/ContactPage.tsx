@@ -14,9 +14,9 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Kontakt | AutoJournal</title>
-        <meta name="description" content="Kontaktiere das Team von AutoJournal. Wir freuen uns auf deine Nachricht." />
-        <link rel="canonical" href="https://autojournal.de/kontakt" />
+        <title>Kontakt | Motorblick</title>
+        <meta name="description" content="Kontaktiere das Team von Motorblick. Wir freuen uns auf deine Nachricht." />
+        <link rel="canonical" href="https://motorblick.com/kontakt" />
         <meta name="robots" content="index, follow" />
       </Helmet>
 

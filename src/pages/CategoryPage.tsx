@@ -32,10 +32,10 @@ const CategoryPage = () => {
   return (
     <>
       <Helmet>
-        <title>{decodedName} – Alle Artikel | AutoJournal</title>
-        <meta name="description" content={`Alle Artikel in der Kategorie ${decodedName} auf AutoJournal – Autos, Technik, Lifestyle und mehr.`} />
-        <meta name="keywords" content={`${decodedName}, AutoJournal, Auto Blog, Gebrauchtwagen`} />
-        <link rel="canonical" href={`https://autojournal.de/kategorie/${encodeURIComponent(decodedName)}`} />
+        <title>{decodedName} – Alle Artikel | Motorblick</title>
+        <meta name="description" content={`Alle Artikel in der Kategorie ${decodedName} auf Motorblick – Autos, Technik, Lifestyle und mehr.`} />
+        <meta name="keywords" content={`${decodedName}, Motorblick, Auto Blog, Gebrauchtwagen`} />
+        <link rel="canonical" href={`https://motorblick.com/kategorie/${encodeURIComponent(decodedName)}`} />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
