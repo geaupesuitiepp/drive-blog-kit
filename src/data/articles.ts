@@ -373,7 +373,7 @@ export const articles: Article[] = [
     slug: "neuer-diesel-citroen-jumpy-fiat-scudo",
     title: "Neuer 2,2-Liter-Diesel für Citroën Jumpy, Fiat Scudo und weitere",
     excerpt: "Der neue Dieselmotor ist in zwei Leistungsstufen mit 150 und 180 PS erhältlich.",
-    content: makeContent("Neuer 2,2-Liter-Diesel", "Der neue Dieselmotor ist in zwei Leistungsstufen mit 150 und 180 PS erhältlich."),
+    content: `<p>Stellantis fuehrt einen neuen 2,2-Liter-Dieselmotor fuer seine leichten Nutzfahrzeuge ein. Der Motor ist in zwei Leistungsstufen mit 150 und 180 PS erhaeltlich und kommt im Citroën Jumpy, Fiat Scudo, Opel Vivaro und Peugeot Expert zum Einsatz.</p><p>Der neue Diesel erfuellt die Euro-7-Norm und verfuegt ueber ein verbessertes SCR-System zur Stickoxidreduzierung. Gegenueber dem Vorgaenger sinkt der Verbrauch um rund 12 Prozent. Das maximale Drehmoment betraegt 450 Nm bei der staerkeren Variante und steht bereits ab 1.500 Umdrehungen zur Verfuegung.</p><p>Beide Leistungsstufen sind mit einem neuen Achtgang-Automatikgetriebe kombinierbar. Die 180-PS-Version bietet zudem eine Anhängelast von bis zu 2,5 Tonnen. Die Auslieferung der Modelle mit dem neuen Motor beginnt im Fruehjahr 2026.</p>`,
     image: "https://cdn.motor1.com/images/mgl/lElgpg/s4/citroen-jumpy-fiat-scudo-opel-vivaro-und-peugeot-expert.jpg",
     category: "Technik & Gadgets",
     date: "2026-02-19",
