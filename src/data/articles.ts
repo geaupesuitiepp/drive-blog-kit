@@ -494,7 +494,7 @@ export const articles: Article[] = [
     slug: "mercedes-amg-c63-vierzylinder",
     title: "Mercedes-AMG gesteht: Nachfrage nach dem Vierzylinder-C 63 falsch eingeschätzt",
     excerpt: "Der vierzylindrige C 63 ist Geschichte, doch der kleine Motor wird im Einstiegs-AMG weiterleben.",
-    content: makeContent("Mercedes-AMG C 63", "Der vierzylindrige C 63 ist Geschichte, doch der kleine Motor wird im Einstiegs-AMG weiterleben. Mercedes gibt den Fehler offen zu."),
+    content: `<p>Mercedes-AMG hat offen zugegeben, die Nachfrage nach dem Vierzylinder-C 63 falsch eingeschaetzt zu haben. Das Modell mit dem 2,0-Liter-Vierzylinder-Plug-in-Hybrid und 680 PS wurde von vielen Kunden trotz seiner beeindruckenden Fahrleistungen abgelehnt – der fehlende V8-Sound war fuer die Kundschaft ein Dealbreaker.</p><p>Jochen Hermann, Technikchef von Mercedes-AMG, raeumt ein, dass man die emotionale Bindung der Kunden an den grossen Motor unterschaetzt habe. Der C 63 wird daher aus dem Programm genommen. Der kleine Motor lebt jedoch weiter: Im kuenftigen Einstiegs-AMG, der als vollelektrisches Modell kommen wird, soll der 2,0-Liter als Range Extender dienen.</p><p>Die Entscheidung zeigt, wie schwierig der Spagat zwischen Effizienz und Emotion fuer die Performance-Marken ist. AMG-Chef Michael Schiebe betonte, dass man die Lektion gelernt habe und kuenftig genauer auf die Wuensche der Kundschaft hoeren werde.</p>`,
     image: "https://cdn.motor1.com/images/mgl/7Zo7mW/s4/mercedes-admits-it-lost-customers-over-dropping-v8-in-c63.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-09",
