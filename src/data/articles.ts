@@ -1592,7 +1592,7 @@ export const articles: Article[] = [
     slug: "abt-audi-s5-avant-tuning",
     title: "Audi S5 Avant (2025) von Abt Sportsline: Mehr Dienstwagen-Dampf",
     excerpt: "Der Tuner macht aus dem Kombi einen kleinen Familien-Thor.",
-    content: makeContent("Abt Audi S5", "Der Tuner macht aus dem Kombi einen kleinen Familien-Thor."),
+    content: `<p>Abt Sportsline hat den neuen Audi S5 Avant ins Programm genommen. Der Tuner macht aus dem eleganten Kombi einen kleinen Familien-Thor mit gesteigerter Leistung und sportlichem Aufritt.</p><h2>Mehr Dampf fuer den Dienstwagen</h2><p>Der V6-Turbobenziner wird auf ueber 420 PS gesteigert. Sportfedern, 21-Zoll-Raeder und dezente Carbon-Akzente ergaenzen das Paket. Eine Sportabgasanlage mit vier Endrohren liefert den passenden Sound. Abt bietet alles als Komplettpaket mit Eintragung an.</p>`,
     image: "https://cdn.motor1.com/images/mgl/7Z3Xb1/s4/abt-audi-s5-avant-2025.jpg",
     category: "Tuning",
     date: "2025-05-28",
