@@ -524,7 +524,7 @@ export const articles: Article[] = [
     slug: "mercedes-amg-c63-gestrichen",
     title: "Offiziell: Mercedes-AMG streicht den Vierzylinder-C 63 komplett",
     excerpt: "Der Grund ist überraschenderweise nicht mangelnde Nachfrage. Ein indirekter Nachfolger kommt, allerdings ohne V8.",
-    content: makeContent("AMG C 63 Ende", "Der Grund ist überraschenderweise nicht mangelnde Nachfrage. Ein indirekter Nachfolger kommt, allerdings ohne V8."),
+    content: `<p>Mercedes-AMG hat offiziell bestaetigt, dass der Vierzylinder-C 63 komplett aus dem Programm gestrichen wird. Ueberraschenderweise ist nicht die mangelnde Nachfrage der Hauptgrund – vielmehr passt das Modell nicht mehr in die kuenftige Antriebsstrategie der Marke.</p><p>AMG-Chef Michael Schiebe erklaerte, dass die naechste Generation der C-Klasse-basierten Performance-Modelle vollelektrisch sein werde. Der aufwaendige Vierzylinder-Plug-in-Hybrid mit seiner komplexen Abgasnachbehandlung sei auf der neuen Plattform nicht mehr darstellbar. Ein indirekter Nachfolger sei in Planung, allerdings ohne Verbrennungsmotor.</p><p>Die Entscheidung trifft AMG-Fans hart, denn trotz anfaenglicher Kritik hatte sich der Vierzylinder-C 63 eine treue Fangemeinde erarbeitet. Seine Fahrleistungen mit 680 PS Systemleistung waren beeindruckend, doch der fehlende V8-Klang blieb fuer viele ein Makel. Die letzten Exemplare duerfen noch bis Ende 2026 produziert werden.</p>`,
     image: "https://cdn.motor1.com/images/mgl/9mQL01/s4/2024-mercedes-amg-c63-s-e-performance.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-06",
