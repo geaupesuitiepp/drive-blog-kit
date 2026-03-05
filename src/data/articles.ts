@@ -645,7 +645,7 @@ export const articles: Article[] = [
     slug: "jaguar-luxury-gt-neue-fotos",
     title: "Jaguar Luxury GT zeigt sich auf neuen offiziellen Fotos",
     excerpt: "Der viertürige Jaguar scheint sein polarisierendes Design beizubehalten – neue Bilder bestätigen dies.",
-    content: makeContent("Jaguar Luxury GT", "Der viertürige Jaguar scheint sein polarisierendes Design beizubehalten – neue Bilder bestätigen dies."),
+    content: `<p>Jaguar hat neue offizielle Fotos des Luxury GT veroeffentlicht, die das Fahrzeug bei Wintertests in Nordschweden zeigen. Die Bilder bestaetigen, dass das polarisierende Design der Studie weitgehend in die Serie uebernommen wird.</p><p>Der vierturige GT-Sportwagen behält seine extrem langen Ueberhänge, die schmalen Leuchten und die fliessende Dachlinie bei. Die Proportionen erinnern entfernt an einen Aston Martin, wirken aber deutlich avantgardistischer. Jaguar selbst spricht von einem "Reset" der Marke und einer bewussten Abkehr vom bisherigen Design.</p><p>Technisch basiert der Luxury GT auf der neuen JEA-Plattform mit 800-Volt-Architektur. Zwei Elektromotoren mit einer Systemleistung von ueber 600 PS und eine 100-kWh-Batterie sollen Reichweiten von ueber 700 Kilometern ermoeglichen. Der Preis wird bei rund 120.000 Pfund liegen. Der Marktstart ist fuer Ende 2026 geplant.</p>`,
     image: "https://cdn.motor1.com/images/mgl/pb9P91/s4/jaguar-luxury-gt-bei-der-wintererprobung-2026.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-02",
