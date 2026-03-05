@@ -1522,7 +1522,7 @@ export const articles: Article[] = [
     slug: "bmw-m5-cs-infinitas-1000ps",
     title: "BMW M5 CS mit 1.000 PS: Hypercar im Tarnanzug",
     excerpt: "Mit der krassen Tuning-Limo von Infinitas kann man Flugzeuge auf der A9 jagen.",
-    content: makeContent("Infinitas BMW M5 CS", "Mit der krassen Tuning-Limo von Infinitas kann man Flugzeuge auf der A9 jagen."),
+    content: `<p>Infinitas hat den BMW M5 CS als SP1000 auf 1.000 PS gesteigert. Die Performance-Limousine wird zum Hypercar im Tarnanzug – aeusserlich kaum zu unterscheiden vom Serienmodell.</p><h2>Understatement mit 1.000 PS</h2><p>Der 4,4-Liter-V8-Biturbo erhaelt groessere Turbolader, verstaerkte Internals und eine Rennabgasanlage. Aeusserlich bleibt der M5 CS dezent – nur kennern fallen die Carbon-Akzente und die breiteren Reifen auf. Im Innenraum wurde die Serienausstattung beibehalten. Die Beschleunigung auf 300 km/h erfolgt in unter 20 Sekunden.</p>`,
     image: "https://cdn.motor1.com/images/mgl/VzvqyG/s4/infinitas-sp1000-auf-basis-bmw-m5-cs.jpg",
     category: "Tuning",
     date: "2025-07-10",
