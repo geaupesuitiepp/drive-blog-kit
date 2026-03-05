@@ -1441,7 +1441,7 @@ export const articles: Article[] = [
     slug: "brabus-xlp-800-6x6-adventure",
     title: "Brabus XLP 800 6x6 Adventure: Gigant auf sechs Rädern",
     excerpt: "Hier braucht es einen guten Draht zur Tankstelle – und sehr viel Geld.",
-    content: makeContent("Brabus 6x6 Adventure", "Hier braucht es einen guten Draht zur Tankstelle – und sehr viel Geld."),
+    content: `<p>Der Brabus XLP 800 6x6 Adventure ist ein Sechsrad-Pick-up auf Basis der Mercedes G-Klasse. Mit 800 PS und sechs angetriebenen Raedern ist er fuer die extremsten Abenteuer gebaut.</p><h2>Sechs Raeder, 800 PS</h2><p>Die dritte Achse wurde von Brabus selbst konstruiert. Alle sechs Raeder werden angetrieben und tragen 22-Zoll-Offroad-Reifen. Die Ladeflaeche bietet Platz fuer Gepaeck und Ausruestung. Im Innenraum erwartet die Insassen gewohnter Brabus-Luxus. Der Preis liegt bei ueber 800.000 Euro.</p>`,
     image: "https://cdn.motor1.com/images/mgl/2N0Wbn/s4/brabus-xlp-800-6x6-adventure-2025-auf-basis-mercedes-g-klasse.jpg",
     category: "Tuning",
     date: "2025-08-12",
