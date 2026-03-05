@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { categories } from "@/data/articles";
 import { Menu, X, Search } from "lucide-react";
+import logo from "@/assets/logo.png";
 import { useState } from "react";
 
 const mainCategories = categories.slice(0, 5);
