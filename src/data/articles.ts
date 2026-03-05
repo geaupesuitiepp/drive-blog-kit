@@ -1471,7 +1471,7 @@ export const articles: Article[] = [
     slug: "bmw-xm-gpower-950ps",
     title: "950 PS und sehr viel Orange: Der bisher krasseste BMW XM?",
     excerpt: "Die Power gibt es auch für den M5 – und G-Power hat bereits noch mehr Leistung in Arbeit.",
-    content: makeContent("G-Power BMW XM", "Die Power gibt es auch für den M5 – und G-Power hat bereits noch mehr Leistung in Arbeit."),
+    content: `<p>G-Power steigert den BMW XM auf 950 PS und kleidet ihn in ein auffaelliges Orange. Der ohnehin schon polarisierende XM wird damit zum krassesten SUV auf deutschen Strassen.</p><h2>Orange und extrem</h2><p>Software-Tuning und Hardware-Upgrades bringen den V8-Hybrid auf 950 PS. Eine Sportabgasanlage, 23-Zoll-Felgen und dezente Carbon-Akzente ergaenzen das Paket. G-Power kuendigt bereits eine noch staerkere Version mit ueber 1.000 PS an.</p>`,
     image: "https://cdn.motor1.com/images/mgl/3WYP6p/s4/g-power-bmw-xm-2025.jpg",
     category: "Tuning",
     date: "2025-07-29",
