@@ -474,7 +474,7 @@ export const articles: Article[] = [
     slug: "vw-atlas-2027-prototyp",
     title: "Volkswagen Atlas: Prototyp-Fahrt auf Eis mit dem 2027er-Modell",
     excerpt: "VW hat für den US-Markt eine komplett neue Version des siebensitzigen Atlas in Entwicklung.",
-    content: makeContent("VW Atlas 2027", "VW hat für den US-Markt eine komplett neue Version des siebensitzigen Atlas in Entwicklung. Wir durften den Prototyp auf verschneiter Strecke bewegen."),
+    content: `<p>Volkswagen entwickelt fuer den US-Markt eine komplett neue Version des siebensitzigen Atlas. Wir durften einen fruehen Prototyp auf verschneiter Strecke in Schweden bewegen und erste Eindruecke sammeln.</p><p>Der neue Atlas waechst gegenueber dem Vorgaenger um rund fuenf Zentimeter in der Laenge und bietet damit noch mehr Platz in der dritten Sitzreihe. Das Design wird kantiger und moderner, orientiert sich aber weiterhin an den Geschmaeckern des US-Marktes mit einem grossen, chromeingefassten Kuehlergrill.</p><p>Unter der Haube arbeitet ein neuer 2,0-Liter-Turbobenziner mit 300 PS und Allradantrieb. Optional soll ein Plug-in-Hybrid mit ueber 400 PS und 80 Kilometern elektrischer Reichweite folgen. Das Fahrwerk hinterlaesst auf der Eisstrecke einen soliden Eindruck mit guter Traktion und vorhersehbarem Handling. Der Marktstart in den USA ist fuer Anfang 2027 geplant.</p>`,
     image: "https://cdn.motor1.com/images/mgl/E6Yrvz/s4/2027-volkswagen-atlas-prototype-first-drive.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-11",
