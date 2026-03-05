@@ -998,7 +998,7 @@ export const articles: Article[] = [
     slug: "brabus-lamborghini-urus-900-mint",
     title: "Lamborghini Urus SE: Brabus sorgt für 900 PS und Mint-Finish",
     excerpt: "Der erste Brabus-Lambo zeigt eindrucksvoll, wie sehr sich der Edel-Tuner gerade wandelt.",
-    content: makeContent("Brabus Urus 900 Mint", "Der erste Brabus-Lambo zeigt eindrucksvoll, wie sehr sich der Edel-Tuner gerade wandelt."),
+    content: `<p>Es ist eine Premiere: Brabus hat zum ersten Mal einen Lamborghini veredelt. Der Urus SE ist das erste Nicht-Mercedes-Fahrzeug im Programm der Bottroper und markiert eine neue Aera fuer den Edel-Tuner.</p><h2>900 PS und Mint-Finish</h2><p>Die Leistung des Plug-in-Hybrid-Antriebsstrangs wurde auf 900 PS gesteigert. Dazu kommt ein komplettes Carbon-Bodykit und die fuer Brabus typischen geschmiedeten Monoblock-Felgen in 24 Zoll. Die Lackierung in einem zarten Mintgruen ist ungewoehnlich fuer Brabus und zeigt, dass sich die Marke neu erfindet.</p><p>Im Innenraum hat Brabus das komplette Interieur in feinstem Leder und Alcantara ausgekleidet, ergaenzt durch Carbon-Applikationen und beleuchtete Brabus-Logos. Der Urus 900 ist ein Statement: Brabus kann auch Lambo – und wie.</p>`,
     image: "https://cdn.motor1.com/images/mgl/qkB96z/s4/brabus-lamborghini-urus-900-mint.jpg",
     category: "Tuning",
     date: "2026-02-02",
