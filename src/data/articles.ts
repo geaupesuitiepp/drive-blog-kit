@@ -363,7 +363,7 @@ export const articles: Article[] = [
     slug: "gwm-wey-aktionsnachlass",
     title: "GWM WEY 05 und WEY 03: Plug-in-Hybride mit kräftigem Rabatt",
     excerpt: "Great Wall Motors legt 5.500 Euro zusätzlich zur staatlichen Prämie auf die beiden Plug-in-Hybride drauf.",
-    content: makeContent("GWM WEY Rabatt", "Great Wall Motors legt 5.500 Euro zusätzlich zur staatlichen Prämie auf die beiden Plug-in-Hybride drauf."),
+    content: `<p>Great Wall Motors legt fuer die Plug-in-Hybridmodelle WEY 05 und WEY 03 einen kraeftigen Aktionsrabatt von 5.500 Euro auf. Der Nachlass kommt zusaetzlich zur staatlichen Foerderung und senkt die Einstiegspreise deutlich.</p><p>Der WEY 03, ein kompaktes SUV-Coupe, startet damit ab 34.490 Euro. Der groessere WEY 05, ein Mittelklasse-SUV, ist ab 39.990 Euro erhaeltlich. Beide Modelle bieten einen Plug-in-Hybridantrieb mit ueber 100 Kilometern rein elektrischer Reichweite und eine umfangreiche Serienausstattung.</p><p>Zum Standardumfang gehoeren unter anderem ein panoramisches Glasdach, Ledersitze mit Sitzheizung und -belueftung, ein 14,6-Zoll-Touchscreen, Head-up-Display und Level-2-Fahrassistenz. Die Aktion gilt bis zum 30. April 2026 bei allen GWM-Partnern in Deutschland.</p>`,
     image: "https://cdn.motor1.com/images/mgl/1ZQRXK/s4/gwm-wey-03.jpg",
     category: "Allgemein",
     date: "2026-02-19",
