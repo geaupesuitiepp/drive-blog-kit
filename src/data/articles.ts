@@ -958,7 +958,7 @@ export const articles: Article[] = [
     slug: "audi-rsq8-abt-tuning",
     title: "Audi RS Q8 (2026): Abt spendiert bis zu 140 PS zusätzlich",
     excerpt: "Neues Abt-Komplettprogramm für das jüngste Facelift des großen Audi Performance-SUVs.",
-    content: makeContent("Abt Audi RS Q8", "Neues Abt-Komplettprogramm für das jüngste Facelift des großen Audi Performance-SUVs."),
+    content: `<p>Der Audi RS Q8 ist das Flaggschiff unter den Audi-SUVs – und Abt Sportsline macht ihn noch beeindruckender. Fuer das 2026er Facelift bietet der Allgaeuer Tuner ein umfassendes Programm mit bis zu 140 zusaetzlichen PS.</p><h2>Bis zu 780 PS moeglich</h2><p>In der staerksten Ausbaustufe steigert Abt die Leistung des 4,0-Liter-V8-Biturbos auf 780 PS. Dazu kommen ein Sportauspuff mit Klappensteuerung, ein Gewindefahrwerk und 23-Zoll-Schmiedefelgen im hauseigenen Design. Aerodynamisch setzen neue Carbon-Elemente an Front, Seiten und Heck Akzente.</p><p>Abt bietet das Programm in verschiedenen Stufen an, sodass jeder RS-Q8-Besitzer das passende Upgrade findet. Die Eintragung in die Fahrzeugpapiere uebernimmt Abt auf Wunsch gleich mit – ein Komplettpaket aus einer Hand.</p>`,
     image: "https://cdn.motor1.com/images/mgl/VzBkyy/s4/abt-audi-rsq8-s-2026.jpg",
     category: "Tuning",
     date: "2026-02-12",
