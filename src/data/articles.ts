@@ -202,7 +202,7 @@ export const articles: Article[] = [
     slug: "audi-rs5-gewicht-verteidigung",
     title: "Audi verteidigt das Mehrgewicht des neuen RS 5 und nennt ihn leichtfüßig",
     excerpt: "Die fortschrittliche Hardware soll den durch die Batterie verursachten Gewichtsnachteil laut Audi vollständig kompensieren.",
-    content: makeContent("Audi RS 5 Gewicht", "Die fortschrittliche Hardware soll den durch die Batterie verursachten Gewichtsnachteil laut Audi vollständig kompensieren. Trotz fast 2,4 Tonnen verspricht Audi ein agiles Fahrgefühl."),
+    content: `<p>Audi verteidigt das Mehrgewicht des neuen RS 5 und bezeichnet das Fahrzeug trotz seiner fast 2,4 Tonnen als leichtfuessig. Die fortschrittliche Hardware – insbesondere das elektromechanische Torque-Vectoring-System an der Hinterachse – soll den durch die Plug-in-Hybridbatterie verursachten Gewichtsnachteil vollstaendig kompensieren.</p><p>Steffen Bamberger, Leiter der Entwicklung bei Audi Sport, erklaerte, dass das Gewicht zwar eine Herausforderung darstelle, die neuen technischen Moeglichkeiten aber voellig neue Fahrdynamik-Konzepte ermoeglichen. Der RS 5 verfuege ueber eine intelligente Momentenverteilung, die das Fahrverhalten je nach Situation zwischen neutral und leicht uebersteuern variiere.</p><p>Die Systemleistung von 639 PS und 825 Nm Drehmoment sorge dafuer, dass die Mehrkilos beim Beschleunigen kaum spuerbar seien. Von 0 auf 100 km/h vergehen nur 3,6 Sekunden. Zudem ermoegliche die 400-Volt-Technik eine effiziente Rekuperation, die beim sportlichen Fahren die Batterie staendig nachlaedt.</p>`,
     image: "https://cdn.motor1.com/images/mgl/KbMLoG/s4/2026-audi-rs5-avant.jpg",
     category: "Auto & Fahrkultur",
     date: "2026-02-26",
