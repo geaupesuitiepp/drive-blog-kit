@@ -1048,7 +1048,7 @@ export const articles: Article[] = [
     slug: "dacia-bigster-hr-hoeherlegung",
     title: "H&R-Höherlegungsfedern für den Dacia Bigster",
     excerpt: "Mit Sicherheit mehr Bodenfreiheit: Höherlegungsfedern für das rumänische SUV.",
-    content: makeContent("Dacia Bigster H&R", "Mit Sicherheit mehr Bodenfreiheit: Höherlegungsfedern für das rumänische SUV."),
+    content: `<p>Waehrend die meisten Tuner tieferlegen, geht H&R beim Dacia Bigster den umgekehrten Weg: Hoeherlegungsfedern schenken dem rumaenischen SUV mehr Bodenfreiheit und einen robusteren Auftritt.</p><h2>Hoeher hinaus</h2><p>Die Hoeherlegung um rund 30 Millimeter gibt dem Bigster nicht nur einen abenteuerlicheren Look, sondern verbessert auch die Gelaendegaengigkeit. Feld- und Waldwege, leichtes Offroad und hohe Bordsteine werden zum Kinderspiel. Die Federn sind so abgestimmt, dass der Fahrkomfort auf der Strasse nicht leidet.</p><p>Fuer Bigster-Besitzer, die ihr Auto auch abseits befestigter Strassen bewegen moechten oder einfach den robusten Look schaetzen, sind die H&R-Hoeherlegungsfedern eine sinnvolle Ergaenzung. TUeV-Gutachten inklusive.</p>`,
     image: "https://cdn.motor1.com/images/mgl/P3MPK8/s4/h-r-dacia-bigster.jpg",
     category: "Tuning",
     date: "2026-01-16",
