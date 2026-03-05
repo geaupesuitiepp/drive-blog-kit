@@ -868,7 +868,7 @@ export const articles: Article[] = [
     slug: "bmw-m760li-v12-manhart",
     title: "Der V12 im BMW 7er lebt – dank Manhart kräftiger denn je",
     excerpt: "Der Tuner bringt den glorreichen M760Li zurück auf die Karte – mit deutlich gesteigerter Leistung für den V12.",
-    content: makeContent("Manhart BMW M760Li V12", "Der Tuner bringt den glorreichen M760Li zurück auf die Karte – mit deutlich gesteigerter Leistung für den V12."),
+    content: `<p>BMW hat den V12 laengst aus dem Programm genommen, doch Manhart Performance laesst den M760Li xDrive mit dem legendaeren 6,6-Liter-Zwoelfzylinder in neuem Glanz erstrahlen. Als MH7 700 liefert der Tuner aus Wuppertal ein Komplettpaket, das den V12 auf stolze 700 PS bringt.</p><h2>V12-Power und nobler Auftritt</h2><p>Die Leistungssteigerung umfasst eine optimierte ECU-Abstimmung, Sport-Luftfilter und eine Edelstahl-Abgasanlage mit Klappensteuerung. Das Drehmoment steigt auf ueber 900 Nm, was den ueber zwei Tonnen schweren 7er in unter 3,5 Sekunden auf 100 km/h katapultiert. Optisch bleibt der Manhart dezent: Carbon-Elemente an Front und Heck sowie geschmiedete 22-Zoll-Raeder setzen subtile Akzente.</p><p>Fuer V12-Liebhaber ist der MH7 700 ein Traum – die letzte grosse Luxuslimousine mit Zwoelfzylinder, perfektioniert von einem der besten deutschen Tuner.</p>`,
     image: "https://cdn.motor1.com/images/mgl/koGp0Q/s4/manhart-mh7-700-auf-basis-bmw-m760li-v12.jpg",
     category: "Tuning",
     date: "2026-02-27",
