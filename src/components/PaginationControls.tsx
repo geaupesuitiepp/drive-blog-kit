@@ -6,10 +6,28 @@ interface PaginationControlsProps {
   onPageChange: (page: number) => void;
 }
 
+function getVisiblePages(current: number, total: number): (number | "...")[] {
+  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+
+  const pages: (number | "...")[] = [1];
+
+  if (current > 3) pages.push("...");
+
+  const start = Math.max(2, current - 1);
+  const end = Math.min(total - 1, current + 1);
+
+  for (let i = start; i <= end; i++) pages.push(i);
+
+  if (current < total - 2) pages.push("...");
+
+  pages.push(total);
+  return pages;
+}
+
 const PaginationControls = ({ currentPage, totalPages, onPageChange }: PaginationControlsProps) => {
   if (totalPages <= 1) return null;
 
-  const pages = Array.from({ length: totalPages }, (_, i) => i + 1);
+  const visible = getVisiblePages(currentPage, totalPages);
 
   return (
     <div className="mt-8 flex items-center justify-center gap-2">
@@ -22,19 +40,23 @@ const PaginationControls = ({ currentPage, totalPages, onPageChange }: Paginatio
         <ChevronLeft size={18} />
       </button>
 
-      {pages.map((p) => (
-        <button
-          key={p}
-          onClick={() => onPageChange(p)}
-          className={`h-9 w-9 rounded-md text-sm font-medium transition-colors ${
-            p === currentPage
-              ? "bg-primary text-primary-foreground"
-              : "border border-border text-muted-foreground hover:border-primary hover:text-primary"
-          }`}
-        >
-          {p}
-        </button>
-      ))}
+      {visible.map((p, i) =>
+        p === "..." ? (
+          <span key={`dots-${i}`} className="px-1 text-muted-foreground">…</span>
+        ) : (
+          <button
+            key={p}
+            onClick={() => onPageChange(p)}
+            className={`h-9 w-9 rounded-md text-sm font-medium transition-colors ${
+              p === currentPage
+                ? "bg-primary text-primary-foreground"
+                : "border border-border text-muted-foreground hover:border-primary hover:text-primary"
+            }`}
+          >
+            {p}
+          </button>
+        )
+      )}
 
       <button
         onClick={() => onPageChange(currentPage + 1)}
