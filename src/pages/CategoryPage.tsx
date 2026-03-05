@@ -1,13 +1,18 @@
 import { useParams, Link } from "react-router-dom";
 import { getArticlesByCategory, categories, type Category } from "@/data/articles";
 import ArticleCard from "@/components/ArticleCard";
+import PaginationControls from "@/components/PaginationControls";
+import { usePagination } from "@/hooks/use-pagination";
 import { Helmet } from "react-helmet-async";
+
+const ARTICLES_PER_PAGE = 6;
 
 const CategoryPage = () => {
   const { name } = useParams<{ name: string }>();
   const decodedName = decodeURIComponent(name || "") as Category;
   const isValidCategory = categories.includes(decodedName);
   const categoryArticles = isValidCategory ? getArticlesByCategory(decodedName) : [];
+  const { paginatedItems, currentPage, totalPages, setPage } = usePagination(categoryArticles, ARTICLES_PER_PAGE);
 
   if (!isValidCategory) {
     return (
@@ -35,11 +40,14 @@ const CategoryPage = () => {
         {categoryArticles.length === 0 ? (
           <p className="text-muted-foreground">Keine Artikel in dieser Kategorie.</p>
         ) : (
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {categoryArticles.map((article) => (
-              <ArticleCard key={article.id} article={article} featured />
-            ))}
-          </div>
+          <>
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {paginatedItems.map((article) => (
+                <ArticleCard key={article.id} article={article} featured />
+              ))}
+            </div>
+            <PaginationControls currentPage={currentPage} totalPages={totalPages} onPageChange={setPage} />
+          </>
         )}
       </section>
     </>
