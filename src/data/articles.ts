@@ -1028,7 +1028,7 @@ export const articles: Article[] = [
     slug: "larte-lamborghini-urus-largenda",
     title: "Larte zeigt auffälliges Styling-Kit für den Lamborghini Urus SE",
     excerpt: "Das auffällige Resultat nennt sich Largenda und macht den Urus noch expressiver.",
-    content: makeContent("Larte Urus Largenda", "Das auffällige Resultat nennt sich Largenda und macht den Urus noch expressiver."),
+    content: `<p>Larte Design praesentiertmit dem Largenda ein neues Styling-Kit fuer den Lamborghini Urus SE, das den ohnehin schon expressiven Super-SUV noch auffaelliger macht. Das Komplettpaket umfasst Carbon-Elemente an saemtlichen Karosserieteilen.</p><h2>Carbon ueberall</h2><p>Die neue Frontschuerze mit vergroesserten Lufteinlaessen, breitere Kotfluegel, markante Seitenschweller und ein voellig neuer Heckdiffusor mit integriertem Spoiler bilden das Kernpaket. Alle Teile werden aus Sicht-Carbon gefertigt und koennen in verschiedenen Finishes bestellt werden – von Hochglanz ueber Matt bis hin zu buntem Carbon.</p><p>Larte bietet das Largenda-Kit als Komplettloesung inklusive Montage an. Fuer Urus-Besitzer, die sich von der wachsenden Zahl an Mansory- und Brabus-Umbauten abheben moechten, ist das eine interessante Alternative.</p>`,
     image: "https://cdn.motor1.com/images/mgl/6ZeByZ/s4/larte-design-lamborghini-urus-se-2026.jpg",
     category: "Tuning",
     date: "2026-01-23",
