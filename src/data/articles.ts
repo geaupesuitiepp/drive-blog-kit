@@ -1018,7 +1018,7 @@ export const articles: Article[] = [
     slug: "mazda-cx80-hr-federn",
     title: "Edel und stark: Der Mazda CX-80 mit H&R-Tieferlegungsfedern",
     excerpt: "Niedrigerer Schwerpunkt und direkteres Einlenken für das große SUV aus Japan.",
-    content: makeContent("Mazda CX-80 H&R", "Niedrigerer Schwerpunkt und direkteres Einlenken für das große SUV aus Japan."),
+    content: `<p>Der Mazda CX-80 ist das groesste SUV der Japaner und besticht durch seine edle Optik und den verfuegbaren Reihensechszylinder-Diesel. H&R bietet nun Tieferlegungsfedern an, die dem grossen Japaner eine noch praesentere Strassenlage verleihen.</p><h2>Grosses SUV, bessere Dynamik</h2><p>Die Absenkung um rund 30 Millimeter senkt den ohnehin schon hohen Schwerpunkt des CX-80 spuerbar ab. Das Resultat ist ein direkteres Einlenkverhalten und weniger Wankneigung in Kurven – besonders auf der Autobahn bei hohen Geschwindigkeiten ein Zugewinn. Optisch schliesst die Tieferlegung die Luecke zwischen Rad und Kotfluegel und gibt dem CX-80 eine staemmigere Erscheinung.</p><p>Fuer CX-80-Besitzer, die Wert auf eine sportlichere Optik und verbesserte Fahrdynamik legen, sind die H&R-Federn eine lohnenswerte Investition.</p>`,
     image: "https://cdn.motor1.com/images/mgl/AknEN9/s4/mazda-cx-80---h-r-tieferlegungsfedern---28581-3---front.jpg",
     category: "Tuning",
     date: "2026-01-23",
