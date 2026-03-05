@@ -595,7 +595,7 @@ export const articles: Article[] = [
     slug: "defender-trophy-2026",
     title: "Defender Trophy 2026: Land Rover belebt den legendären Camel-Klassiker wieder",
     excerpt: "Die regionale Bewerbungsphase hat bereits begonnen – diverse Anforderungen wurden von uns getestet.",
-    content: makeContent("Defender Trophy 2026", "Die regionale Bewerbungsphase hat bereits begonnen – diverse Anforderungen wurden von uns getestet."),
+    content: `<p>Land Rover belebt mit der Defender Trophy 2026 einen legendaeren Wettbewerb wieder, der an die beruehmten Camel-Trophy-Expeditionen der 1980er und 1990er Jahre erinnert. Die regionale Bewerbungsphase hat bereits begonnen, und wir durften einige der Anforderungen vorab testen.</p><p>Die Teilnehmer muessen sich in verschiedenen Disziplinen beweisen: Gelaendefahren durch tiefe Furten und steile Anstiege, Navigation mit Karte und Kompass, Seilarbeit und Teamaufgaben unter Zeitdruck. Land Rover stellt modifizierte Defender V8 mit Seilwinden, Unterfahrschutz und Gelaendereifen bereit.</p><p>Das Finale findet im Oktober 2026 in Schottland statt. 20 Zweier-Teams aus ganz Europa kaempfen um den Titel. Die Gewinner erhalten einen Defender Trophy Edition als Preis. Die Bewerbung steht allen offen – Gelaendeerfahrung ist von Vorteil, aber keine Pflicht.</p>`,
     image: "https://cdn.motor1.com/images/mgl/pb9Pgo/s4/land-rover-defender-trophy-2026.jpg",
     category: "Style & Lifestyle",
     date: "2026-02-04",
